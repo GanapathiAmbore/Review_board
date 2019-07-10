@@ -1,0 +1,30 @@
+Indicator-Datetime-Message: indicator-datetime exiting; failed/lost bus ownership
+Indicator-Datetime-Message: indicator-datetime exiting; failed/lost bus ownership
+Indicator-Datetime-Message: indicator-datetime exiting; failed/lost bus ownership
+
+(process:1448): GLib-GIO-CRITICAL **: g_dbus_interface_skeleton_unexport: assertion 'interface_->priv->connections != NULL' failed
+Indicator-Datetime-Message: indicator-datetime exiting; failed/lost bus ownership
+Indicator-Datetime-Message: indicator-datetime exiting; failed/lost bus ownership
+Indicator-Datetime-Message: indicator-datetime exiting; failed/lost bus ownership
+Indicator-Datetime-Message: indicator-datetime exiting; failed/lost bus ownership
+Indicator-Datetime-Message: indicator-datetime exiting; failed/lost bus ownership
+Indicator-Datetime-Message: indicator-datetime exiting; failed/lost bus ownership
+
+(process:1252): GLib-GIO-CRITICAL **: g_dbus_interface_skeleton_unexport: assertion 'interface_->priv->connections != NULL' failed
+Indicator-Datetime-Message: indicator-datetime exiting; failed/lost bus ownership
+Indicator-Datetime-Message: indicator-datetime exiting; failed/lost bus ownership
+
+(process:1161): GLib-GIO-CRITICAL **: g_dbus_interface_skeleton_unexport: assertion 'interface_->priv->connections != NULL' failed
+Indicator-Datetime-Message: indicator-datetime exiting; failed/lost bus ownership
+Indicator-Datetime-Message: indicator-datetime exiting; failed/lost bus ownership
+Indicator-Datetime-Message: indicator-datetime exiting; failed/lost bus ownership
+Indicator-Datetime-Message: indicator-datetime exiting; failed/lost bus ownership
+Indicator-Datetime-Message: indicator-datetime exiting; failed/lost bus ownership
+Indicator-Datetime-Message: indicator-datetime exiting; failed/lost bus ownership
+Indicator-Datetime-Message: indicator-datetime exiting; failed/lost bus ownership
+Indicator-Datetime-Message: indicator-datetime exiting; failed/lost bus ownership
+Indicator-Datetime-Message: indicator-datetime exiting; failed/lost bus ownership
+Indicator-Datetime-Message: indicator-datetime exiting; failed/lost bus ownership
+Indicator-Datetime-Message: indicator-datetime exiting; failed/lost bus ownership
+
+(process:1833): GLib-GIO-CRITICAL **: g_dbus_interface_skeleton_unexport: assertion 'interface_->priv->connections != NULL' failed

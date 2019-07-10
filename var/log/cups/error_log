@@ -1,0 +1,2 @@
+E [10/Jul/2019:09:38:27 +0530] [Client 7] Returning IPP client-error-bad-request for CUPS-Add-Modify-Printer (ipp://localhost:631/printers/Laserjet) from localhost
+E [10/Jul/2019:09:38:27 +0530] [Client 13] Returning IPP client-error-bad-request for CUPS-Add-Modify-Printer (ipp://localhost:631/printers/Laserjet) from localhost

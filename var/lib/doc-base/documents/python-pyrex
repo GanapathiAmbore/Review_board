@@ -1,0 +1,10 @@
+Document: python-pyrex
+Section: Programming/Python
+Title: Debian pyrex Manual
+Author: various
+Abstract: These HTML pages describes what pyrex is
+ and how it can be used.
+
+Format: HTML
+Index: /usr/share/doc/python-pyrex/Doc/index.html
+Files: /usr/share/doc/python-pyrex/Doc/*.html

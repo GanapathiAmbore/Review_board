@@ -1,0 +1,5 @@
+d31a9a0fc7dee06f172cf7e2e5e1eaa0  usr/lib/apache2/modules/mod_wsgi.so-2.7
+9c1130e182d11685ff383dd025682fdb  usr/share/doc/libapache2-mod-wsgi/README.rst.gz
+0e5e932398cce84457dd86a041a98de9  usr/share/doc/libapache2-mod-wsgi/changelog.Debian.gz
+cf0abc900f636490e1b65021e9883b2b  usr/share/doc/libapache2-mod-wsgi/copyright
+0e80fa3882c6d13ab2b21178cefae709  usr/share/python/runtime.d/libapache2-mod-wsgi.rtupdate

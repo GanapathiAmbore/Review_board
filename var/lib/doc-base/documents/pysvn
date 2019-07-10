@@ -1,0 +1,12 @@
+Document: pysvn
+Section: Programming/Python
+Title: pysvn - Python interface to Subversion
+Author: Barry A. Scott
+Abstract: This document contains the pysvn Programmer's Guide (covering the
+ use of pysvn in a tutorial style with lots of examples) and the pysvn
+ Programmer's Reference (detailed descriptions of all the classes, functions
+ and variables of pysvn).
+
+Format: HTML
+Index: /usr/share/doc/python-svn/pysvn.html
+Files: /usr/share/doc/python-svn/*.html

@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/lib
+/usr/lib/python2.7
+/usr/lib/python2.7/dist-packages
+/usr/lib/python2.7/dist-packages/PySide
+/usr/lib/python2.7/dist-packages/PySide/QtOpenGL.so
+/usr/share
+/usr/share/doc
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/python-pyside.qtopengl
+/usr/share/doc/python-pyside.qtopengl

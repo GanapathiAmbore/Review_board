@@ -1,0 +1,1587 @@
+Jul  8 10:03:19 techo2-PC kernel: [ 1086.146265] perf: interrupt took too long (3947 > 3927), lowering kernel.perf_event_max_sample_rate to 50500
+Jul  8 10:25:25 techo2-PC kernel: [ 2412.222172] [UFW BLOCK] IN=enp2s0 OUT= MAC=6c:62:6d:b2:b4:4d:00:1e:0b:fc:2b:c5:08:00 SRC=10.10.73.50 DST=10.10.73.82 LEN=90 TOS=0x00 PREC=0x00 TTL=128 ID=15190 PROTO=UDP SPT=137 DPT=38859 LEN=70 
+Jul  8 10:26:18 techo2-PC kernel: [ 2465.024031] [UFW BLOCK] IN=enp2s0 OUT= MAC=33:33:00:00:00:01:6c:62:6d:c8:9d:1f:86:dd SRC=fe80:0000:0000:0000:ebfa:29d9:17f3:31c0 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=64 TC=0 HOPLIMIT=1 FLOWLBL=87124 PROTO=UDP SPT=8612 DPT=8612 LEN=24 
+Jul  8 10:26:18 techo2-PC kernel: [ 2465.024066] [UFW BLOCK] IN=enp2s0 OUT= MAC=33:33:00:00:00:01:6c:62:6d:c8:9d:1f:86:dd SRC=fe80:0000:0000:0000:ebfa:29d9:17f3:31c0 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=64 TC=0 HOPLIMIT=1 FLOWLBL=514947 PROTO=UDP SPT=8612 DPT=8610 LEN=24 
+Jul  8 10:26:18 techo2-PC kernel: [ 2465.034171] [UFW BLOCK] IN=enp2s0 OUT= MAC=33:33:00:00:00:01:6c:62:6d:c8:9d:1f:86:dd SRC=fe80:0000:0000:0000:ebfa:29d9:17f3:31c0 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=64 TC=0 HOPLIMIT=1 FLOWLBL=87124 PROTO=UDP SPT=8612 DPT=8612 LEN=24 
+Jul  8 10:26:18 techo2-PC kernel: [ 2465.034189] [UFW BLOCK] IN=enp2s0 OUT= MAC=33:33:00:00:00:01:6c:62:6d:c8:9d:1f:86:dd SRC=fe80:0000:0000:0000:ebfa:29d9:17f3:31c0 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=64 TC=0 HOPLIMIT=1 FLOWLBL=514947 PROTO=UDP SPT=8612 DPT=8610 LEN=24 
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] random: get_random_bytes called from start_kernel+0x42/0x50d with crng_init=0
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] Linux version 4.13.0-36-generic (buildd@lgw01-amd64-033) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9)) #40~16.04.1-Ubuntu SMP Fri Feb 16 23:25:58 UTC 2018 (Ubuntu 4.13.0-36.40~16.04.1-generic 4.13.13)
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.13.0-36-generic root=UUID=ab578ffd-e2b0-430e-9611-beb09c4f3df2 ro quiet splash vt.handoff=7
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] KERNEL supported cpus:
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   Intel GenuineIntel
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   AMD AuthenticAMD
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   Centaur CentaurHauls
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] x86/fpu: Enabled xstate features 0x3, context size is 576 bytes, using 'standard' format.
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] BIOS-e820: [mem 0x00000000000e0000-0x00000000000fffff] reserved
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000b7d8ffff] usable
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] BIOS-e820: [mem 0x00000000b7d90000-0x00000000b7d9dfff] ACPI data
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] BIOS-e820: [mem 0x00000000b7d9e000-0x00000000b7ddffff] ACPI NVS
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] BIOS-e820: [mem 0x00000000b7de0000-0x00000000bfffffff] reserved
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] BIOS-e820: [mem 0x00000000ffb00000-0x00000000ffffffff] reserved
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000013fffffff] usable
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] NX (Execute Disable) protection: active
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] random: fast init done
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] SMBIOS 2.6 present.
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] DMI: Hewlett-Packard HP Pro 3090 MT/0B58h, BIOS V1.01 01/27/2010
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] tsc: Fast TSC calibration using PIT
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] e820: last_pfn = 0x140000 max_arch_pfn = 0x400000000
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] MTRR default type: uncachable
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] MTRR fixed ranges enabled:
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   00000-9FFFF write-back
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   A0000-BFFFF uncachable
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   C0000-CFFFF write-protect
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   D0000-DFFFF uncachable
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   E0000-EFFFF write-through
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   F0000-FFFFF write-protect
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] MTRR variable ranges enabled:
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   0 base 000000000 mask F00000000 write-back
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   1 base 100000000 mask FC0000000 write-back
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   2 base 0C0000000 mask FC0000000 uncachable
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   3 base 0B7E00000 mask FFFE00000 uncachable
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   4 base 0B8000000 mask FF8000000 uncachable
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   5 disabled
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   6 disabled
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   7 disabled
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WC  UC- WT  
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] total RAM covered: 3966M
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] Found optimal setting for mtrr clean up
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]  gran_size: 64K 	chunk_size: 256M 	num_reg: 5  	lose cover RAM: 0G
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] e820: update [mem 0xb7e00000-0xffffffff] usable ==> reserved
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] e820: last_pfn = 0xb7d90 max_arch_pfn = 0x400000000
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] found SMP MP-table at [mem 0x000ff780-0x000ff78f] mapped at [ffff92cb000ff780]
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] Scanning 1 areas for low memory corruption
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] Base memory trampoline at [ffff92cb00099000] 99000 size 24576
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] BRK [0x11ef2a000, 0x11ef2afff] PGTABLE
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] BRK [0x11ef2b000, 0x11ef2bfff] PGTABLE
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] BRK [0x11ef2c000, 0x11ef2cfff] PGTABLE
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] BRK [0x11ef2d000, 0x11ef2dfff] PGTABLE
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] BRK [0x11ef2e000, 0x11ef2efff] PGTABLE
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] BRK [0x11ef2f000, 0x11ef2ffff] PGTABLE
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] BRK [0x11ef30000, 0x11ef30fff] PGTABLE
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] BRK [0x11ef31000, 0x11ef31fff] PGTABLE
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] RAMDISK: [mem 0x321d0000-0x350dffff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] ACPI: RSDP 0x00000000000F9BF0 000014 (v00 HPQOEM)
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] ACPI: RSDT 0x00000000B7D90000 000044 (v01 012710 RSDT1647 20100127 MSFT 00000097)
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] ACPI: FACP 0x00000000B7D90200 000084 (v01 012710 FACP1647 20100127 MSFT 00000097)
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] ACPI: DSDT 0x00000000B7D905C0 005B04 (v01 A7647  A7647010 00000010 INTL 20051117)
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] ACPI: FACS 0x00000000B7D9E000 000040
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] ACPI: APIC 0x00000000B7D90390 00006C (v01 012710 APIC1647 20100127 MSFT 00000097)
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] ACPI: MCFG 0x00000000B7D90400 00003C (v01 012710 SLIC-BPC 20100127 MSFT 00000097)
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] ACPI: SLIC 0x00000000B7D90440 000176 (v01 012710 SLIC1647 20100127 MSFT 00000097)
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] ACPI: OEMB 0x00000000B7D9E040 000072 (v01 012710 OEMB1647 20100127 MSFT 00000097)
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] ACPI: HPET 0x00000000B7D9A5C0 000038 (v01 012710 OEMHPET  20100127 MSFT 00000097)
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] ACPI: GSCI 0x00000000B7D9E0C0 002024 (v01 012710 GMCHSCI  20100127 MSFT 00000097)
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] ACPI: SSDT 0x00000000B7DA0B20 000363 (v01 DpgPmm CpuPm    00000012 INTL 20051117)
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] No NUMA configuration found
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x000000013fffffff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] NODE_DATA(0) allocated [mem 0x13ffd5000-0x13fffffff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] Zone ranges:
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   Normal   [mem 0x0000000100000000-0x000000013fffffff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   Device   empty
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] Movable zone start for each node
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] Early memory node ranges
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   node   0: [mem 0x0000000000100000-0x00000000b7d8ffff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   node   0: [mem 0x0000000100000000-0x000000013fffffff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000001000-0x000000013fffffff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] On node 0 totalpages: 1015086
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   DMA zone: 64 pages used for memmap
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   DMA zone: 21 pages reserved
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   DMA zone: 3998 pages, LIFO batch:0
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   DMA32 zone: 11703 pages used for memmap
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   DMA32 zone: 748944 pages, LIFO batch:31
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   Normal zone: 4096 pages used for memmap
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000]   Normal zone: 262144 pages, LIFO batch:31
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] Reserving Intel graphics memory at 0x00000000b8000000-0x00000000bfffffff
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x808
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-23
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] ACPI: IRQ0 used by override.
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] ACPI: IRQ9 used by override.
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] ACPI: HPET id: 0xffffffff base: 0xfed00000
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] smpboot: Allowing 4 CPUs, 2 hotplug CPUs
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000dffff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000e0000-0x000fffff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] PM: Registered nosave memory: [mem 0xb7d90000-0xb7d9dfff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] PM: Registered nosave memory: [mem 0xb7d9e000-0xb7ddffff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] PM: Registered nosave memory: [mem 0xb7de0000-0xbfffffff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] PM: Registered nosave memory: [mem 0xc0000000-0xfedfffff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfee01000-0xffafffff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] PM: Registered nosave memory: [mem 0xffb00000-0xffffffff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] e820: [mem 0xc0000000-0xfedfffff] available for PCI devices
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] Booting paravirtualized kernel on bare hardware
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:4 nr_cpu_ids:4 nr_node_ids:1
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] percpu: Embedded 45 pages/cpu @ffff92cc3fc00000 s146520 r8192 d29608 u524288
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] pcpu-alloc: s146520 r8192 d29608 u524288 alloc=1*2097152
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] pcpu-alloc: [0] 0 1 2 3 
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 999202
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] Policy zone: Normal
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.13.0-36-generic root=UUID=ab578ffd-e2b0-430e-9611-beb09c4f3df2 ro quiet splash vt.handoff=7
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] Memory: 3855816K/4060344K available (12300K kernel code, 2481K rwdata, 4008K rodata, 2364K init, 2368K bss, 204528K reserved, 0K cma-reserved)
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] Kernel/User page tables isolation: enabled
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] ftrace: allocating 37831 entries in 148 pages
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] Hierarchical RCU implementation.
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=4.
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] 	Tasks RCU enabled.
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] NR_IRQS: 524544, nr_irqs: 456, preallocated irqs: 16
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] vt handoff: transparent VT on vt#7
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] Console: colour dummy device 80x25
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] console [tty0] enabled
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 133484882848 ns
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] hpet clockevent registered
+Jul  9 09:52:12 techo2-PC kernel: [    0.000000] tsc: Fast TSC calibration using PIT
+Jul  9 09:52:12 techo2-PC kernel: [    0.004000] tsc: Detected 2925.813 MHz processor
+Jul  9 09:52:12 techo2-PC kernel: [    0.004000] Calibrating delay loop (skipped), value calculated using timer frequency.. 5851.62 BogoMIPS (lpj=11703252)
+Jul  9 09:52:12 techo2-PC kernel: [    0.004000] pid_max: default: 32768 minimum: 301
+Jul  9 09:52:12 techo2-PC kernel: [    0.004000] ACPI: Core revision 20170531
+Jul  9 09:52:12 techo2-PC kernel: [    0.009860] ACPI: 2 ACPI AML tables successfully acquired and loaded
+Jul  9 09:52:12 techo2-PC kernel: [    0.009885] Security Framework initialized
+Jul  9 09:52:12 techo2-PC kernel: [    0.009886] Yama: becoming mindful.
+Jul  9 09:52:12 techo2-PC kernel: [    0.009904] AppArmor: AppArmor initialized
+Jul  9 09:52:12 techo2-PC kernel: [    0.011309] Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes)
+Jul  9 09:52:12 techo2-PC kernel: [    0.012219] Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes)
+Jul  9 09:52:12 techo2-PC kernel: [    0.012264] Mount-cache hash table entries: 8192 (order: 4, 65536 bytes)
+Jul  9 09:52:12 techo2-PC kernel: [    0.012292] Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes)
+Jul  9 09:52:12 techo2-PC kernel: [    0.012544] FEATURE SPEC_CTRL Not Present
+Jul  9 09:52:12 techo2-PC kernel: [    0.012546] CPU: Physical Processor ID: 0
+Jul  9 09:52:12 techo2-PC kernel: [    0.012546] CPU: Processor Core ID: 0
+Jul  9 09:52:12 techo2-PC kernel: [    0.012548] mce: CPU supports 6 MCE banks
+Jul  9 09:52:12 techo2-PC kernel: [    0.012554] CPU0: Thermal monitoring enabled (TM2)
+Jul  9 09:52:12 techo2-PC kernel: [    0.012557] process: using mwait in idle threads
+Jul  9 09:52:12 techo2-PC kernel: [    0.012561] Last level iTLB entries: 4KB 128, 2MB 4, 4MB 4
+Jul  9 09:52:12 techo2-PC kernel: [    0.012562] Last level dTLB entries: 4KB 256, 2MB 0, 4MB 32, 1GB 0
+Jul  9 09:52:12 techo2-PC kernel: [    0.012564] Spectre V2 mitigation: Mitigation: Full generic retpoline
+Jul  9 09:52:12 techo2-PC kernel: [    0.012564] Spectre V2 mitigation: Speculation control IBPB not-supported IBRS not-supported
+Jul  9 09:52:12 techo2-PC kernel: [    0.012692] Freeing SMP alternatives memory: 36K
+Jul  9 09:52:12 techo2-PC kernel: [    0.016106] smpboot: Max logical packages: 2
+Jul  9 09:52:12 techo2-PC kernel: [    0.016486] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Jul  9 09:52:12 techo2-PC kernel: [    0.060000] smpboot: CPU0: Intel(R) Core(TM)2 Duo CPU     E7500  @ 2.93GHz (family: 0x6, model: 0x17, stepping: 0xa)
+Jul  9 09:52:12 techo2-PC kernel: [    0.060000] Performance Events: PEBS fmt0+, Core2 events, Intel PMU driver.
+Jul  9 09:52:12 techo2-PC kernel: [    0.060000] ... version:                2
+Jul  9 09:52:12 techo2-PC kernel: [    0.060000] ... bit width:              40
+Jul  9 09:52:12 techo2-PC kernel: [    0.060000] ... generic registers:      2
+Jul  9 09:52:12 techo2-PC kernel: [    0.060000] ... value mask:             000000ffffffffff
+Jul  9 09:52:12 techo2-PC kernel: [    0.060000] ... max period:             000000007fffffff
+Jul  9 09:52:12 techo2-PC kernel: [    0.060000] ... fixed-purpose events:   3
+Jul  9 09:52:12 techo2-PC kernel: [    0.060000] ... event mask:             0000000700000003
+Jul  9 09:52:12 techo2-PC kernel: [    0.060000] Hierarchical SRCU implementation.
+Jul  9 09:52:12 techo2-PC kernel: [    0.060000] smp: Bringing up secondary CPUs ...
+Jul  9 09:52:12 techo2-PC kernel: [    0.060000] x86: Booting SMP configuration:
+Jul  9 09:52:12 techo2-PC kernel: [    0.060000] .... node  #0, CPUs:      #1
+Jul  9 09:52:12 techo2-PC kernel: [    0.060000] smp: Brought up 1 node, 2 CPUs
+Jul  9 09:52:12 techo2-PC kernel: [    0.060000] smpboot: Total of 2 processors activated (11703.25 BogoMIPS)
+Jul  9 09:52:12 techo2-PC kernel: [    0.060356] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+Jul  9 09:52:12 techo2-PC kernel: [    0.060370] devtmpfs: initialized
+Jul  9 09:52:12 techo2-PC kernel: [    0.060370] x86/mm: Memory block size: 128MB
+Jul  9 09:52:12 techo2-PC kernel: [    0.060522] evm: security.selinux
+Jul  9 09:52:12 techo2-PC kernel: [    0.060522] evm: security.SMACK64
+Jul  9 09:52:12 techo2-PC kernel: [    0.060523] evm: security.SMACK64EXEC
+Jul  9 09:52:12 techo2-PC kernel: [    0.060524] evm: security.SMACK64TRANSMUTE
+Jul  9 09:52:12 techo2-PC kernel: [    0.060524] evm: security.SMACK64MMAP
+Jul  9 09:52:12 techo2-PC kernel: [    0.060525] evm: security.ima
+Jul  9 09:52:12 techo2-PC kernel: [    0.060525] evm: security.capability
+Jul  9 09:52:12 techo2-PC kernel: [    0.060550] PM: Registering ACPI NVS region [mem 0xb7d9e000-0xb7ddffff] (270336 bytes)
+Jul  9 09:52:12 techo2-PC kernel: [    0.060550] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Jul  9 09:52:12 techo2-PC kernel: [    0.060550] futex hash table entries: 1024 (order: 4, 65536 bytes)
+Jul  9 09:52:12 techo2-PC kernel: [    0.060550] pinctrl core: initialized pinctrl subsystem
+Jul  9 09:52:12 techo2-PC kernel: [    0.060550] RTC time:  4:21:42, date: 07/09/19
+Jul  9 09:52:12 techo2-PC kernel: [    0.060550] NET: Registered protocol family 16
+Jul  9 09:52:12 techo2-PC kernel: [    0.060550] cpuidle: using governor ladder
+Jul  9 09:52:12 techo2-PC kernel: [    0.060550] cpuidle: using governor menu
+Jul  9 09:52:12 techo2-PC kernel: [    0.060550] PCCT header not found.
+Jul  9 09:52:12 techo2-PC kernel: [    0.060550] ACPI: bus type PCI registered
+Jul  9 09:52:12 techo2-PC kernel: [    0.060550] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Jul  9 09:52:12 techo2-PC kernel: [    0.060550] PCI: MMCONFIG for domain 0000 [bus 00-ff] at [mem 0xe0000000-0xefffffff] (base 0xe0000000)
+Jul  9 09:52:12 techo2-PC kernel: [    0.060550] PCI: not using MMCONFIG
+Jul  9 09:52:12 techo2-PC kernel: [    0.060550] PCI: Using configuration type 1 for base access
+Jul  9 09:52:12 techo2-PC kernel: [    0.064009] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Jul  9 09:52:12 techo2-PC kernel: [    0.064061] ACPI: Added _OSI(Module Device)
+Jul  9 09:52:12 techo2-PC kernel: [    0.064062] ACPI: Added _OSI(Processor Device)
+Jul  9 09:52:12 techo2-PC kernel: [    0.064063] ACPI: Added _OSI(3.0 _SCP Extensions)
+Jul  9 09:52:12 techo2-PC kernel: [    0.064064] ACPI: Added _OSI(Processor Aggregator Device)
+Jul  9 09:52:12 techo2-PC kernel: [    0.064256] ACPI: Executed 1 blocks of module-level executable AML code
+Jul  9 09:52:12 techo2-PC kernel: [    0.066489] ACPI: Dynamic OEM Table Load:
+Jul  9 09:52:12 techo2-PC kernel: [    0.066495] ACPI: SSDT 0xFFFF92CC3A9EB800 00050E (v01 DpgPmm P001Ist  00000011 INTL 20051117)
+Jul  9 09:52:12 techo2-PC kernel: [    0.066672] ACPI: Dynamic OEM Table Load:
+Jul  9 09:52:12 techo2-PC kernel: [    0.066677] ACPI: SSDT 0xFFFF92CC3A9EA000 000513 (v01 PmRef  P001Cst  00003001 INTL 20051117)
+Jul  9 09:52:12 techo2-PC kernel: [    0.067162] ACPI: Interpreter enabled
+Jul  9 09:52:12 techo2-PC kernel: [    0.067178] ACPI: (supports S0 S3 S4 S5)
+Jul  9 09:52:12 techo2-PC kernel: [    0.067179] ACPI: Using IOAPIC for interrupt routing
+Jul  9 09:52:12 techo2-PC kernel: [    0.067202] PCI: MMCONFIG for domain 0000 [bus 00-ff] at [mem 0xe0000000-0xefffffff] (base 0xe0000000)
+Jul  9 09:52:12 techo2-PC kernel: [    0.068322] PCI: MMCONFIG at [mem 0xe0000000-0xefffffff] reserved in ACPI motherboard resources
+Jul  9 09:52:12 techo2-PC kernel: [    0.068334] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Jul  9 09:52:12 techo2-PC kernel: [    0.068562] ACPI: GPE 0x1B active on init
+Jul  9 09:52:12 techo2-PC kernel: [    0.068572] ACPI: Enabled 13 GPEs in block 00 to 3F
+Jul  9 09:52:12 techo2-PC kernel: [    0.074369] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Jul  9 09:52:12 techo2-PC kernel: [    0.074374] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI]
+Jul  9 09:52:12 techo2-PC kernel: [    0.074378] acpi PNP0A08:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Jul  9 09:52:12 techo2-PC kernel: [    0.074596] PCI host bridge to bus 0000:00
+Jul  9 09:52:12 techo2-PC kernel: [    0.074598] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Jul  9 09:52:12 techo2-PC kernel: [    0.074599] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Jul  9 09:52:12 techo2-PC kernel: [    0.074601] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Jul  9 09:52:12 techo2-PC kernel: [    0.074602] pci_bus 0000:00: root bus resource [mem 0x000d0000-0x000dffff window]
+Jul  9 09:52:12 techo2-PC kernel: [    0.074603] pci_bus 0000:00: root bus resource [mem 0xb7e00000-0xdfffffff window]
+Jul  9 09:52:12 techo2-PC kernel: [    0.074605] pci_bus 0000:00: root bus resource [mem 0xf0000000-0xfed8ffff window]
+Jul  9 09:52:12 techo2-PC kernel: [    0.074606] pci_bus 0000:00: root bus resource [bus 00-ff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.074614] pci 0000:00:00.0: [8086:2e20] type 00 class 0x060000
+Jul  9 09:52:12 techo2-PC kernel: [    0.074634] DMAR: Forcing write-buffer flush capability
+Jul  9 09:52:12 techo2-PC kernel: [    0.074635] DMAR: Disabling IOMMU for graphics on this chipset
+Jul  9 09:52:12 techo2-PC kernel: [    0.074706] pci 0000:00:02.0: [8086:2e22] type 00 class 0x030000
+Jul  9 09:52:12 techo2-PC kernel: [    0.074717] pci 0000:00:02.0: reg 0x10: [mem 0xfe400000-0xfe7fffff 64bit]
+Jul  9 09:52:12 techo2-PC kernel: [    0.074722] pci 0000:00:02.0: reg 0x18: [mem 0xd0000000-0xdfffffff 64bit pref]
+Jul  9 09:52:12 techo2-PC kernel: [    0.074726] pci 0000:00:02.0: reg 0x20: [io  0xdc00-0xdc07]
+Jul  9 09:52:12 techo2-PC kernel: [    0.074830] pci 0000:00:1a.0: [8086:3a37] type 00 class 0x0c0300
+Jul  9 09:52:12 techo2-PC kernel: [    0.074868] pci 0000:00:1a.0: reg 0x20: [io  0xd880-0xd89f]
+Jul  9 09:52:12 techo2-PC kernel: [    0.074971] pci 0000:00:1a.1: [8086:3a38] type 00 class 0x0c0300
+Jul  9 09:52:12 techo2-PC kernel: [    0.075009] pci 0000:00:1a.1: reg 0x20: [io  0xd800-0xd81f]
+Jul  9 09:52:12 techo2-PC kernel: [    0.075116] pci 0000:00:1a.7: [8086:3a3c] type 00 class 0x0c0320
+Jul  9 09:52:12 techo2-PC kernel: [    0.075135] pci 0000:00:1a.7: reg 0x10: [mem 0xfeafa000-0xfeafa3ff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.075208] pci 0000:00:1a.7: PME# supported from D0 D3hot D3cold
+Jul  9 09:52:12 techo2-PC kernel: [    0.075285] pci 0000:00:1b.0: [8086:3a3e] type 00 class 0x040300
+Jul  9 09:52:12 techo2-PC kernel: [    0.075302] pci 0000:00:1b.0: reg 0x10: [mem 0xfeaf4000-0xfeaf7fff 64bit]
+Jul  9 09:52:12 techo2-PC kernel: [    0.075364] pci 0000:00:1b.0: PME# supported from D0 D3hot D3cold
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1c.0: [8086:3a40] type 01 class 0x060400
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1c.0: PME# supported from D0 D3hot D3cold
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1c.1: [8086:3a42] type 01 class 0x060400
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1c.1: PME# supported from D0 D3hot D3cold
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1d.0: [8086:3a34] type 00 class 0x0c0300
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1d.0: reg 0x20: [io  0xd480-0xd49f]
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1d.1: [8086:3a35] type 00 class 0x0c0300
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1d.1: reg 0x20: [io  0xd400-0xd41f]
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1d.2: [8086:3a36] type 00 class 0x0c0300
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1d.2: reg 0x20: [io  0xd080-0xd09f]
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1d.3: [8086:3a39] type 00 class 0x0c0300
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1d.3: reg 0x20: [io  0xd000-0xd01f]
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1d.7: [8086:3a3a] type 00 class 0x0c0320
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1d.7: reg 0x10: [mem 0xfeaf8000-0xfeaf83ff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1d.7: PME# supported from D0 D3hot D3cold
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1e.0: [8086:244e] type 01 class 0x060401
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1f.0: [8086:3a18] type 00 class 0x060100
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1f.2: [8086:3a20] type 00 class 0x01018a
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1f.2: reg 0x10: [io  0x0000-0x0007]
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1f.2: reg 0x14: [io  0x0000-0x0003]
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1f.2: reg 0x18: [io  0x0000-0x0007]
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1f.2: reg 0x1c: [io  0x0000-0x0003]
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1f.2: reg 0x20: [io  0xff90-0xff9f]
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1f.2: reg 0x24: [io  0xffa0-0xffaf]
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1f.2: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1f.2: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1f.2: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1f.2: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1f.3: [8086:3a30] type 00 class 0x0c0500
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1f.3: reg 0x10: [mem 0xfeaf3c00-0xfeaf3cff 64bit]
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1f.3: reg 0x20: [io  0x0400-0x041f]
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:00:1c.0: PCI bridge to [bus 01]
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:02:00.0: [10ec:8168] type 00 class 0x020000
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:02:00.0: reg 0x10: [io  0xe800-0xe8ff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:02:00.0: reg 0x18: [mem 0xfebff000-0xfebfffff 64bit]
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:02:00.0: reg 0x20: [mem 0xfdffc000-0xfdffffff 64bit pref]
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:02:00.0: reg 0x30: [mem 0xfebc0000-0xfebdffff pref]
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:02:00.0: supports D1 D2
+Jul  9 09:52:12 techo2-PC kernel: [    0.075442] pci 0000:02:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+Jul  9 09:52:12 techo2-PC kernel: [    0.088024] pci 0000:00:1c.1: PCI bridge to [bus 02]
+Jul  9 09:52:12 techo2-PC kernel: [    0.088029] pci 0000:00:1c.1:   bridge window [io  0xe000-0xefff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.088033] pci 0000:00:1c.1:   bridge window [mem 0xfeb00000-0xfebfffff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.088040] pci 0000:00:1c.1:   bridge window [mem 0xfdf00000-0xfdffffff 64bit pref]
+Jul  9 09:52:12 techo2-PC kernel: [    0.088124] pci 0000:00:1e.0: PCI bridge to [bus 03] (subtractive decode)
+Jul  9 09:52:12 techo2-PC kernel: [    0.088134] pci 0000:00:1e.0:   bridge window [io  0x0000-0x0cf7 window] (subtractive decode)
+Jul  9 09:52:12 techo2-PC kernel: [    0.088137] pci 0000:00:1e.0:   bridge window [io  0x0d00-0xffff window] (subtractive decode)
+Jul  9 09:52:12 techo2-PC kernel: [    0.088140] pci 0000:00:1e.0:   bridge window [mem 0x000a0000-0x000bffff window] (subtractive decode)
+Jul  9 09:52:12 techo2-PC kernel: [    0.088142] pci 0000:00:1e.0:   bridge window [mem 0x000d0000-0x000dffff window] (subtractive decode)
+Jul  9 09:52:12 techo2-PC kernel: [    0.088145] pci 0000:00:1e.0:   bridge window [mem 0xb7e00000-0xdfffffff window] (subtractive decode)
+Jul  9 09:52:12 techo2-PC kernel: [    0.088147] pci 0000:00:1e.0:   bridge window [mem 0xf0000000-0xfed8ffff window] (subtractive decode)
+Jul  9 09:52:12 techo2-PC kernel: [    0.088767] ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 6 7 *10 11 12 14 15)
+Jul  9 09:52:12 techo2-PC kernel: [    0.088816] ACPI: PCI Interrupt Link [LNKB] (IRQs *5)
+Jul  9 09:52:12 techo2-PC kernel: [    0.088861] ACPI: PCI Interrupt Link [LNKC] (IRQs *3 4 6 7 10 11 12 14 15)
+Jul  9 09:52:12 techo2-PC kernel: [    0.088909] ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 6 7 *10 11 12 14 15)
+Jul  9 09:52:12 techo2-PC kernel: [    0.088957] ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 6 7 10 11 12 14 15) *0, disabled.
+Jul  9 09:52:12 techo2-PC kernel: [    0.089005] ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 6 7 10 *11 12 14 15)
+Jul  9 09:52:12 techo2-PC kernel: [    0.089053] ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 6 7 *10 11 12 14 15)
+Jul  9 09:52:12 techo2-PC kernel: [    0.089101] ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 6 7 10 *11 12 14 15)
+Jul  9 09:52:12 techo2-PC kernel: [    0.092001] SCSI subsystem initialized
+Jul  9 09:52:12 techo2-PC kernel: [    0.092016] libata version 3.00 loaded.
+Jul  9 09:52:12 techo2-PC kernel: [    0.092029] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Jul  9 09:52:12 techo2-PC kernel: [    0.092029] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Jul  9 09:52:12 techo2-PC kernel: [    0.092029] pci 0000:00:02.0: vgaarb: bridge control possible
+Jul  9 09:52:12 techo2-PC kernel: [    0.092029] vgaarb: loaded
+Jul  9 09:52:12 techo2-PC kernel: [    0.092032] ACPI: bus type USB registered
+Jul  9 09:52:12 techo2-PC kernel: [    0.092048] usbcore: registered new interface driver usbfs
+Jul  9 09:52:12 techo2-PC kernel: [    0.092056] usbcore: registered new interface driver hub
+Jul  9 09:52:12 techo2-PC kernel: [    0.092069] usbcore: registered new device driver usb
+Jul  9 09:52:12 techo2-PC kernel: [    0.092121] EDAC MC: Ver: 3.0.0
+Jul  9 09:52:12 techo2-PC kernel: [    0.092188] PCI: Using ACPI for IRQ routing
+Jul  9 09:52:12 techo2-PC kernel: [    0.094851] PCI: pci_cache_line_size set to 64 bytes
+Jul  9 09:52:12 techo2-PC kernel: [    0.094888] Expanded resource Reserved due to conflict with PCI Bus 0000:00
+Jul  9 09:52:12 techo2-PC kernel: [    0.094889] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.094891] e820: reserve RAM buffer [mem 0xb7d90000-0xb7ffffff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.094978] NetLabel: Initializing
+Jul  9 09:52:12 techo2-PC kernel: [    0.094979] NetLabel:  domain hash size = 128
+Jul  9 09:52:12 techo2-PC kernel: [    0.094980] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Jul  9 09:52:12 techo2-PC kernel: [    0.094995] NetLabel:  unlabeled traffic allowed by default
+Jul  9 09:52:12 techo2-PC kernel: [    0.096042] HPET: 4 timers in total, 0 timers will be used for per-cpu timer
+Jul  9 09:52:12 techo2-PC kernel: [    0.096045] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0
+Jul  9 09:52:12 techo2-PC kernel: [    0.096049] hpet0: 4 comparators, 64-bit 14.318180 MHz counter
+Jul  9 09:52:12 techo2-PC kernel: [    0.100016] clocksource: Switched to clocksource hpet
+Jul  9 09:52:12 techo2-PC kernel: [    0.113528] VFS: Disk quotas dquot_6.6.0
+Jul  9 09:52:12 techo2-PC kernel: [    0.113552] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Jul  9 09:52:12 techo2-PC kernel: [    0.113688] AppArmor: AppArmor Filesystem Enabled
+Jul  9 09:52:12 techo2-PC kernel: [    0.113743] pnp: PnP ACPI init
+Jul  9 09:52:12 techo2-PC kernel: [    0.113840] system 00:00: [mem 0xfed14000-0xfed19fff] has been reserved
+Jul  9 09:52:12 techo2-PC kernel: [    0.113842] system 00:00: [mem 0xfed90000-0xfed93fff] has been reserved
+Jul  9 09:52:12 techo2-PC kernel: [    0.113846] system 00:00: Plug and Play ACPI device, IDs PNP0c01 (active)
+Jul  9 09:52:12 techo2-PC kernel: [    0.113914] pnp 00:01: Plug and Play ACPI device, IDs PNP0b00 (active)
+Jul  9 09:52:12 techo2-PC kernel: [    0.113959] pnp 00:02: Plug and Play ACPI device, IDs PNP0303 PNP030b (active)
+Jul  9 09:52:12 techo2-PC kernel: [    0.114015] pnp 00:03: Plug and Play ACPI device, IDs PNP0f03 PNP0f13 (active)
+Jul  9 09:52:12 techo2-PC kernel: [    0.114332] pnp 00:04: [dma 3]
+Jul  9 09:52:12 techo2-PC kernel: [    0.114432] pnp 00:04: Plug and Play ACPI device, IDs PNP0401 (active)
+Jul  9 09:52:12 techo2-PC kernel: [    0.114527] system 00:05: [io  0x0a00-0x0a0f] has been reserved
+Jul  9 09:52:12 techo2-PC kernel: [    0.114529] system 00:05: [io  0x0a10-0x0a1f] has been reserved
+Jul  9 09:52:12 techo2-PC kernel: [    0.114531] system 00:05: Plug and Play ACPI device, IDs PNP0c02 (active)
+Jul  9 09:52:12 techo2-PC kernel: [    0.114660] system 00:06: [io  0x04d0-0x04d1] has been reserved
+Jul  9 09:52:12 techo2-PC kernel: [    0.114662] system 00:06: [io  0x0800-0x087f] has been reserved
+Jul  9 09:52:12 techo2-PC kernel: [    0.114663] system 00:06: [io  0x0500-0x057f] has been reserved
+Jul  9 09:52:12 techo2-PC kernel: [    0.114665] system 00:06: [mem 0xfed1c000-0xfed1ffff] has been reserved
+Jul  9 09:52:12 techo2-PC kernel: [    0.114667] system 00:06: [mem 0xfed20000-0xfed3ffff] has been reserved
+Jul  9 09:52:12 techo2-PC kernel: [    0.114669] system 00:06: [mem 0xfed40000-0xfed8ffff] has been reserved
+Jul  9 09:52:12 techo2-PC kernel: [    0.114671] system 00:06: Plug and Play ACPI device, IDs PNP0c02 (active)
+Jul  9 09:52:12 techo2-PC kernel: [    0.114755] system 00:07: [mem 0xffc00000-0xffefffff] has been reserved
+Jul  9 09:52:12 techo2-PC kernel: [    0.114758] system 00:07: Plug and Play ACPI device, IDs PNP0c02 (active)
+Jul  9 09:52:12 techo2-PC kernel: [    0.114846] system 00:08: [mem 0xfec00000-0xfec00fff] could not be reserved
+Jul  9 09:52:12 techo2-PC kernel: [    0.114847] system 00:08: [mem 0xfee00000-0xfee00fff] has been reserved
+Jul  9 09:52:12 techo2-PC kernel: [    0.114850] system 00:08: Plug and Play ACPI device, IDs PNP0c02 (active)
+Jul  9 09:52:12 techo2-PC kernel: [    0.115015] pnp 00:09: [dma 0 disabled]
+Jul  9 09:52:12 techo2-PC kernel: [    0.115071] pnp 00:09: Plug and Play ACPI device, IDs PNP0501 (active)
+Jul  9 09:52:12 techo2-PC kernel: [    0.115124] system 00:0a: [mem 0xe0000000-0xefffffff] has been reserved
+Jul  9 09:52:12 techo2-PC kernel: [    0.115126] system 00:0a: Plug and Play ACPI device, IDs PNP0c02 (active)
+Jul  9 09:52:12 techo2-PC kernel: [    0.115273] system 00:0b: [mem 0x00000000-0x0009ffff] could not be reserved
+Jul  9 09:52:12 techo2-PC kernel: [    0.115275] system 00:0b: [mem 0x000c0000-0x000cffff] could not be reserved
+Jul  9 09:52:12 techo2-PC kernel: [    0.115277] system 00:0b: [mem 0x000e0000-0x000fffff] could not be reserved
+Jul  9 09:52:12 techo2-PC kernel: [    0.115279] system 00:0b: [mem 0x00100000-0xb7dfffff] could not be reserved
+Jul  9 09:52:12 techo2-PC kernel: [    0.115281] system 00:0b: [mem 0xfed90000-0xffffffff] could not be reserved
+Jul  9 09:52:12 techo2-PC kernel: [    0.115283] system 00:0b: Plug and Play ACPI device, IDs PNP0c01 (active)
+Jul  9 09:52:12 techo2-PC kernel: [    0.115390] pnp: PnP ACPI: found 12 devices
+Jul  9 09:52:12 techo2-PC kernel: [    0.121734] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Jul  9 09:52:12 techo2-PC kernel: [    0.121748] pci 0000:00:1c.0: bridge window [io  0x1000-0x0fff] to [bus 01] add_size 1000
+Jul  9 09:52:12 techo2-PC kernel: [    0.121750] pci 0000:00:1c.0: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 01] add_size 200000 add_align 100000
+Jul  9 09:52:12 techo2-PC kernel: [    0.121753] pci 0000:00:1c.0: bridge window [mem 0x00100000-0x000fffff] to [bus 01] add_size 200000 add_align 100000
+Jul  9 09:52:12 techo2-PC kernel: [    0.121772] pci 0000:00:1c.0: BAR 14: assigned [mem 0xc0000000-0xc01fffff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121777] pci 0000:00:1c.0: BAR 15: assigned [mem 0xc0200000-0xc03fffff 64bit pref]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121779] pci 0000:00:1c.0: BAR 13: assigned [io  0x1000-0x1fff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121782] pci 0000:00:1c.0: PCI bridge to [bus 01]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121784] pci 0000:00:1c.0:   bridge window [io  0x1000-0x1fff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121788] pci 0000:00:1c.0:   bridge window [mem 0xc0000000-0xc01fffff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121791] pci 0000:00:1c.0:   bridge window [mem 0xc0200000-0xc03fffff 64bit pref]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121796] pci 0000:00:1c.1: PCI bridge to [bus 02]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121798] pci 0000:00:1c.1:   bridge window [io  0xe000-0xefff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121801] pci 0000:00:1c.1:   bridge window [mem 0xfeb00000-0xfebfffff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121804] pci 0000:00:1c.1:   bridge window [mem 0xfdf00000-0xfdffffff 64bit pref]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121809] pci 0000:00:1e.0: PCI bridge to [bus 03]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121818] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121819] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121821] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121822] pci_bus 0000:00: resource 7 [mem 0x000d0000-0x000dffff window]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121824] pci_bus 0000:00: resource 8 [mem 0xb7e00000-0xdfffffff window]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121825] pci_bus 0000:00: resource 9 [mem 0xf0000000-0xfed8ffff window]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121827] pci_bus 0000:01: resource 0 [io  0x1000-0x1fff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121828] pci_bus 0000:01: resource 1 [mem 0xc0000000-0xc01fffff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121829] pci_bus 0000:01: resource 2 [mem 0xc0200000-0xc03fffff 64bit pref]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121831] pci_bus 0000:02: resource 0 [io  0xe000-0xefff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121832] pci_bus 0000:02: resource 1 [mem 0xfeb00000-0xfebfffff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121834] pci_bus 0000:02: resource 2 [mem 0xfdf00000-0xfdffffff 64bit pref]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121835] pci_bus 0000:03: resource 4 [io  0x0000-0x0cf7 window]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121837] pci_bus 0000:03: resource 5 [io  0x0d00-0xffff window]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121838] pci_bus 0000:03: resource 6 [mem 0x000a0000-0x000bffff window]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121840] pci_bus 0000:03: resource 7 [mem 0x000d0000-0x000dffff window]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121841] pci_bus 0000:03: resource 8 [mem 0xb7e00000-0xdfffffff window]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121842] pci_bus 0000:03: resource 9 [mem 0xf0000000-0xfed8ffff window]
+Jul  9 09:52:12 techo2-PC kernel: [    0.121911] NET: Registered protocol family 2
+Jul  9 09:52:12 techo2-PC kernel: [    0.122098] TCP established hash table entries: 32768 (order: 6, 262144 bytes)
+Jul  9 09:52:12 techo2-PC kernel: [    0.122201] TCP bind hash table entries: 32768 (order: 7, 524288 bytes)
+Jul  9 09:52:12 techo2-PC kernel: [    0.122356] TCP: Hash tables configured (established 32768 bind 32768)
+Jul  9 09:52:12 techo2-PC kernel: [    0.122405] UDP hash table entries: 2048 (order: 4, 65536 bytes)
+Jul  9 09:52:12 techo2-PC kernel: [    0.122427] UDP-Lite hash table entries: 2048 (order: 4, 65536 bytes)
+Jul  9 09:52:12 techo2-PC kernel: [    0.122483] NET: Registered protocol family 1
+Jul  9 09:52:12 techo2-PC kernel: [    0.122499] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.123470] PCI: CLS 32 bytes, default 64
+Jul  9 09:52:12 techo2-PC kernel: [    0.123511] Unpacking initramfs...
+Jul  9 09:52:12 techo2-PC kernel: [    0.845540] Freeing initrd memory: 48192K
+Jul  9 09:52:12 techo2-PC kernel: [    0.845612] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Jul  9 09:52:12 techo2-PC kernel: [    0.845617] software IO TLB [mem 0xb3d90000-0xb7d90000] (64MB) mapped at [ffff92cbb3d90000-ffff92cbb7d8ffff]
+Jul  9 09:52:12 techo2-PC kernel: [    0.845761] Scanning for low memory corruption every 60 seconds
+Jul  9 09:52:12 techo2-PC kernel: [    0.846082] audit: initializing netlink subsys (disabled)
+Jul  9 09:52:12 techo2-PC kernel: [    0.846160] audit: type=2000 audit(1562646102.846:1): state=initialized audit_enabled=0 res=1
+Jul  9 09:52:12 techo2-PC kernel: [    0.846447] Initialise system trusted keyrings
+Jul  9 09:52:12 techo2-PC kernel: [    0.846457] Key type blacklist registered
+Jul  9 09:52:12 techo2-PC kernel: [    0.846488] workingset: timestamp_bits=36 max_order=20 bucket_order=0
+Jul  9 09:52:12 techo2-PC kernel: [    0.847968] zbud: loaded
+Jul  9 09:52:12 techo2-PC kernel: [    0.848470] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Jul  9 09:52:12 techo2-PC kernel: [    0.848614] fuse init (API version 7.26)
+Jul  9 09:52:12 techo2-PC kernel: [    0.849809] Key type asymmetric registered
+Jul  9 09:52:12 techo2-PC kernel: [    0.849811] Asymmetric key parser 'x509' registered
+Jul  9 09:52:12 techo2-PC kernel: [    0.849845] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247)
+Jul  9 09:52:12 techo2-PC kernel: [    0.849872] io scheduler noop registered
+Jul  9 09:52:12 techo2-PC kernel: [    0.849873] io scheduler deadline registered
+Jul  9 09:52:12 techo2-PC kernel: [    0.849903] io scheduler cfq registered (default)
+Jul  9 09:52:12 techo2-PC kernel: [    0.849993] pcieport 0000:00:1c.0: enabling device (0104 -> 0107)
+Jul  9 09:52:12 techo2-PC kernel: [    0.850392] vesafb: mode is 1024x768x32, linelength=4096, pages=0
+Jul  9 09:52:12 techo2-PC kernel: [    0.850393] vesafb: scrolling: redraw
+Jul  9 09:52:12 techo2-PC kernel: [    0.850395] vesafb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+Jul  9 09:52:12 techo2-PC kernel: [    0.850406] vesafb: framebuffer at 0xd0000000, mapped to 0xffffba4200c00000, using 3072k, total 3072k
+Jul  9 09:52:12 techo2-PC kernel: [    0.850492] Console: switching to colour frame buffer device 128x48
+Jul  9 09:52:12 techo2-PC kernel: [    0.850512] fb0: VESA VGA frame buffer device
+Jul  9 09:52:12 techo2-PC kernel: [    0.850524] intel_idle: does not run on family 6 model 23
+Jul  9 09:52:12 techo2-PC kernel: [    0.850619] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0
+Jul  9 09:52:12 techo2-PC kernel: [    0.850630] ACPI: Power Button [PWRB]
+Jul  9 09:52:12 techo2-PC kernel: [    0.850667] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input1
+Jul  9 09:52:12 techo2-PC kernel: [    0.850687] ACPI: Power Button [PWRF]
+Jul  9 09:52:12 techo2-PC kernel: [    0.850770] Monitor-Mwait will be used to enter C-1 state
+Jul  9 09:52:12 techo2-PC kernel: [    0.850777] Monitor-Mwait will be used to enter C-2 state
+Jul  9 09:52:12 techo2-PC kernel: [    0.850782] Monitor-Mwait will be used to enter C-3 state
+Jul  9 09:52:12 techo2-PC kernel: [    0.850786] tsc: Marking TSC unstable due to TSC halts in idle
+Jul  9 09:52:12 techo2-PC kernel: [    0.851018] GHES: HEST is not enabled!
+Jul  9 09:52:12 techo2-PC kernel: [    0.851099] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Jul  9 09:52:12 techo2-PC kernel: [    0.871507] 00:09: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+Jul  9 09:52:12 techo2-PC kernel: [    0.872970] Linux agpgart interface v0.103
+Jul  9 09:52:12 techo2-PC kernel: [    0.874444] loop: module loaded
+Jul  9 09:52:12 techo2-PC kernel: [    0.874557] ata_piix 0000:00:1f.2: version 2.13
+Jul  9 09:52:12 techo2-PC kernel: [    0.874647] ata_piix 0000:00:1f.2: MAP [ P0 P2 P1 P3 ]
+Jul  9 09:52:12 techo2-PC kernel: [    1.032901] scsi host0: ata_piix
+Jul  9 09:52:12 techo2-PC kernel: [    1.033008] scsi host1: ata_piix
+Jul  9 09:52:12 techo2-PC kernel: [    1.033045] ata1: SATA max UDMA/133 cmd 0x1f0 ctl 0x3f6 bmdma 0xff90 irq 14
+Jul  9 09:52:12 techo2-PC kernel: [    1.033048] ata2: SATA max UDMA/133 cmd 0x170 ctl 0x376 bmdma 0xff98 irq 15
+Jul  9 09:52:12 techo2-PC kernel: [    1.033132] libphy: Fixed MDIO Bus: probed
+Jul  9 09:52:12 techo2-PC kernel: [    1.033133] tun: Universal TUN/TAP device driver, 1.6
+Jul  9 09:52:12 techo2-PC kernel: [    1.033188] PPP generic driver version 2.4.2
+Jul  9 09:52:12 techo2-PC kernel: [    1.033235] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jul  9 09:52:12 techo2-PC kernel: [    1.033238] ehci-pci: EHCI PCI platform driver
+Jul  9 09:52:12 techo2-PC kernel: [    1.033332] ehci-pci 0000:00:1a.7: EHCI Host Controller
+Jul  9 09:52:12 techo2-PC kernel: [    1.033338] ehci-pci 0000:00:1a.7: new USB bus registered, assigned bus number 1
+Jul  9 09:52:12 techo2-PC kernel: [    1.033350] ehci-pci 0000:00:1a.7: debug port 1
+Jul  9 09:52:12 techo2-PC kernel: [    1.037255] ehci-pci 0000:00:1a.7: cache line size of 32 is not supported
+Jul  9 09:52:12 techo2-PC kernel: [    1.037265] ehci-pci 0000:00:1a.7: irq 18, io mem 0xfeafa000
+Jul  9 09:52:12 techo2-PC kernel: [    1.052087] ehci-pci 0000:00:1a.7: USB 2.0 started, EHCI 1.00
+Jul  9 09:52:12 techo2-PC kernel: [    1.052160] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+Jul  9 09:52:12 techo2-PC kernel: [    1.052163] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul  9 09:52:12 techo2-PC kernel: [    1.052166] usb usb1: Product: EHCI Host Controller
+Jul  9 09:52:12 techo2-PC kernel: [    1.052169] usb usb1: Manufacturer: Linux 4.13.0-36-generic ehci_hcd
+Jul  9 09:52:12 techo2-PC kernel: [    1.052171] usb usb1: SerialNumber: 0000:00:1a.7
+Jul  9 09:52:12 techo2-PC kernel: [    1.052345] hub 1-0:1.0: USB hub found
+Jul  9 09:52:12 techo2-PC kernel: [    1.052355] hub 1-0:1.0: 4 ports detected
+Jul  9 09:52:12 techo2-PC kernel: [    1.052560] ehci-pci 0000:00:1d.7: EHCI Host Controller
+Jul  9 09:52:12 techo2-PC kernel: [    1.052564] ehci-pci 0000:00:1d.7: new USB bus registered, assigned bus number 2
+Jul  9 09:52:12 techo2-PC kernel: [    1.052573] ehci-pci 0000:00:1d.7: debug port 1
+Jul  9 09:52:12 techo2-PC kernel: [    1.056482] ehci-pci 0000:00:1d.7: cache line size of 32 is not supported
+Jul  9 09:52:12 techo2-PC kernel: [    1.056490] ehci-pci 0000:00:1d.7: irq 23, io mem 0xfeaf8000
+Jul  9 09:52:12 techo2-PC kernel: [    1.072085] ehci-pci 0000:00:1d.7: USB 2.0 started, EHCI 1.00
+Jul  9 09:52:12 techo2-PC kernel: [    1.072132] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002
+Jul  9 09:52:12 techo2-PC kernel: [    1.072135] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul  9 09:52:12 techo2-PC kernel: [    1.072138] usb usb2: Product: EHCI Host Controller
+Jul  9 09:52:12 techo2-PC kernel: [    1.072140] usb usb2: Manufacturer: Linux 4.13.0-36-generic ehci_hcd
+Jul  9 09:52:12 techo2-PC kernel: [    1.072143] usb usb2: SerialNumber: 0000:00:1d.7
+Jul  9 09:52:12 techo2-PC kernel: [    1.072287] hub 2-0:1.0: USB hub found
+Jul  9 09:52:12 techo2-PC kernel: [    1.072292] hub 2-0:1.0: 8 ports detected
+Jul  9 09:52:12 techo2-PC kernel: [    1.072440] ehci-platform: EHCI generic platform driver
+Jul  9 09:52:12 techo2-PC kernel: [    1.072450] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Jul  9 09:52:12 techo2-PC kernel: [    1.072452] ohci-pci: OHCI PCI platform driver
+Jul  9 09:52:12 techo2-PC kernel: [    1.072461] ohci-platform: OHCI generic platform driver
+Jul  9 09:52:12 techo2-PC kernel: [    1.072466] uhci_hcd: USB Universal Host Controller Interface driver
+Jul  9 09:52:12 techo2-PC kernel: [    1.072532] uhci_hcd 0000:00:1a.0: UHCI Host Controller
+Jul  9 09:52:12 techo2-PC kernel: [    1.072537] uhci_hcd 0000:00:1a.0: new USB bus registered, assigned bus number 3
+Jul  9 09:52:12 techo2-PC kernel: [    1.072542] uhci_hcd 0000:00:1a.0: detected 2 ports
+Jul  9 09:52:12 techo2-PC kernel: [    1.072563] uhci_hcd 0000:00:1a.0: irq 16, io base 0x0000d880
+Jul  9 09:52:12 techo2-PC kernel: [    1.072602] usb usb3: New USB device found, idVendor=1d6b, idProduct=0001
+Jul  9 09:52:12 techo2-PC kernel: [    1.072604] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul  9 09:52:12 techo2-PC kernel: [    1.072605] usb usb3: Product: UHCI Host Controller
+Jul  9 09:52:12 techo2-PC kernel: [    1.072606] usb usb3: Manufacturer: Linux 4.13.0-36-generic uhci_hcd
+Jul  9 09:52:12 techo2-PC kernel: [    1.072608] usb usb3: SerialNumber: 0000:00:1a.0
+Jul  9 09:52:12 techo2-PC kernel: [    1.072707] hub 3-0:1.0: USB hub found
+Jul  9 09:52:12 techo2-PC kernel: [    1.072712] hub 3-0:1.0: 2 ports detected
+Jul  9 09:52:12 techo2-PC kernel: [    1.072848] uhci_hcd 0000:00:1a.1: UHCI Host Controller
+Jul  9 09:52:12 techo2-PC kernel: [    1.072852] uhci_hcd 0000:00:1a.1: new USB bus registered, assigned bus number 4
+Jul  9 09:52:12 techo2-PC kernel: [    1.072857] uhci_hcd 0000:00:1a.1: detected 2 ports
+Jul  9 09:52:12 techo2-PC kernel: [    1.072876] uhci_hcd 0000:00:1a.1: irq 21, io base 0x0000d800
+Jul  9 09:52:12 techo2-PC kernel: [    1.072914] usb usb4: New USB device found, idVendor=1d6b, idProduct=0001
+Jul  9 09:52:12 techo2-PC kernel: [    1.072916] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul  9 09:52:12 techo2-PC kernel: [    1.072917] usb usb4: Product: UHCI Host Controller
+Jul  9 09:52:12 techo2-PC kernel: [    1.072919] usb usb4: Manufacturer: Linux 4.13.0-36-generic uhci_hcd
+Jul  9 09:52:12 techo2-PC kernel: [    1.072920] usb usb4: SerialNumber: 0000:00:1a.1
+Jul  9 09:52:12 techo2-PC kernel: [    1.073015] hub 4-0:1.0: USB hub found
+Jul  9 09:52:12 techo2-PC kernel: [    1.073020] hub 4-0:1.0: 2 ports detected
+Jul  9 09:52:12 techo2-PC kernel: [    1.073149] uhci_hcd 0000:00:1d.0: UHCI Host Controller
+Jul  9 09:52:12 techo2-PC kernel: [    1.073153] uhci_hcd 0000:00:1d.0: new USB bus registered, assigned bus number 5
+Jul  9 09:52:12 techo2-PC kernel: [    1.073158] uhci_hcd 0000:00:1d.0: detected 2 ports
+Jul  9 09:52:12 techo2-PC kernel: [    1.073173] uhci_hcd 0000:00:1d.0: irq 23, io base 0x0000d480
+Jul  9 09:52:12 techo2-PC kernel: [    1.073210] usb usb5: New USB device found, idVendor=1d6b, idProduct=0001
+Jul  9 09:52:12 techo2-PC kernel: [    1.073212] usb usb5: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul  9 09:52:12 techo2-PC kernel: [    1.073213] usb usb5: Product: UHCI Host Controller
+Jul  9 09:52:12 techo2-PC kernel: [    1.073214] usb usb5: Manufacturer: Linux 4.13.0-36-generic uhci_hcd
+Jul  9 09:52:12 techo2-PC kernel: [    1.073216] usb usb5: SerialNumber: 0000:00:1d.0
+Jul  9 09:52:12 techo2-PC kernel: [    1.073314] hub 5-0:1.0: USB hub found
+Jul  9 09:52:12 techo2-PC kernel: [    1.073319] hub 5-0:1.0: 2 ports detected
+Jul  9 09:52:12 techo2-PC kernel: [    1.073449] uhci_hcd 0000:00:1d.1: UHCI Host Controller
+Jul  9 09:52:12 techo2-PC kernel: [    1.073454] uhci_hcd 0000:00:1d.1: new USB bus registered, assigned bus number 6
+Jul  9 09:52:12 techo2-PC kernel: [    1.073459] uhci_hcd 0000:00:1d.1: detected 2 ports
+Jul  9 09:52:12 techo2-PC kernel: [    1.073481] uhci_hcd 0000:00:1d.1: irq 19, io base 0x0000d400
+Jul  9 09:52:12 techo2-PC kernel: [    1.073518] usb usb6: New USB device found, idVendor=1d6b, idProduct=0001
+Jul  9 09:52:12 techo2-PC kernel: [    1.073520] usb usb6: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul  9 09:52:12 techo2-PC kernel: [    1.073522] usb usb6: Product: UHCI Host Controller
+Jul  9 09:52:12 techo2-PC kernel: [    1.073523] usb usb6: Manufacturer: Linux 4.13.0-36-generic uhci_hcd
+Jul  9 09:52:12 techo2-PC kernel: [    1.073524] usb usb6: SerialNumber: 0000:00:1d.1
+Jul  9 09:52:12 techo2-PC kernel: [    1.073621] hub 6-0:1.0: USB hub found
+Jul  9 09:52:12 techo2-PC kernel: [    1.073626] hub 6-0:1.0: 2 ports detected
+Jul  9 09:52:12 techo2-PC kernel: [    1.073753] uhci_hcd 0000:00:1d.2: UHCI Host Controller
+Jul  9 09:52:12 techo2-PC kernel: [    1.073757] uhci_hcd 0000:00:1d.2: new USB bus registered, assigned bus number 7
+Jul  9 09:52:12 techo2-PC kernel: [    1.073762] uhci_hcd 0000:00:1d.2: detected 2 ports
+Jul  9 09:52:12 techo2-PC kernel: [    1.073777] uhci_hcd 0000:00:1d.2: irq 18, io base 0x0000d080
+Jul  9 09:52:12 techo2-PC kernel: [    1.073814] usb usb7: New USB device found, idVendor=1d6b, idProduct=0001
+Jul  9 09:52:12 techo2-PC kernel: [    1.073815] usb usb7: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul  9 09:52:12 techo2-PC kernel: [    1.073817] usb usb7: Product: UHCI Host Controller
+Jul  9 09:52:12 techo2-PC kernel: [    1.073818] usb usb7: Manufacturer: Linux 4.13.0-36-generic uhci_hcd
+Jul  9 09:52:12 techo2-PC kernel: [    1.073820] usb usb7: SerialNumber: 0000:00:1d.2
+Jul  9 09:52:12 techo2-PC kernel: [    1.073922] hub 7-0:1.0: USB hub found
+Jul  9 09:52:12 techo2-PC kernel: [    1.073927] hub 7-0:1.0: 2 ports detected
+Jul  9 09:52:12 techo2-PC kernel: [    1.074052] uhci_hcd 0000:00:1d.3: UHCI Host Controller
+Jul  9 09:52:12 techo2-PC kernel: [    1.074057] uhci_hcd 0000:00:1d.3: new USB bus registered, assigned bus number 8
+Jul  9 09:52:12 techo2-PC kernel: [    1.074061] uhci_hcd 0000:00:1d.3: detected 2 ports
+Jul  9 09:52:12 techo2-PC kernel: [    1.074077] uhci_hcd 0000:00:1d.3: irq 16, io base 0x0000d000
+Jul  9 09:52:12 techo2-PC kernel: [    1.074115] usb usb8: New USB device found, idVendor=1d6b, idProduct=0001
+Jul  9 09:52:12 techo2-PC kernel: [    1.074116] usb usb8: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul  9 09:52:12 techo2-PC kernel: [    1.074118] usb usb8: Product: UHCI Host Controller
+Jul  9 09:52:12 techo2-PC kernel: [    1.074119] usb usb8: Manufacturer: Linux 4.13.0-36-generic uhci_hcd
+Jul  9 09:52:12 techo2-PC kernel: [    1.074121] usb usb8: SerialNumber: 0000:00:1d.3
+Jul  9 09:52:12 techo2-PC kernel: [    1.074208] hub 8-0:1.0: USB hub found
+Jul  9 09:52:12 techo2-PC kernel: [    1.074213] hub 8-0:1.0: 2 ports detected
+Jul  9 09:52:12 techo2-PC kernel: [    1.074335] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Jul  9 09:52:12 techo2-PC kernel: [    1.077119] serio: i8042 KBD port at 0x60,0x64 irq 1
+Jul  9 09:52:12 techo2-PC kernel: [    1.077122] serio: i8042 AUX port at 0x60,0x64 irq 12
+Jul  9 09:52:12 techo2-PC kernel: [    1.077250] mousedev: PS/2 mouse device common for all mice
+Jul  9 09:52:12 techo2-PC kernel: [    1.077390] rtc_cmos 00:01: RTC can wake from S4
+Jul  9 09:52:12 techo2-PC kernel: [    1.077490] rtc_cmos 00:01: rtc core: registered rtc_cmos as rtc0
+Jul  9 09:52:12 techo2-PC kernel: [    1.077511] rtc_cmos 00:01: alarms up to one month, y3k, 114 bytes nvram, hpet irqs
+Jul  9 09:52:12 techo2-PC kernel: [    1.077519] i2c /dev entries driver
+Jul  9 09:52:12 techo2-PC kernel: [    1.077568] device-mapper: uevent: version 1.0.3
+Jul  9 09:52:12 techo2-PC kernel: [    1.077635] device-mapper: ioctl: 4.37.0-ioctl (2017-09-20) initialised: dm-devel@redhat.com
+Jul  9 09:52:12 techo2-PC kernel: [    1.077657] ledtrig-cpu: registered to indicate activity on CPUs
+Jul  9 09:52:12 techo2-PC kernel: [    1.077996] NET: Registered protocol family 10
+Jul  9 09:52:12 techo2-PC kernel: [    1.081723] Segment Routing with IPv6
+Jul  9 09:52:12 techo2-PC kernel: [    1.081740] NET: Registered protocol family 17
+Jul  9 09:52:12 techo2-PC kernel: [    1.081748] Key type dns_resolver registered
+Jul  9 09:52:12 techo2-PC kernel: [    1.081906] RAS: Correctable Errors collector initialized.
+Jul  9 09:52:12 techo2-PC kernel: [    1.081939] microcode: sig=0x1067a, pf=0x1, revision=0xa07
+Jul  9 09:52:12 techo2-PC kernel: [    1.081985] microcode: Microcode Update Driver: v2.2.
+Jul  9 09:52:12 techo2-PC kernel: [    1.082119] registered taskstats version 1
+Jul  9 09:52:12 techo2-PC kernel: [    1.082129] Loading compiled-in X.509 certificates
+Jul  9 09:52:12 techo2-PC kernel: [    1.084651] Loaded X.509 cert 'Build time autogenerated kernel key: 6392960b5d1a7feefef54e83c93c27dba99187fc'
+Jul  9 09:52:12 techo2-PC kernel: [    1.084667] zswap: loaded using pool lzo/zbud
+Jul  9 09:52:12 techo2-PC kernel: [    1.087866] Key type big_key registered
+Jul  9 09:52:12 techo2-PC kernel: [    1.087869] Key type trusted registered
+Jul  9 09:52:12 techo2-PC kernel: [    1.089459] Key type encrypted registered
+Jul  9 09:52:12 techo2-PC kernel: [    1.089461] AppArmor: AppArmor sha1 policy hashing enabled
+Jul  9 09:52:12 techo2-PC kernel: [    1.089464] ima: No TPM chip found, activating TPM-bypass! (rc=-19)
+Jul  9 09:52:12 techo2-PC kernel: [    1.089481] evm: HMAC attrs: 0x1
+Jul  9 09:52:12 techo2-PC kernel: [    1.089689]   Magic number: 11:924:362
+Jul  9 09:52:12 techo2-PC kernel: [    1.089814] rtc_cmos 00:01: setting system clock to 2019-07-09 04:21:43 UTC (1562646103)
+Jul  9 09:52:12 techo2-PC kernel: [    1.090150] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Jul  9 09:52:12 techo2-PC kernel: [    1.090151] EDD information not available.
+Jul  9 09:52:12 techo2-PC kernel: [    1.090178] PM: Hibernation image not present or could not be loaded.
+Jul  9 09:52:12 techo2-PC kernel: [    1.108165] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Jul  9 09:52:12 techo2-PC kernel: [    1.673836] ata2.00: SATA link down (SStatus 0 SControl 300)
+Jul  9 09:52:12 techo2-PC kernel: [    1.673847] ata2.01: SATA link down (SStatus 0 SControl 300)
+Jul  9 09:52:12 techo2-PC kernel: [    1.832161] ata1.00: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Jul  9 09:52:12 techo2-PC kernel: [    1.832172] ata1.01: SATA link down (SStatus 0 SControl 300)
+Jul  9 09:52:12 techo2-PC kernel: [    1.834568] ata1.00: ATA-7: ST3250310AS, 3.AHB, max UDMA/100
+Jul  9 09:52:12 techo2-PC kernel: [    1.834571] ata1.00: 488397168 sectors, multi 16: LBA48 NCQ (depth 0/32)
+Jul  9 09:52:12 techo2-PC kernel: [    1.839222] ata1.00: configured for UDMA/100
+Jul  9 09:52:12 techo2-PC kernel: [    1.839429] scsi 0:0:0:0: Direct-Access     ATA      ST3250310AS      B    PQ: 0 ANSI: 5
+Jul  9 09:52:12 techo2-PC kernel: [    1.839634] sd 0:0:0:0: Attached scsi generic sg0 type 0
+Jul  9 09:52:12 techo2-PC kernel: [    1.839642] sd 0:0:0:0: [sda] 488397168 512-byte logical blocks: (250 GB/233 GiB)
+Jul  9 09:52:12 techo2-PC kernel: [    1.839654] sd 0:0:0:0: [sda] Write Protect is off
+Jul  9 09:52:12 techo2-PC kernel: [    1.839656] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Jul  9 09:52:12 techo2-PC kernel: [    1.839682] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Jul  9 09:52:12 techo2-PC kernel: [    1.852021] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2a2c8393a11, max_idle_ns: 440795321957 ns
+Jul  9 09:52:12 techo2-PC kernel: [    1.913832]  sda: sda1 sda2 < sda5 >
+Jul  9 09:52:12 techo2-PC kernel: [    1.914298] sd 0:0:0:0: [sda] Attached SCSI disk
+Jul  9 09:52:12 techo2-PC kernel: [    1.917070] Freeing unused kernel memory: 2364K
+Jul  9 09:52:12 techo2-PC kernel: [    1.917072] Write protecting the kernel read-only data: 18432k
+Jul  9 09:52:12 techo2-PC kernel: [    1.917997] Freeing unused kernel memory: 2024K
+Jul  9 09:52:12 techo2-PC kernel: [    1.918258] Freeing unused kernel memory: 88K
+Jul  9 09:52:12 techo2-PC kernel: [    1.920477] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Jul  9 09:52:12 techo2-PC kernel: [    1.920477] x86/mm: Checking user space page tables
+Jul  9 09:52:12 techo2-PC kernel: [    1.922421] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Jul  9 09:52:12 techo2-PC kernel: [    1.991241] Floppy drive(s): fd0 is 1.44M
+Jul  9 09:52:12 techo2-PC kernel: [    2.011762] r8169 Gigabit Ethernet driver 2.3LK-NAPI loaded
+Jul  9 09:52:12 techo2-PC kernel: [    2.011772] r8169 0000:02:00.0: can't disable ASPM; OS doesn't have ASPM control
+Jul  9 09:52:12 techo2-PC kernel: [    2.012667] r8169 0000:02:00.0 eth0: RTL8168d/8111d at 0xffffba4200659000, 6c:62:6d:b2:b4:4d, XID 081000c0 IRQ 24
+Jul  9 09:52:12 techo2-PC kernel: [    2.012669] r8169 0000:02:00.0 eth0: jumbo features [frames: 9200 bytes, tx checksumming: ko]
+Jul  9 09:52:12 techo2-PC kernel: [    2.038497] r8169 0000:02:00.0 enp2s0: renamed from eth0
+Jul  9 09:52:12 techo2-PC kernel: [    2.075150] pci 0000:00:00.0: Intel G45/G43 Chipset
+Jul  9 09:52:12 techo2-PC kernel: [    2.075320] pci 0000:00:00.0: detected gtt size: 2097152K total, 262144K mappable
+Jul  9 09:52:12 techo2-PC kernel: [    2.075913] pci 0000:00:00.0: detected 131072K stolen memory
+Jul  9 09:52:12 techo2-PC kernel: [    2.075956] [drm] Memory usable by graphics device = 2048M
+Jul  9 09:52:12 techo2-PC kernel: [    2.075959] checking generic (d0000000 300000) vs hw (d0000000 10000000)
+Jul  9 09:52:12 techo2-PC kernel: [    2.075960] fb: switching to inteldrmfb from VESA VGA
+Jul  9 09:52:12 techo2-PC kernel: [    2.075990] Console: switching to colour dummy device 80x25
+Jul  9 09:52:12 techo2-PC kernel: [    2.076169] [drm] Replacing VGA console driver
+Jul  9 09:52:12 techo2-PC kernel: [    2.082100] [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+Jul  9 09:52:12 techo2-PC kernel: [    2.082101] [drm] Driver supports precise vblank timestamp query.
+Jul  9 09:52:12 techo2-PC kernel: [    2.082638] i915 0000:00:02.0: vgaarb: changed VGA decodes: olddecodes=io+mem,decodes=io+mem:owns=io+mem
+Jul  9 09:52:12 techo2-PC kernel: [    2.088345] [drm] RC6 disabled, disabling runtime PM support
+Jul  9 09:52:12 techo2-PC kernel: [    2.088546] [drm] Initialized i915 1.6.0 20170619 for 0000:00:02.0 on minor 0
+Jul  9 09:52:12 techo2-PC kernel: [    2.180340] fbcon: inteldrmfb (fb0) is primary device
+Jul  9 09:52:12 techo2-PC kernel: [    2.180404] Console: switching to colour frame buffer device 180x56
+Jul  9 09:52:12 techo2-PC kernel: [    2.180434] i915 0000:00:02.0: fb0: inteldrmfb frame buffer device
+Jul  9 09:52:12 techo2-PC kernel: [    3.210353] input: ImPS/2 Logitech Wheel Mouse as /devices/platform/i8042/serio1/input/input4
+Jul  9 09:52:12 techo2-PC kernel: [    5.084139] floppy0: no floppy controllers found
+Jul  9 09:52:12 techo2-PC kernel: [    5.419126] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Jul  9 09:52:12 techo2-PC kernel: [    6.832280] random: crng init done
+Jul  9 09:52:12 techo2-PC kernel: [    9.586848] lp: driver loaded but no devices found
+Jul  9 09:52:12 techo2-PC kernel: [    9.819610] ppdev: user-space parallel port driver
+Jul  9 09:52:12 techo2-PC kernel: [    9.829973] parport_pc 00:04: reported by Plug and Play ACPI
+Jul  9 09:52:12 techo2-PC kernel: [    9.830029] parport0: PC-style at 0x378 (0x778), irq 7, dma 3 [PCSPP,TRISTATE,COMPAT,EPP,ECP,DMA]
+Jul  9 09:52:12 techo2-PC kernel: [    9.924145] lp0: using parport0 (interrupt-driven).
+Jul  9 09:52:12 techo2-PC kernel: [   10.383256] ip_tables: (C) 2000-2006 Netfilter Core Team
+Jul  9 09:52:12 techo2-PC kernel: [   10.887762] nf_conntrack version 0.5.0 (16384 buckets, 65536 max)
+Jul  9 09:52:12 techo2-PC kernel: [   13.465692] ip6_tables: (C) 2000-2006 Netfilter Core Team
+Jul  9 09:52:12 techo2-PC kernel: [   26.654712] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jul  9 09:52:12 techo2-PC kernel: [   26.890824] Floppy drive(s): fd0 is 1.44M
+Jul  9 09:52:12 techo2-PC kernel: [   26.915342] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Jul  9 09:52:12 techo2-PC kernel: [   26.928937] ACPI Warning: SystemIO range 0x0000000000000828-0x000000000000082F conflicts with OpRegion 0x0000000000000800-0x000000000000084F (\PMRG) (20170531/utaddress-247)
+Jul  9 09:52:12 techo2-PC kernel: [   26.928944] ACPI: If an ACPI driver is available for this device, you should use it instead of the native driver
+Jul  9 09:52:12 techo2-PC kernel: [   26.928973] lpc_ich: Resource conflict(s) found affecting gpio_ich
+Jul  9 09:52:12 techo2-PC kernel: [   27.036715] intel_powerclamp: No package C-state available
+Jul  9 09:52:12 techo2-PC kernel: [   27.108355] snd_hda_codec_realtek hdaudioC0D0: autoconfig for ALC888: line_outs=1 (0x14/0x0/0x0/0x0/0x0) type:line
+Jul  9 09:52:12 techo2-PC kernel: [   27.108358] snd_hda_codec_realtek hdaudioC0D0:    speaker_outs=1 (0x15/0x0/0x0/0x0/0x0)
+Jul  9 09:52:12 techo2-PC kernel: [   27.108360] snd_hda_codec_realtek hdaudioC0D0:    hp_outs=1 (0x1b/0x0/0x0/0x0/0x0)
+Jul  9 09:52:12 techo2-PC kernel: [   27.108361] snd_hda_codec_realtek hdaudioC0D0:    mono: mono_out=0x0
+Jul  9 09:52:12 techo2-PC kernel: [   27.108362] snd_hda_codec_realtek hdaudioC0D0:    inputs:
+Jul  9 09:52:12 techo2-PC kernel: [   27.108364] snd_hda_codec_realtek hdaudioC0D0:      Front Mic=0x19
+Jul  9 09:52:12 techo2-PC kernel: [   27.108366] snd_hda_codec_realtek hdaudioC0D0:      Rear Mic=0x18
+Jul  9 09:52:12 techo2-PC kernel: [   27.108368] snd_hda_codec_realtek hdaudioC0D0:      Line=0x1a
+Jul  9 09:52:12 techo2-PC kernel: [   27.120516] input: HDA Intel Front Mic as /devices/pci0000:00/0000:00:1b.0/sound/card0/input5
+Jul  9 09:52:12 techo2-PC kernel: [   27.120577] input: HDA Intel Rear Mic as /devices/pci0000:00/0000:00:1b.0/sound/card0/input6
+Jul  9 09:52:12 techo2-PC kernel: [   27.120631] input: HDA Intel Line as /devices/pci0000:00/0000:00:1b.0/sound/card0/input7
+Jul  9 09:52:12 techo2-PC kernel: [   27.120686] input: HDA Intel Line Out as /devices/pci0000:00/0000:00:1b.0/sound/card0/input8
+Jul  9 09:52:12 techo2-PC kernel: [   27.120739] input: HDA Intel Front Headphone as /devices/pci0000:00/0000:00:1b.0/sound/card0/input9
+Jul  9 09:52:12 techo2-PC kernel: [   27.414375] audit: type=1400 audit(1562646129.824:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=533 comm="apparmor_parser"
+Jul  9 09:52:12 techo2-PC kernel: [   27.414379] audit: type=1400 audit(1562646129.824:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=533 comm="apparmor_parser"
+Jul  9 09:52:12 techo2-PC kernel: [   27.414381] audit: type=1400 audit(1562646129.824:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=533 comm="apparmor_parser"
+Jul  9 09:52:12 techo2-PC kernel: [   27.414383] audit: type=1400 audit(1562646129.824:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=533 comm="apparmor_parser"
+Jul  9 09:52:12 techo2-PC kernel: [   27.414933] audit: type=1400 audit(1562646129.825:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lightdm/lightdm-guest-session" pid=532 comm="apparmor_parser"
+Jul  9 09:52:12 techo2-PC kernel: [   27.414936] audit: type=1400 audit(1562646129.825:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lightdm/lightdm-guest-session//chromium" pid=532 comm="apparmor_parser"
+Jul  9 09:52:12 techo2-PC kernel: [   27.427125] audit: type=1400 audit(1562646129.837:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince" pid=534 comm="apparmor_parser"
+Jul  9 09:52:12 techo2-PC kernel: [   27.427130] audit: type=1400 audit(1562646129.837:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince//sanitized_helper" pid=534 comm="apparmor_parser"
+Jul  9 09:52:12 techo2-PC kernel: [   27.427133] audit: type=1400 audit(1562646129.837:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince-previewer" pid=534 comm="apparmor_parser"
+Jul  9 09:52:12 techo2-PC kernel: [   27.427136] audit: type=1400 audit(1562646129.837:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince-previewer//sanitized_helper" pid=534 comm="apparmor_parser"
+Jul  9 09:52:12 techo2-PC kernel: [   28.454415] gpio_ich: GPIO from 451 to 511 on gpio_ich
+Jul  9 09:52:12 techo2-PC kernel: [   29.332067] Adding 4059132k swap on /dev/sda5.  Priority:-1 extents:1 across:4059132k FS
+Jul  9 09:52:12 techo2-PC kernel: [   29.916063] floppy0: no floppy controllers found
+Jul  9 09:52:16 techo2-PC NetworkManager[768]: <info>  [1562646136.0478] NetworkManager (version 1.2.6) is starting...
+Jul  9 09:52:16 techo2-PC NetworkManager[768]: <info>  [1562646136.0479] Read config: /etc/NetworkManager/NetworkManager.conf (etc: default-wifi-powersave-on.conf)
+Jul  9 09:52:16 techo2-PC NetworkManager[768]: <info>  [1562646136.0659] manager[0x16d7200]: monitoring kernel firmware directory '/lib/firmware'.
+Jul  9 09:52:16 techo2-PC NetworkManager[768]: <info>  [1562646136.0660] monitoring ifupdown state file '/run/network/ifstate'.
+Jul  9 09:52:16 techo2-PC NetworkManager[768]: <info>  [1562646136.1790] dns-mgr[0x16d0940]: init: dns=dnsmasq, rc-manager=resolvconf, plugin=dnsmasq
+Jul  9 09:52:16 techo2-PC NetworkManager[768]: <info>  [1562646136.5842] init!
+Jul  9 09:52:16 techo2-PC NetworkManager[768]: <info>  [1562646136.5844] management mode: unmanaged
+Jul  9 09:52:16 techo2-PC NetworkManager[768]: <info>  [1562646136.5848] devices added (path: /sys/devices/pci0000:00/0000:00:1c.1/0000:02:00.0/net/enp2s0, iface: enp2s0)
+Jul  9 09:52:16 techo2-PC NetworkManager[768]: <info>  [1562646136.5848] device added (path: /sys/devices/pci0000:00/0000:00:1c.1/0000:02:00.0/net/enp2s0, iface: enp2s0): no ifupdown configuration found.
+Jul  9 09:52:16 techo2-PC NetworkManager[768]: <info>  [1562646136.5848] devices added (path: /sys/devices/virtual/net/lo, iface: lo)
+Jul  9 09:52:16 techo2-PC NetworkManager[768]: <info>  [1562646136.5849] device added (path: /sys/devices/virtual/net/lo, iface: lo): no ifupdown configuration found.
+Jul  9 09:52:16 techo2-PC NetworkManager[768]: <info>  [1562646136.5849] end _init.
+Jul  9 09:52:16 techo2-PC NetworkManager[768]: <info>  [1562646136.5849] settings: loaded plugin ifupdown: (C) 2008 Canonical Ltd.  To report bugs please use the NetworkManager mailing list. (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-settings-plugin-ifupdown.so)
+Jul  9 09:52:16 techo2-PC NetworkManager[768]: <info>  [1562646136.5849] settings: loaded plugin keyfile: (c) 2007 - 2015 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+Jul  9 09:52:16 techo2-PC NetworkManager[768]: <info>  [1562646136.5851] SettingsPlugin-Ofono: init!
+Jul  9 09:52:16 techo2-PC NetworkManager[768]: <warn>  [1562646136.5852] SettingsPlugin-Ofono: file doesn't exist: /var/lib/ofono
+Jul  9 09:52:16 techo2-PC NetworkManager[768]: <info>  [1562646136.5852] SettingsPlugin-Ofono: end _init.
+Jul  9 09:52:16 techo2-PC NetworkManager[768]: <info>  [1562646136.5852] settings: loaded plugin ofono: (C) 2013-2016 Canonical Ltd.  To report bugs please use the NetworkManager mailing list. (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-settings-plugin-ofono.so)
+Jul  9 09:52:16 techo2-PC NetworkManager[768]: <info>  [1562646136.5852] (24071072) ... get_connections.
+Jul  9 09:52:16 techo2-PC NetworkManager[768]: <info>  [1562646136.5852] (24071072) ... get_connections (managed=false): return empty list.
+Jul  9 09:52:18 techo2-PC NetworkManager[768]: <info>  [1562646138.6695] keyfile: new connection /etc/NetworkManager/system-connections/Wired connection 1 (4245a977-20ce-3117-95fe-5be0f364b288,"Wired connection 1")
+Jul  9 09:52:18 techo2-PC NetworkManager[768]: <info>  [1562646138.7856] SettingsPlugin-Ofono: (24071296) ... get_connections.
+Jul  9 09:52:18 techo2-PC NetworkManager[768]: <info>  [1562646138.7857] SettingsPlugin-Ofono: (24071296) connections count: 0
+Jul  9 09:52:18 techo2-PC NetworkManager[768]: <info>  [1562646138.7857] get unmanaged devices count: 0
+Jul  9 09:52:19 techo2-PC NetworkManager[768]: <info>  [1562646139.0903] settings: hostname: using hostnamed
+Jul  9 09:52:19 techo2-PC NetworkManager[768]: <info>  [1562646139.0903] settings: hostname changed from (none) to "techo2-PC"
+Jul  9 09:52:19 techo2-PC NetworkManager[768]: <info>  [1562646139.0905] Using DHCP client 'dhclient'
+Jul  9 09:52:19 techo2-PC NetworkManager[768]: <info>  [1562646139.0906] manager: WiFi enabled by radio killswitch; enabled by state file
+Jul  9 09:52:19 techo2-PC NetworkManager[768]: <info>  [1562646139.0906] manager: WWAN enabled by radio killswitch; enabled by state file
+Jul  9 09:52:19 techo2-PC NetworkManager[768]: <info>  [1562646139.0906] manager: Networking is enabled by state file
+Jul  9 09:52:19 techo2-PC NetworkManager[768]: <info>  [1562646139.0907] Loaded device plugin: NMVxlanFactory (internal)
+Jul  9 09:52:19 techo2-PC NetworkManager[768]: <info>  [1562646139.0907] Loaded device plugin: NMVlanFactory (internal)
+Jul  9 09:52:19 techo2-PC NetworkManager[768]: <info>  [1562646139.0907] Loaded device plugin: NMVethFactory (internal)
+Jul  9 09:52:19 techo2-PC NetworkManager[768]: <info>  [1562646139.0908] Loaded device plugin: NMTunFactory (internal)
+Jul  9 09:52:19 techo2-PC NetworkManager[768]: <info>  [1562646139.0908] Loaded device plugin: NMMacvlanFactory (internal)
+Jul  9 09:52:19 techo2-PC NetworkManager[768]: <info>  [1562646139.0908] Loaded device plugin: NMIPTunnelFactory (internal)
+Jul  9 09:52:19 techo2-PC NetworkManager[768]: <info>  [1562646139.0909] Loaded device plugin: NMInfinibandFactory (internal)
+Jul  9 09:52:19 techo2-PC NetworkManager[768]: <info>  [1562646139.0909] Loaded device plugin: NMEthernetFactory (internal)
+Jul  9 09:52:19 techo2-PC NetworkManager[768]: <info>  [1562646139.0909] Loaded device plugin: NMBridgeFactory (internal)
+Jul  9 09:52:19 techo2-PC NetworkManager[768]: <info>  [1562646139.0909] Loaded device plugin: NMBondFactory (internal)
+Jul  9 09:52:19 techo2-PC NetworkManager[768]: <info>  [1562646139.0915] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-adsl.so)
+Jul  9 09:52:19 techo2-PC NetworkManager[768]: <info>  [1562646139.0919] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-wifi.so)
+Jul  9 09:52:19 techo2-PC kernel: [   37.544318] kauditd_printk_skb: 14 callbacks suppressed
+Jul  9 09:52:19 techo2-PC kernel: [   37.544320] audit: type=1400 audit(1562646139.954:26): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/890/status" pid=890 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=122 ouid=122
+Jul  9 09:52:19 techo2-PC kernel: [   37.544341] audit: type=1400 audit(1562646139.954:27): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=890 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=122 ouid=0
+Jul  9 09:52:19 techo2-PC kernel: [   37.544401] audit: type=1400 audit(1562646139.954:28): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/890/status" pid=890 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=122 ouid=122
+Jul  9 09:52:20 techo2-PC NetworkManager[768]: <info>  [1562646140.1821] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-wwan.so)
+Jul  9 09:52:20 techo2-PC NetworkManager[768]: <info>  [1562646140.4957] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-bluetooth.so)
+Jul  9 09:52:20 techo2-PC NetworkManager[768]: <info>  [1562646140.5616] manager: (enp2s0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/0)
+Jul  9 09:52:20 techo2-PC NetworkManager[768]: <info>  [1562646140.5629] device (enp2s0): state change: unmanaged -> unavailable (reason 'managed') [10 20 2]
+Jul  9 09:52:20 techo2-PC kernel: [   38.153371] IPv6: ADDRCONF(NETDEV_UP): enp2s0: link is not ready
+Jul  9 09:52:20 techo2-PC NetworkManager[768]: nm_device_get_device_type: assertion 'NM_IS_DEVICE (self)' failed
+Jul  9 09:52:20 techo2-PC NetworkManager[768]: <info>  [1562646140.6967] device (lo): link connected
+Jul  9 09:52:20 techo2-PC NetworkManager[768]: <info>  [1562646140.6973] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Jul  9 09:52:20 techo2-PC kernel: [   38.285342] r8169 0000:02:00.0 enp2s0: link down
+Jul  9 09:52:20 techo2-PC kernel: [   38.285342] r8169 0000:02:00.0 enp2s0: link down
+Jul  9 09:52:20 techo2-PC kernel: [   38.285386] IPv6: ADDRCONF(NETDEV_UP): enp2s0: link is not ready
+Jul  9 09:52:20 techo2-PC NetworkManager[768]: <info>  [1562646140.8853] urfkill disappeared from the bus
+Jul  9 09:52:20 techo2-PC NetworkManager[768]: <info>  [1562646140.8886] ofono is now available
+Jul  9 09:52:20 techo2-PC NetworkManager[768]: <warn>  [1562646140.8895] failed to enumerate oFono devices: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.ofono was not provided by any .service files
+Jul  9 09:52:23 techo2-PC NetworkManager[768]: <info>  [1562646143.2757] device (enp2s0): link connected
+Jul  9 09:52:23 techo2-PC NetworkManager[768]: <info>  [1562646143.2768] device (enp2s0): state change: unavailable -> disconnected (reason 'carrier-changed') [20 30 40]
+Jul  9 09:52:23 techo2-PC NetworkManager[768]: <info>  [1562646143.2774] policy: auto-activating connection 'Wired connection 1'
+Jul  9 09:52:23 techo2-PC kernel: [   40.865240] r8169 0000:02:00.0 enp2s0: link up
+Jul  9 09:52:23 techo2-PC kernel: [   40.865249] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+Jul  9 09:52:23 techo2-PC NetworkManager[768]: <info>  [1562646143.2784] device (enp2s0): Activation: starting connection 'Wired connection 1' (4245a977-20ce-3117-95fe-5be0f364b288)
+Jul  9 09:52:23 techo2-PC NetworkManager[768]: <info>  [1562646143.2786] device (enp2s0): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Jul  9 09:52:23 techo2-PC NetworkManager[768]: <info>  [1562646143.2787] manager: NetworkManager state is now CONNECTING
+Jul  9 09:52:23 techo2-PC NetworkManager[768]: <info>  [1562646143.2790] device (enp2s0): state change: prepare -> config (reason 'none') [40 50 0]
+Jul  9 09:52:23 techo2-PC NetworkManager[768]: <info>  [1562646143.2794] device (enp2s0): state change: config -> ip-config (reason 'none') [50 70 0]
+Jul  9 09:52:23 techo2-PC NetworkManager[768]: <info>  [1562646143.2857] device (enp2s0): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+Jul  9 09:52:23 techo2-PC NetworkManager[768]: <info>  [1562646143.2877] device (enp2s0): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+Jul  9 09:52:23 techo2-PC NetworkManager[768]: <info>  [1562646143.2894] device (enp2s0): state change: secondaries -> activated (reason 'none') [90 100 0]
+Jul  9 09:52:23 techo2-PC NetworkManager[768]: <info>  [1562646143.2901] manager: NetworkManager state is now CONNECTED_LOCAL
+Jul  9 09:52:23 techo2-PC NetworkManager[768]: <info>  [1562646143.9623] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jul  9 09:52:23 techo2-PC NetworkManager[768]: <info>  [1562646143.9624] policy: set 'Wired connection 1' (enp2s0) as default for IPv4 routing and DNS
+Jul  9 09:52:23 techo2-PC NetworkManager[768]: <info>  [1562646143.9625] dns-plugin[0x16e98e0]: starting dnsmasq...
+Jul  9 09:52:23 techo2-PC NetworkManager[768]: <info>  [1562646143.9643] dns-mgr: Writing DNS information to /sbin/resolvconf
+Jul  9 09:52:25 techo2-PC NetworkManager[768]: <info>  [1562646145.0753] device (enp2s0): Activation: successful, device activated.
+Jul  9 09:52:25 techo2-PC NetworkManager[768]: <info>  [1562646145.0812] dnsmasq[0x16e98e0]: dnsmasq appeared as :1.16
+Jul  9 09:52:26 techo2-PC NetworkManager[768]: <info>  [1562646146.4118] manager: WiFi hardware radio set enabled
+Jul  9 09:52:26 techo2-PC NetworkManager[768]: <info>  [1562646146.4118] manager: WWAN hardware radio set enabled
+Jul  9 09:52:28 techo2-PC NetworkManager[768]: <info>  [1562646148.4112] manager: startup complete
+Jul  9 09:52:30 techo2-PC kernel: [   48.268927] nf_conntrack: default automatic helper assignment has been turned off for security reasons and CT-based  firewall rule not found. Use the iptables CT target to attach helpers instead.
+Jul  9 09:52:34 techo2-PC kernel: [   52.454575] [UFW BLOCK] IN=enp2s0 OUT= MAC= SRC=fe80:0000:0000:0000:7ed6:19cc:d270:94f5 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=64 TC=0 HOPLIMIT=1 FLOWLBL=720745 PROTO=UDP SPT=8612 DPT=8612 LEN=24 
+Jul  9 09:52:34 techo2-PC kernel: [   52.454595] [UFW BLOCK] IN=enp2s0 OUT= MAC= SRC=fe80:0000:0000:0000:7ed6:19cc:d270:94f5 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=64 TC=0 HOPLIMIT=1 FLOWLBL=1000340 PROTO=UDP SPT=8612 DPT=8610 LEN=24 
+Jul  9 09:52:34 techo2-PC kernel: [   52.464758] [UFW BLOCK] IN=enp2s0 OUT= MAC= SRC=fe80:0000:0000:0000:7ed6:19cc:d270:94f5 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=64 TC=0 HOPLIMIT=1 FLOWLBL=720745 PROTO=UDP SPT=8612 DPT=8612 LEN=24 
+Jul  9 09:52:34 techo2-PC kernel: [   52.464786] [UFW BLOCK] IN=enp2s0 OUT= MAC= SRC=fe80:0000:0000:0000:7ed6:19cc:d270:94f5 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=64 TC=0 HOPLIMIT=1 FLOWLBL=1000340 PROTO=UDP SPT=8612 DPT=8610 LEN=24 
+Jul  9 09:52:46 techo2-PC gnome-session-binary[2074]: Entering running state
+Jul  9 09:54:23 techo2-PC kernel: [  161.845944] perf: interrupt took too long (2502 > 2500), lowering kernel.perf_event_max_sample_rate to 79750
+Jul  9 09:55:27 techo2-PC kernel: [  225.832832] perf: interrupt took too long (3128 > 3127), lowering kernel.perf_event_max_sample_rate to 63750
+Jul  9 10:08:46 techo2-PC kernel: [ 1025.185171] perf: interrupt took too long (3919 > 3910), lowering kernel.perf_event_max_sample_rate to 51000
+Jul  9 12:01:25 techo2-PC kernel: [ 7784.198142] [UFW BLOCK] IN=enp2s0 OUT= MAC=6c:62:6d:b2:b4:4d:00:1e:0b:fc:2b:c5:08:00 SRC=10.10.73.50 DST=10.10.73.82 LEN=90 TOS=0x00 PREC=0x00 TTL=128 ID=20111 PROTO=UDP SPT=137 DPT=42244 LEN=70 
+Jul  9 12:01:28 techo2-PC kernel: [ 7787.222605] [UFW BLOCK] IN=enp2s0 OUT= MAC=6c:62:6d:b2:b4:4d:00:1e:0b:fc:2b:c5:08:00 SRC=10.10.73.50 DST=10.10.73.82 LEN=90 TOS=0x00 PREC=0x00 TTL=128 ID=20112 PROTO=UDP SPT=137 DPT=57322 LEN=70 
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] random: get_random_bytes called from start_kernel+0x42/0x50d with crng_init=0
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] Linux version 4.13.0-36-generic (buildd@lgw01-amd64-033) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9)) #40~16.04.1-Ubuntu SMP Fri Feb 16 23:25:58 UTC 2018 (Ubuntu 4.13.0-36.40~16.04.1-generic 4.13.13)
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.13.0-36-generic root=UUID=ab578ffd-e2b0-430e-9611-beb09c4f3df2 ro quiet splash vt.handoff=7
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] KERNEL supported cpus:
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   Intel GenuineIntel
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   AMD AuthenticAMD
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   Centaur CentaurHauls
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] x86/fpu: Enabled xstate features 0x3, context size is 576 bytes, using 'standard' format.
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] BIOS-e820: [mem 0x00000000000e0000-0x00000000000fffff] reserved
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000b7d8ffff] usable
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] BIOS-e820: [mem 0x00000000b7d90000-0x00000000b7d9dfff] ACPI data
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] BIOS-e820: [mem 0x00000000b7d9e000-0x00000000b7ddffff] ACPI NVS
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] BIOS-e820: [mem 0x00000000b7de0000-0x00000000bfffffff] reserved
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] BIOS-e820: [mem 0x00000000ffb00000-0x00000000ffffffff] reserved
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000013fffffff] usable
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] NX (Execute Disable) protection: active
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] random: fast init done
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] SMBIOS 2.6 present.
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] DMI: Hewlett-Packard HP Pro 3090 MT/0B58h, BIOS V1.01 01/27/2010
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] tsc: Fast TSC calibration using PIT
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] e820: last_pfn = 0x140000 max_arch_pfn = 0x400000000
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] MTRR default type: uncachable
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] MTRR fixed ranges enabled:
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   00000-9FFFF write-back
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   A0000-BFFFF uncachable
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   C0000-CFFFF write-protect
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   D0000-DFFFF uncachable
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   E0000-EFFFF write-through
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   F0000-FFFFF write-protect
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] MTRR variable ranges enabled:
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   0 base 000000000 mask F00000000 write-back
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   1 base 100000000 mask FC0000000 write-back
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   2 base 0C0000000 mask FC0000000 uncachable
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   3 base 0B7E00000 mask FFFE00000 uncachable
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   4 base 0B8000000 mask FF8000000 uncachable
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   5 disabled
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   6 disabled
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   7 disabled
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WC  UC- WT  
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] total RAM covered: 3966M
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] Found optimal setting for mtrr clean up
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]  gran_size: 64K 	chunk_size: 256M 	num_reg: 5  	lose cover RAM: 0G
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] e820: update [mem 0xb7e00000-0xffffffff] usable ==> reserved
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] e820: last_pfn = 0xb7d90 max_arch_pfn = 0x400000000
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] found SMP MP-table at [mem 0x000ff780-0x000ff78f] mapped at [ffff8ba5c00ff780]
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] Scanning 1 areas for low memory corruption
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] Base memory trampoline at [ffff8ba5c0099000] 99000 size 24576
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] BRK [0x3772a000, 0x3772afff] PGTABLE
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] BRK [0x3772b000, 0x3772bfff] PGTABLE
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] BRK [0x3772c000, 0x3772cfff] PGTABLE
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] BRK [0x3772d000, 0x3772dfff] PGTABLE
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] BRK [0x3772e000, 0x3772efff] PGTABLE
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] RAMDISK: [mem 0x321d0000-0x350dffff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] ACPI: RSDP 0x00000000000F9BF0 000014 (v00 HPQOEM)
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] ACPI: RSDT 0x00000000B7D90000 000044 (v01 012710 RSDT1647 20100127 MSFT 00000097)
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] ACPI: FACP 0x00000000B7D90200 000084 (v01 012710 FACP1647 20100127 MSFT 00000097)
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] ACPI: DSDT 0x00000000B7D905C0 005B04 (v01 A7647  A7647010 00000010 INTL 20051117)
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] ACPI: FACS 0x00000000B7D9E000 000040
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] ACPI: APIC 0x00000000B7D90390 00006C (v01 012710 APIC1647 20100127 MSFT 00000097)
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] ACPI: MCFG 0x00000000B7D90400 00003C (v01 012710 SLIC-BPC 20100127 MSFT 00000097)
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] ACPI: SLIC 0x00000000B7D90440 000176 (v01 012710 SLIC1647 20100127 MSFT 00000097)
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] ACPI: OEMB 0x00000000B7D9E040 000072 (v01 012710 OEMB1647 20100127 MSFT 00000097)
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] ACPI: HPET 0x00000000B7D9A5C0 000038 (v01 012710 OEMHPET  20100127 MSFT 00000097)
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] ACPI: GSCI 0x00000000B7D9E0C0 002024 (v01 012710 GMCHSCI  20100127 MSFT 00000097)
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] ACPI: SSDT 0x00000000B7DA0B20 000363 (v01 DpgPmm CpuPm    00000012 INTL 20051117)
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] No NUMA configuration found
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x000000013fffffff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] NODE_DATA(0) allocated [mem 0x13ffd2000-0x13fffcfff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] Zone ranges:
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   Normal   [mem 0x0000000100000000-0x000000013fffffff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   Device   empty
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] Movable zone start for each node
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] Early memory node ranges
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   node   0: [mem 0x0000000000100000-0x00000000b7d8ffff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   node   0: [mem 0x0000000100000000-0x000000013fffffff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000001000-0x000000013fffffff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] On node 0 totalpages: 1015086
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   DMA zone: 64 pages used for memmap
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   DMA zone: 21 pages reserved
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   DMA zone: 3998 pages, LIFO batch:0
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   DMA32 zone: 11703 pages used for memmap
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   DMA32 zone: 748944 pages, LIFO batch:31
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   Normal zone: 4096 pages used for memmap
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000]   Normal zone: 262144 pages, LIFO batch:31
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] Reserving Intel graphics memory at 0x00000000b8000000-0x00000000bfffffff
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x808
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-23
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] ACPI: IRQ0 used by override.
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] ACPI: IRQ9 used by override.
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] ACPI: HPET id: 0xffffffff base: 0xfed00000
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] smpboot: Allowing 4 CPUs, 2 hotplug CPUs
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000dffff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000e0000-0x000fffff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] PM: Registered nosave memory: [mem 0xb7d90000-0xb7d9dfff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] PM: Registered nosave memory: [mem 0xb7d9e000-0xb7ddffff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] PM: Registered nosave memory: [mem 0xb7de0000-0xbfffffff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] PM: Registered nosave memory: [mem 0xc0000000-0xfedfffff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfee01000-0xffafffff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] PM: Registered nosave memory: [mem 0xffb00000-0xffffffff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] e820: [mem 0xc0000000-0xfedfffff] available for PCI devices
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] Booting paravirtualized kernel on bare hardware
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:4 nr_cpu_ids:4 nr_node_ids:1
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] percpu: Embedded 45 pages/cpu @ffff8ba6ffc00000 s146520 r8192 d29608 u524288
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] pcpu-alloc: s146520 r8192 d29608 u524288 alloc=1*2097152
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] pcpu-alloc: [0] 0 1 2 3 
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 999202
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] Policy zone: Normal
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.13.0-36-generic root=UUID=ab578ffd-e2b0-430e-9611-beb09c4f3df2 ro quiet splash vt.handoff=7
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] Memory: 3855804K/4060344K available (12300K kernel code, 2481K rwdata, 4008K rodata, 2364K init, 2368K bss, 204540K reserved, 0K cma-reserved)
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] Kernel/User page tables isolation: enabled
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] ftrace: allocating 37831 entries in 148 pages
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] Hierarchical RCU implementation.
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=4.
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] 	Tasks RCU enabled.
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] NR_IRQS: 524544, nr_irqs: 456, preallocated irqs: 16
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] vt handoff: transparent VT on vt#7
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] Console: colour dummy device 80x25
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] console [tty0] enabled
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 133484882848 ns
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] hpet clockevent registered
+Jul 10 09:33:23 techo2-PC kernel: [    0.000000] tsc: Fast TSC calibration using PIT
+Jul 10 09:33:23 techo2-PC kernel: [    0.004000] tsc: Detected 2925.905 MHz processor
+Jul 10 09:33:23 techo2-PC kernel: [    0.004000] Calibrating delay loop (skipped), value calculated using timer frequency.. 5851.81 BogoMIPS (lpj=11703620)
+Jul 10 09:33:23 techo2-PC kernel: [    0.004000] pid_max: default: 32768 minimum: 301
+Jul 10 09:33:23 techo2-PC kernel: [    0.004000] ACPI: Core revision 20170531
+Jul 10 09:33:23 techo2-PC kernel: [    0.009866] ACPI: 2 ACPI AML tables successfully acquired and loaded
+Jul 10 09:33:23 techo2-PC kernel: [    0.009890] Security Framework initialized
+Jul 10 09:33:23 techo2-PC kernel: [    0.009891] Yama: becoming mindful.
+Jul 10 09:33:23 techo2-PC kernel: [    0.009910] AppArmor: AppArmor initialized
+Jul 10 09:33:23 techo2-PC kernel: [    0.011318] Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes)
+Jul 10 09:33:23 techo2-PC kernel: [    0.012234] Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes)
+Jul 10 09:33:23 techo2-PC kernel: [    0.012280] Mount-cache hash table entries: 8192 (order: 4, 65536 bytes)
+Jul 10 09:33:23 techo2-PC kernel: [    0.012309] Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes)
+Jul 10 09:33:23 techo2-PC kernel: [    0.012557] FEATURE SPEC_CTRL Not Present
+Jul 10 09:33:23 techo2-PC kernel: [    0.012559] CPU: Physical Processor ID: 0
+Jul 10 09:33:23 techo2-PC kernel: [    0.012560] CPU: Processor Core ID: 0
+Jul 10 09:33:23 techo2-PC kernel: [    0.012561] mce: CPU supports 6 MCE banks
+Jul 10 09:33:23 techo2-PC kernel: [    0.012568] CPU0: Thermal monitoring enabled (TM2)
+Jul 10 09:33:23 techo2-PC kernel: [    0.012570] process: using mwait in idle threads
+Jul 10 09:33:23 techo2-PC kernel: [    0.012574] Last level iTLB entries: 4KB 128, 2MB 4, 4MB 4
+Jul 10 09:33:23 techo2-PC kernel: [    0.012575] Last level dTLB entries: 4KB 256, 2MB 0, 4MB 32, 1GB 0
+Jul 10 09:33:23 techo2-PC kernel: [    0.012577] Spectre V2 mitigation: Mitigation: Full generic retpoline
+Jul 10 09:33:23 techo2-PC kernel: [    0.012578] Spectre V2 mitigation: Speculation control IBPB not-supported IBRS not-supported
+Jul 10 09:33:23 techo2-PC kernel: [    0.012705] Freeing SMP alternatives memory: 36K
+Jul 10 09:33:23 techo2-PC kernel: [    0.016106] smpboot: Max logical packages: 2
+Jul 10 09:33:23 techo2-PC kernel: [    0.016483] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Jul 10 09:33:23 techo2-PC kernel: [    0.060000] smpboot: CPU0: Intel(R) Core(TM)2 Duo CPU     E7500  @ 2.93GHz (family: 0x6, model: 0x17, stepping: 0xa)
+Jul 10 09:33:23 techo2-PC kernel: [    0.060000] Performance Events: PEBS fmt0+, Core2 events, Intel PMU driver.
+Jul 10 09:33:23 techo2-PC kernel: [    0.060000] ... version:                2
+Jul 10 09:33:23 techo2-PC kernel: [    0.060000] ... bit width:              40
+Jul 10 09:33:23 techo2-PC kernel: [    0.060000] ... generic registers:      2
+Jul 10 09:33:23 techo2-PC kernel: [    0.060000] ... value mask:             000000ffffffffff
+Jul 10 09:33:23 techo2-PC kernel: [    0.060000] ... max period:             000000007fffffff
+Jul 10 09:33:23 techo2-PC kernel: [    0.060000] ... fixed-purpose events:   3
+Jul 10 09:33:23 techo2-PC kernel: [    0.060000] ... event mask:             0000000700000003
+Jul 10 09:33:23 techo2-PC kernel: [    0.060000] Hierarchical SRCU implementation.
+Jul 10 09:33:23 techo2-PC kernel: [    0.060000] smp: Bringing up secondary CPUs ...
+Jul 10 09:33:23 techo2-PC kernel: [    0.060000] x86: Booting SMP configuration:
+Jul 10 09:33:23 techo2-PC kernel: [    0.060000] .... node  #0, CPUs:      #1
+Jul 10 09:33:23 techo2-PC kernel: [    0.060000] smp: Brought up 1 node, 2 CPUs
+Jul 10 09:33:23 techo2-PC kernel: [    0.060000] smpboot: Total of 2 processors activated (11703.62 BogoMIPS)
+Jul 10 09:33:23 techo2-PC kernel: [    0.060355] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+Jul 10 09:33:23 techo2-PC kernel: [    0.060368] devtmpfs: initialized
+Jul 10 09:33:23 techo2-PC kernel: [    0.060368] x86/mm: Memory block size: 128MB
+Jul 10 09:33:23 techo2-PC kernel: [    0.060522] evm: security.selinux
+Jul 10 09:33:23 techo2-PC kernel: [    0.060523] evm: security.SMACK64
+Jul 10 09:33:23 techo2-PC kernel: [    0.060524] evm: security.SMACK64EXEC
+Jul 10 09:33:23 techo2-PC kernel: [    0.060524] evm: security.SMACK64TRANSMUTE
+Jul 10 09:33:23 techo2-PC kernel: [    0.060525] evm: security.SMACK64MMAP
+Jul 10 09:33:23 techo2-PC kernel: [    0.060525] evm: security.ima
+Jul 10 09:33:23 techo2-PC kernel: [    0.060526] evm: security.capability
+Jul 10 09:33:23 techo2-PC kernel: [    0.060551] PM: Registering ACPI NVS region [mem 0xb7d9e000-0xb7ddffff] (270336 bytes)
+Jul 10 09:33:23 techo2-PC kernel: [    0.060551] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Jul 10 09:33:23 techo2-PC kernel: [    0.060551] futex hash table entries: 1024 (order: 4, 65536 bytes)
+Jul 10 09:33:23 techo2-PC kernel: [    0.060551] pinctrl core: initialized pinctrl subsystem
+Jul 10 09:33:23 techo2-PC kernel: [    0.060551] RTC time:  4:02:53, date: 07/10/19
+Jul 10 09:33:23 techo2-PC kernel: [    0.060551] NET: Registered protocol family 16
+Jul 10 09:33:23 techo2-PC kernel: [    0.060551] cpuidle: using governor ladder
+Jul 10 09:33:23 techo2-PC kernel: [    0.060551] cpuidle: using governor menu
+Jul 10 09:33:23 techo2-PC kernel: [    0.060551] PCCT header not found.
+Jul 10 09:33:23 techo2-PC kernel: [    0.060551] ACPI: bus type PCI registered
+Jul 10 09:33:23 techo2-PC kernel: [    0.060551] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Jul 10 09:33:23 techo2-PC kernel: [    0.060551] PCI: MMCONFIG for domain 0000 [bus 00-ff] at [mem 0xe0000000-0xefffffff] (base 0xe0000000)
+Jul 10 09:33:23 techo2-PC kernel: [    0.060551] PCI: not using MMCONFIG
+Jul 10 09:33:23 techo2-PC kernel: [    0.060551] PCI: Using configuration type 1 for base access
+Jul 10 09:33:23 techo2-PC kernel: [    0.064025] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Jul 10 09:33:23 techo2-PC kernel: [    0.064062] ACPI: Added _OSI(Module Device)
+Jul 10 09:33:23 techo2-PC kernel: [    0.064062] ACPI: Added _OSI(Processor Device)
+Jul 10 09:33:23 techo2-PC kernel: [    0.064063] ACPI: Added _OSI(3.0 _SCP Extensions)
+Jul 10 09:33:23 techo2-PC kernel: [    0.064064] ACPI: Added _OSI(Processor Aggregator Device)
+Jul 10 09:33:23 techo2-PC kernel: [    0.064256] ACPI: Executed 1 blocks of module-level executable AML code
+Jul 10 09:33:23 techo2-PC kernel: [    0.066486] ACPI: Dynamic OEM Table Load:
+Jul 10 09:33:23 techo2-PC kernel: [    0.066491] ACPI: SSDT 0xFFFF8BA6FA9EC800 00050E (v01 DpgPmm P001Ist  00000011 INTL 20051117)
+Jul 10 09:33:23 techo2-PC kernel: [    0.066669] ACPI: Dynamic OEM Table Load:
+Jul 10 09:33:23 techo2-PC kernel: [    0.066673] ACPI: SSDT 0xFFFF8BA6FA9EE800 000513 (v01 PmRef  P001Cst  00003001 INTL 20051117)
+Jul 10 09:33:23 techo2-PC kernel: [    0.067159] ACPI: Interpreter enabled
+Jul 10 09:33:23 techo2-PC kernel: [    0.067174] ACPI: (supports S0 S3 S4 S5)
+Jul 10 09:33:23 techo2-PC kernel: [    0.067176] ACPI: Using IOAPIC for interrupt routing
+Jul 10 09:33:23 techo2-PC kernel: [    0.067199] PCI: MMCONFIG for domain 0000 [bus 00-ff] at [mem 0xe0000000-0xefffffff] (base 0xe0000000)
+Jul 10 09:33:23 techo2-PC kernel: [    0.068332] PCI: MMCONFIG at [mem 0xe0000000-0xefffffff] reserved in ACPI motherboard resources
+Jul 10 09:33:23 techo2-PC kernel: [    0.068344] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Jul 10 09:33:23 techo2-PC kernel: [    0.068572] ACPI: GPE 0x1B active on init
+Jul 10 09:33:23 techo2-PC kernel: [    0.068582] ACPI: Enabled 13 GPEs in block 00 to 3F
+Jul 10 09:33:23 techo2-PC kernel: [    0.074393] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Jul 10 09:33:23 techo2-PC kernel: [    0.074398] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI]
+Jul 10 09:33:23 techo2-PC kernel: [    0.074402] acpi PNP0A08:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Jul 10 09:33:23 techo2-PC kernel: [    0.074618] PCI host bridge to bus 0000:00
+Jul 10 09:33:23 techo2-PC kernel: [    0.074620] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Jul 10 09:33:23 techo2-PC kernel: [    0.074622] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Jul 10 09:33:23 techo2-PC kernel: [    0.074623] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Jul 10 09:33:23 techo2-PC kernel: [    0.074625] pci_bus 0000:00: root bus resource [mem 0x000d0000-0x000dffff window]
+Jul 10 09:33:23 techo2-PC kernel: [    0.074626] pci_bus 0000:00: root bus resource [mem 0xb7e00000-0xdfffffff window]
+Jul 10 09:33:23 techo2-PC kernel: [    0.074627] pci_bus 0000:00: root bus resource [mem 0xf0000000-0xfed8ffff window]
+Jul 10 09:33:23 techo2-PC kernel: [    0.074629] pci_bus 0000:00: root bus resource [bus 00-ff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.074636] pci 0000:00:00.0: [8086:2e20] type 00 class 0x060000
+Jul 10 09:33:23 techo2-PC kernel: [    0.074657] DMAR: Forcing write-buffer flush capability
+Jul 10 09:33:23 techo2-PC kernel: [    0.074658] DMAR: Disabling IOMMU for graphics on this chipset
+Jul 10 09:33:23 techo2-PC kernel: [    0.074729] pci 0000:00:02.0: [8086:2e22] type 00 class 0x030000
+Jul 10 09:33:23 techo2-PC kernel: [    0.074739] pci 0000:00:02.0: reg 0x10: [mem 0xfe400000-0xfe7fffff 64bit]
+Jul 10 09:33:23 techo2-PC kernel: [    0.074745] pci 0000:00:02.0: reg 0x18: [mem 0xd0000000-0xdfffffff 64bit pref]
+Jul 10 09:33:23 techo2-PC kernel: [    0.074749] pci 0000:00:02.0: reg 0x20: [io  0xdc00-0xdc07]
+Jul 10 09:33:23 techo2-PC kernel: [    0.074853] pci 0000:00:1a.0: [8086:3a37] type 00 class 0x0c0300
+Jul 10 09:33:23 techo2-PC kernel: [    0.074892] pci 0000:00:1a.0: reg 0x20: [io  0xd880-0xd89f]
+Jul 10 09:33:23 techo2-PC kernel: [    0.074994] pci 0000:00:1a.1: [8086:3a38] type 00 class 0x0c0300
+Jul 10 09:33:23 techo2-PC kernel: [    0.075032] pci 0000:00:1a.1: reg 0x20: [io  0xd800-0xd81f]
+Jul 10 09:33:23 techo2-PC kernel: [    0.075141] pci 0000:00:1a.7: [8086:3a3c] type 00 class 0x0c0320
+Jul 10 09:33:23 techo2-PC kernel: [    0.075160] pci 0000:00:1a.7: reg 0x10: [mem 0xfeafa000-0xfeafa3ff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.075233] pci 0000:00:1a.7: PME# supported from D0 D3hot D3cold
+Jul 10 09:33:23 techo2-PC kernel: [    0.075309] pci 0000:00:1b.0: [8086:3a3e] type 00 class 0x040300
+Jul 10 09:33:23 techo2-PC kernel: [    0.075327] pci 0000:00:1b.0: reg 0x10: [mem 0xfeaf4000-0xfeaf7fff 64bit]
+Jul 10 09:33:23 techo2-PC kernel: [    0.075389] pci 0000:00:1b.0: PME# supported from D0 D3hot D3cold
+Jul 10 09:33:23 techo2-PC kernel: [    0.075467] pci 0000:00:1c.0: [8086:3a40] type 01 class 0x060400
+Jul 10 09:33:23 techo2-PC kernel: [    0.075527] pci 0000:00:1c.0: PME# supported from D0 D3hot D3cold
+Jul 10 09:33:23 techo2-PC kernel: [    0.075606] pci 0000:00:1c.1: [8086:3a42] type 01 class 0x060400
+Jul 10 09:33:23 techo2-PC kernel: [    0.075670] pci 0000:00:1c.1: PME# supported from D0 D3hot D3cold
+Jul 10 09:33:23 techo2-PC kernel: [    0.075755] pci 0000:00:1d.0: [8086:3a34] type 00 class 0x0c0300
+Jul 10 09:33:23 techo2-PC kernel: [    0.075794] pci 0000:00:1d.0: reg 0x20: [io  0xd480-0xd49f]
+Jul 10 09:33:23 techo2-PC kernel: [    0.075894] pci 0000:00:1d.1: [8086:3a35] type 00 class 0x0c0300
+Jul 10 09:33:23 techo2-PC kernel: [    0.075933] pci 0000:00:1d.1: reg 0x20: [io  0xd400-0xd41f]
+Jul 10 09:33:23 techo2-PC kernel: [    0.076042] pci 0000:00:1d.2: [8086:3a36] type 00 class 0x0c0300
+Jul 10 09:33:23 techo2-PC kernel: [    0.076082] pci 0000:00:1d.2: reg 0x20: [io  0xd080-0xd09f]
+Jul 10 09:33:23 techo2-PC kernel: [    0.076183] pci 0000:00:1d.3: [8086:3a39] type 00 class 0x0c0300
+Jul 10 09:33:23 techo2-PC kernel: [    0.076221] pci 0000:00:1d.3: reg 0x20: [io  0xd000-0xd01f]
+Jul 10 09:33:23 techo2-PC kernel: [    0.076327] pci 0000:00:1d.7: [8086:3a3a] type 00 class 0x0c0320
+Jul 10 09:33:23 techo2-PC kernel: [    0.076346] pci 0000:00:1d.7: reg 0x10: [mem 0xfeaf8000-0xfeaf83ff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.076419] pci 0000:00:1d.7: PME# supported from D0 D3hot D3cold
+Jul 10 09:33:23 techo2-PC kernel: [    0.076496] pci 0000:00:1e.0: [8086:244e] type 01 class 0x060401
+Jul 10 09:33:23 techo2-PC kernel: [    0.076604] pci 0000:00:1f.0: [8086:3a18] type 00 class 0x060100
+Jul 10 09:33:23 techo2-PC kernel: [    0.076761] pci 0000:00:1f.2: [8086:3a20] type 00 class 0x01018a
+Jul 10 09:33:23 techo2-PC kernel: [    0.076775] pci 0000:00:1f.2: reg 0x10: [io  0x0000-0x0007]
+Jul 10 09:33:23 techo2-PC kernel: [    0.076781] pci 0000:00:1f.2: reg 0x14: [io  0x0000-0x0003]
+Jul 10 09:33:23 techo2-PC kernel: [    0.076787] pci 0000:00:1f.2: reg 0x18: [io  0x0000-0x0007]
+Jul 10 09:33:23 techo2-PC kernel: [    0.076794] pci 0000:00:1f.2: reg 0x1c: [io  0x0000-0x0003]
+Jul 10 09:33:23 techo2-PC kernel: [    0.076800] pci 0000:00:1f.2: reg 0x20: [io  0xff90-0xff9f]
+Jul 10 09:33:23 techo2-PC kernel: [    0.076806] pci 0000:00:1f.2: reg 0x24: [io  0xffa0-0xffaf]
+Jul 10 09:33:23 techo2-PC kernel: [    0.076815] pci 0000:00:1f.2: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Jul 10 09:33:23 techo2-PC kernel: [    0.076816] pci 0000:00:1f.2: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Jul 10 09:33:23 techo2-PC kernel: [    0.076817] pci 0000:00:1f.2: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Jul 10 09:33:23 techo2-PC kernel: [    0.076819] pci 0000:00:1f.2: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Jul 10 09:33:23 techo2-PC kernel: [    0.076903] pci 0000:00:1f.3: [8086:3a30] type 00 class 0x0c0500
+Jul 10 09:33:23 techo2-PC kernel: [    0.076919] pci 0000:00:1f.3: reg 0x10: [mem 0xfeaf3c00-0xfeaf3cff 64bit]
+Jul 10 09:33:23 techo2-PC kernel: [    0.076936] pci 0000:00:1f.3: reg 0x20: [io  0x0400-0x041f]
+Jul 10 09:33:23 techo2-PC kernel: [    0.077051] pci 0000:00:1c.0: PCI bridge to [bus 01]
+Jul 10 09:33:23 techo2-PC kernel: [    0.077108] pci 0000:02:00.0: [10ec:8168] type 00 class 0x020000
+Jul 10 09:33:23 techo2-PC kernel: [    0.077134] pci 0000:02:00.0: reg 0x10: [io  0xe800-0xe8ff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.077159] pci 0000:02:00.0: reg 0x18: [mem 0xfebff000-0xfebfffff 64bit]
+Jul 10 09:33:23 techo2-PC kernel: [    0.077175] pci 0000:02:00.0: reg 0x20: [mem 0xfdffc000-0xfdffffff 64bit pref]
+Jul 10 09:33:23 techo2-PC kernel: [    0.077186] pci 0000:02:00.0: reg 0x30: [mem 0xfebc0000-0xfebdffff pref]
+Jul 10 09:33:23 techo2-PC kernel: [    0.077259] pci 0000:02:00.0: supports D1 D2
+Jul 10 09:33:23 techo2-PC kernel: [    0.077261] pci 0000:02:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+Jul 10 09:33:23 techo2-PC kernel: [    0.088025] pci 0000:00:1c.1: PCI bridge to [bus 02]
+Jul 10 09:33:23 techo2-PC kernel: [    0.088030] pci 0000:00:1c.1:   bridge window [io  0xe000-0xefff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.088034] pci 0000:00:1c.1:   bridge window [mem 0xfeb00000-0xfebfffff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.088040] pci 0000:00:1c.1:   bridge window [mem 0xfdf00000-0xfdffffff 64bit pref]
+Jul 10 09:33:23 techo2-PC kernel: [    0.088125] pci 0000:00:1e.0: PCI bridge to [bus 03] (subtractive decode)
+Jul 10 09:33:23 techo2-PC kernel: [    0.088135] pci 0000:00:1e.0:   bridge window [io  0x0000-0x0cf7 window] (subtractive decode)
+Jul 10 09:33:23 techo2-PC kernel: [    0.088138] pci 0000:00:1e.0:   bridge window [io  0x0d00-0xffff window] (subtractive decode)
+Jul 10 09:33:23 techo2-PC kernel: [    0.088141] pci 0000:00:1e.0:   bridge window [mem 0x000a0000-0x000bffff window] (subtractive decode)
+Jul 10 09:33:23 techo2-PC kernel: [    0.088143] pci 0000:00:1e.0:   bridge window [mem 0x000d0000-0x000dffff window] (subtractive decode)
+Jul 10 09:33:23 techo2-PC kernel: [    0.088146] pci 0000:00:1e.0:   bridge window [mem 0xb7e00000-0xdfffffff window] (subtractive decode)
+Jul 10 09:33:23 techo2-PC kernel: [    0.088148] pci 0000:00:1e.0:   bridge window [mem 0xf0000000-0xfed8ffff window] (subtractive decode)
+Jul 10 09:33:23 techo2-PC kernel: [    0.088762] ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 6 7 *10 11 12 14 15)
+Jul 10 09:33:23 techo2-PC kernel: [    0.088811] ACPI: PCI Interrupt Link [LNKB] (IRQs *5)
+Jul 10 09:33:23 techo2-PC kernel: [    0.088857] ACPI: PCI Interrupt Link [LNKC] (IRQs *3 4 6 7 10 11 12 14 15)
+Jul 10 09:33:23 techo2-PC kernel: [    0.088904] ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 6 7 *10 11 12 14 15)
+Jul 10 09:33:23 techo2-PC kernel: [    0.088952] ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 6 7 10 11 12 14 15) *0, disabled.
+Jul 10 09:33:23 techo2-PC kernel: [    0.089000] ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 6 7 10 *11 12 14 15)
+Jul 10 09:33:23 techo2-PC kernel: [    0.089048] ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 6 7 *10 11 12 14 15)
+Jul 10 09:33:23 techo2-PC kernel: [    0.089096] ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 6 7 10 *11 12 14 15)
+Jul 10 09:33:23 techo2-PC kernel: [    0.089376] SCSI subsystem initialized
+Jul 10 09:33:23 techo2-PC kernel: [    0.089401] libata version 3.00 loaded.
+Jul 10 09:33:23 techo2-PC kernel: [    0.089401] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Jul 10 09:33:23 techo2-PC kernel: [    0.089401] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Jul 10 09:33:23 techo2-PC kernel: [    0.089401] pci 0000:00:02.0: vgaarb: bridge control possible
+Jul 10 09:33:23 techo2-PC kernel: [    0.089401] vgaarb: loaded
+Jul 10 09:33:23 techo2-PC kernel: [    0.089401] ACPI: bus type USB registered
+Jul 10 09:33:23 techo2-PC kernel: [    0.089401] usbcore: registered new interface driver usbfs
+Jul 10 09:33:23 techo2-PC kernel: [    0.089401] usbcore: registered new interface driver hub
+Jul 10 09:33:23 techo2-PC kernel: [    0.089401] usbcore: registered new device driver usb
+Jul 10 09:33:23 techo2-PC kernel: [    0.089401] EDAC MC: Ver: 3.0.0
+Jul 10 09:33:23 techo2-PC kernel: [    0.089401] PCI: Using ACPI for IRQ routing
+Jul 10 09:33:23 techo2-PC kernel: [    0.094845] PCI: pci_cache_line_size set to 64 bytes
+Jul 10 09:33:23 techo2-PC kernel: [    0.094882] Expanded resource Reserved due to conflict with PCI Bus 0000:00
+Jul 10 09:33:23 techo2-PC kernel: [    0.094884] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.094885] e820: reserve RAM buffer [mem 0xb7d90000-0xb7ffffff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.094971] NetLabel: Initializing
+Jul 10 09:33:23 techo2-PC kernel: [    0.094972] NetLabel:  domain hash size = 128
+Jul 10 09:33:23 techo2-PC kernel: [    0.094972] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Jul 10 09:33:23 techo2-PC kernel: [    0.094990] NetLabel:  unlabeled traffic allowed by default
+Jul 10 09:33:23 techo2-PC kernel: [    0.095008] HPET: 4 timers in total, 0 timers will be used for per-cpu timer
+Jul 10 09:33:23 techo2-PC kernel: [    0.095008] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0
+Jul 10 09:33:23 techo2-PC kernel: [    0.095008] hpet0: 4 comparators, 64-bit 14.318180 MHz counter
+Jul 10 09:33:23 techo2-PC kernel: [    0.097012] clocksource: Switched to clocksource hpet
+Jul 10 09:33:23 techo2-PC kernel: [    0.109579] VFS: Disk quotas dquot_6.6.0
+Jul 10 09:33:23 techo2-PC kernel: [    0.109603] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Jul 10 09:33:23 techo2-PC kernel: [    0.109732] AppArmor: AppArmor Filesystem Enabled
+Jul 10 09:33:23 techo2-PC kernel: [    0.109790] pnp: PnP ACPI init
+Jul 10 09:33:23 techo2-PC kernel: [    0.109883] system 00:00: [mem 0xfed14000-0xfed19fff] has been reserved
+Jul 10 09:33:23 techo2-PC kernel: [    0.109887] system 00:00: [mem 0xfed90000-0xfed93fff] has been reserved
+Jul 10 09:33:23 techo2-PC kernel: [    0.109891] system 00:00: Plug and Play ACPI device, IDs PNP0c01 (active)
+Jul 10 09:33:23 techo2-PC kernel: [    0.109956] pnp 00:01: Plug and Play ACPI device, IDs PNP0b00 (active)
+Jul 10 09:33:23 techo2-PC kernel: [    0.110003] pnp 00:02: Plug and Play ACPI device, IDs PNP0303 PNP030b (active)
+Jul 10 09:33:23 techo2-PC kernel: [    0.110054] pnp 00:03: Plug and Play ACPI device, IDs PNP0f03 PNP0f13 (active)
+Jul 10 09:33:23 techo2-PC kernel: [    0.110375] pnp 00:04: [dma 3]
+Jul 10 09:33:23 techo2-PC kernel: [    0.110477] pnp 00:04: Plug and Play ACPI device, IDs PNP0401 (active)
+Jul 10 09:33:23 techo2-PC kernel: [    0.110574] system 00:05: [io  0x0a00-0x0a0f] has been reserved
+Jul 10 09:33:23 techo2-PC kernel: [    0.110576] system 00:05: [io  0x0a10-0x0a1f] has been reserved
+Jul 10 09:33:23 techo2-PC kernel: [    0.110579] system 00:05: Plug and Play ACPI device, IDs PNP0c02 (active)
+Jul 10 09:33:23 techo2-PC kernel: [    0.110703] system 00:06: [io  0x04d0-0x04d1] has been reserved
+Jul 10 09:33:23 techo2-PC kernel: [    0.110705] system 00:06: [io  0x0800-0x087f] has been reserved
+Jul 10 09:33:23 techo2-PC kernel: [    0.110706] system 00:06: [io  0x0500-0x057f] has been reserved
+Jul 10 09:33:23 techo2-PC kernel: [    0.110708] system 00:06: [mem 0xfed1c000-0xfed1ffff] has been reserved
+Jul 10 09:33:23 techo2-PC kernel: [    0.110710] system 00:06: [mem 0xfed20000-0xfed3ffff] has been reserved
+Jul 10 09:33:23 techo2-PC kernel: [    0.110712] system 00:06: [mem 0xfed40000-0xfed8ffff] has been reserved
+Jul 10 09:33:23 techo2-PC kernel: [    0.110714] system 00:06: Plug and Play ACPI device, IDs PNP0c02 (active)
+Jul 10 09:33:23 techo2-PC kernel: [    0.110802] system 00:07: [mem 0xffc00000-0xffefffff] has been reserved
+Jul 10 09:33:23 techo2-PC kernel: [    0.110804] system 00:07: Plug and Play ACPI device, IDs PNP0c02 (active)
+Jul 10 09:33:23 techo2-PC kernel: [    0.110891] system 00:08: [mem 0xfec00000-0xfec00fff] could not be reserved
+Jul 10 09:33:23 techo2-PC kernel: [    0.110893] system 00:08: [mem 0xfee00000-0xfee00fff] has been reserved
+Jul 10 09:33:23 techo2-PC kernel: [    0.110896] system 00:08: Plug and Play ACPI device, IDs PNP0c02 (active)
+Jul 10 09:33:23 techo2-PC kernel: [    0.111061] pnp 00:09: [dma 0 disabled]
+Jul 10 09:33:23 techo2-PC kernel: [    0.111120] pnp 00:09: Plug and Play ACPI device, IDs PNP0501 (active)
+Jul 10 09:33:23 techo2-PC kernel: [    0.111175] system 00:0a: [mem 0xe0000000-0xefffffff] has been reserved
+Jul 10 09:33:23 techo2-PC kernel: [    0.111178] system 00:0a: Plug and Play ACPI device, IDs PNP0c02 (active)
+Jul 10 09:33:23 techo2-PC kernel: [    0.111322] system 00:0b: [mem 0x00000000-0x0009ffff] could not be reserved
+Jul 10 09:33:23 techo2-PC kernel: [    0.111324] system 00:0b: [mem 0x000c0000-0x000cffff] could not be reserved
+Jul 10 09:33:23 techo2-PC kernel: [    0.111326] system 00:0b: [mem 0x000e0000-0x000fffff] could not be reserved
+Jul 10 09:33:23 techo2-PC kernel: [    0.111327] system 00:0b: [mem 0x00100000-0xb7dfffff] could not be reserved
+Jul 10 09:33:23 techo2-PC kernel: [    0.111329] system 00:0b: [mem 0xfed90000-0xffffffff] could not be reserved
+Jul 10 09:33:23 techo2-PC kernel: [    0.111332] system 00:0b: Plug and Play ACPI device, IDs PNP0c01 (active)
+Jul 10 09:33:23 techo2-PC kernel: [    0.111437] pnp: PnP ACPI: found 12 devices
+Jul 10 09:33:23 techo2-PC kernel: [    0.117769] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Jul 10 09:33:23 techo2-PC kernel: [    0.117784] pci 0000:00:1c.0: bridge window [io  0x1000-0x0fff] to [bus 01] add_size 1000
+Jul 10 09:33:23 techo2-PC kernel: [    0.117787] pci 0000:00:1c.0: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 01] add_size 200000 add_align 100000
+Jul 10 09:33:23 techo2-PC kernel: [    0.117789] pci 0000:00:1c.0: bridge window [mem 0x00100000-0x000fffff] to [bus 01] add_size 200000 add_align 100000
+Jul 10 09:33:23 techo2-PC kernel: [    0.117806] pci 0000:00:1c.0: BAR 14: assigned [mem 0xc0000000-0xc01fffff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117811] pci 0000:00:1c.0: BAR 15: assigned [mem 0xc0200000-0xc03fffff 64bit pref]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117813] pci 0000:00:1c.0: BAR 13: assigned [io  0x1000-0x1fff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117816] pci 0000:00:1c.0: PCI bridge to [bus 01]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117818] pci 0000:00:1c.0:   bridge window [io  0x1000-0x1fff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117822] pci 0000:00:1c.0:   bridge window [mem 0xc0000000-0xc01fffff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117825] pci 0000:00:1c.0:   bridge window [mem 0xc0200000-0xc03fffff 64bit pref]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117830] pci 0000:00:1c.1: PCI bridge to [bus 02]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117832] pci 0000:00:1c.1:   bridge window [io  0xe000-0xefff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117835] pci 0000:00:1c.1:   bridge window [mem 0xfeb00000-0xfebfffff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117838] pci 0000:00:1c.1:   bridge window [mem 0xfdf00000-0xfdffffff 64bit pref]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117843] pci 0000:00:1e.0: PCI bridge to [bus 03]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117851] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117853] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117854] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117856] pci_bus 0000:00: resource 7 [mem 0x000d0000-0x000dffff window]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117857] pci_bus 0000:00: resource 8 [mem 0xb7e00000-0xdfffffff window]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117859] pci_bus 0000:00: resource 9 [mem 0xf0000000-0xfed8ffff window]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117860] pci_bus 0000:01: resource 0 [io  0x1000-0x1fff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117861] pci_bus 0000:01: resource 1 [mem 0xc0000000-0xc01fffff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117863] pci_bus 0000:01: resource 2 [mem 0xc0200000-0xc03fffff 64bit pref]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117864] pci_bus 0000:02: resource 0 [io  0xe000-0xefff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117866] pci_bus 0000:02: resource 1 [mem 0xfeb00000-0xfebfffff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117867] pci_bus 0000:02: resource 2 [mem 0xfdf00000-0xfdffffff 64bit pref]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117868] pci_bus 0000:03: resource 4 [io  0x0000-0x0cf7 window]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117870] pci_bus 0000:03: resource 5 [io  0x0d00-0xffff window]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117871] pci_bus 0000:03: resource 6 [mem 0x000a0000-0x000bffff window]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117873] pci_bus 0000:03: resource 7 [mem 0x000d0000-0x000dffff window]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117874] pci_bus 0000:03: resource 8 [mem 0xb7e00000-0xdfffffff window]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117876] pci_bus 0000:03: resource 9 [mem 0xf0000000-0xfed8ffff window]
+Jul 10 09:33:23 techo2-PC kernel: [    0.117943] NET: Registered protocol family 2
+Jul 10 09:33:23 techo2-PC kernel: [    0.118117] TCP established hash table entries: 32768 (order: 6, 262144 bytes)
+Jul 10 09:33:23 techo2-PC kernel: [    0.118218] TCP bind hash table entries: 32768 (order: 7, 524288 bytes)
+Jul 10 09:33:23 techo2-PC kernel: [    0.118374] TCP: Hash tables configured (established 32768 bind 32768)
+Jul 10 09:33:23 techo2-PC kernel: [    0.118425] UDP hash table entries: 2048 (order: 4, 65536 bytes)
+Jul 10 09:33:23 techo2-PC kernel: [    0.118449] UDP-Lite hash table entries: 2048 (order: 4, 65536 bytes)
+Jul 10 09:33:23 techo2-PC kernel: [    0.118508] NET: Registered protocol family 1
+Jul 10 09:33:23 techo2-PC kernel: [    0.118524] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.119494] PCI: CLS 32 bytes, default 64
+Jul 10 09:33:23 techo2-PC kernel: [    0.119537] Unpacking initramfs...
+Jul 10 09:33:23 techo2-PC kernel: [    0.841816] Freeing initrd memory: 48192K
+Jul 10 09:33:23 techo2-PC kernel: [    0.841905] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Jul 10 09:33:23 techo2-PC kernel: [    0.841909] software IO TLB [mem 0xb3d90000-0xb7d90000] (64MB) mapped at [ffff8ba673d90000-ffff8ba677d8ffff]
+Jul 10 09:33:23 techo2-PC kernel: [    0.842054] Scanning for low memory corruption every 60 seconds
+Jul 10 09:33:23 techo2-PC kernel: [    0.842360] audit: initializing netlink subsys (disabled)
+Jul 10 09:33:23 techo2-PC kernel: [    0.842438] audit: type=2000 audit(1562731373.842:1): state=initialized audit_enabled=0 res=1
+Jul 10 09:33:23 techo2-PC kernel: [    0.842719] Initialise system trusted keyrings
+Jul 10 09:33:23 techo2-PC kernel: [    0.842732] Key type blacklist registered
+Jul 10 09:33:23 techo2-PC kernel: [    0.842766] workingset: timestamp_bits=36 max_order=20 bucket_order=0
+Jul 10 09:33:23 techo2-PC kernel: [    0.844277] zbud: loaded
+Jul 10 09:33:23 techo2-PC kernel: [    0.844756] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Jul 10 09:33:23 techo2-PC kernel: [    0.844904] fuse init (API version 7.26)
+Jul 10 09:33:23 techo2-PC kernel: [    0.846097] Key type asymmetric registered
+Jul 10 09:33:23 techo2-PC kernel: [    0.846098] Asymmetric key parser 'x509' registered
+Jul 10 09:33:23 techo2-PC kernel: [    0.846132] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247)
+Jul 10 09:33:23 techo2-PC kernel: [    0.846160] io scheduler noop registered
+Jul 10 09:33:23 techo2-PC kernel: [    0.846161] io scheduler deadline registered
+Jul 10 09:33:23 techo2-PC kernel: [    0.846190] io scheduler cfq registered (default)
+Jul 10 09:33:23 techo2-PC kernel: [    0.846278] pcieport 0000:00:1c.0: enabling device (0104 -> 0107)
+Jul 10 09:33:23 techo2-PC kernel: [    0.846686] vesafb: mode is 1024x768x32, linelength=4096, pages=0
+Jul 10 09:33:23 techo2-PC kernel: [    0.846687] vesafb: scrolling: redraw
+Jul 10 09:33:23 techo2-PC kernel: [    0.846689] vesafb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+Jul 10 09:33:23 techo2-PC kernel: [    0.846701] vesafb: framebuffer at 0xd0000000, mapped to 0xffffb77f80c00000, using 3072k, total 3072k
+Jul 10 09:33:23 techo2-PC kernel: [    0.846788] Console: switching to colour frame buffer device 128x48
+Jul 10 09:33:23 techo2-PC kernel: [    0.846808] fb0: VESA VGA frame buffer device
+Jul 10 09:33:23 techo2-PC kernel: [    0.846820] intel_idle: does not run on family 6 model 23
+Jul 10 09:33:23 techo2-PC kernel: [    0.846915] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0
+Jul 10 09:33:23 techo2-PC kernel: [    0.846925] ACPI: Power Button [PWRB]
+Jul 10 09:33:23 techo2-PC kernel: [    0.846963] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input1
+Jul 10 09:33:23 techo2-PC kernel: [    0.846983] ACPI: Power Button [PWRF]
+Jul 10 09:33:23 techo2-PC kernel: [    0.847066] Monitor-Mwait will be used to enter C-1 state
+Jul 10 09:33:23 techo2-PC kernel: [    0.847069] Monitor-Mwait will be used to enter C-2 state
+Jul 10 09:33:23 techo2-PC kernel: [    0.847072] Monitor-Mwait will be used to enter C-3 state
+Jul 10 09:33:23 techo2-PC kernel: [    0.847073] tsc: Marking TSC unstable due to TSC halts in idle
+Jul 10 09:33:23 techo2-PC kernel: [    0.847315] GHES: HEST is not enabled!
+Jul 10 09:33:23 techo2-PC kernel: [    0.847399] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Jul 10 09:33:23 techo2-PC kernel: [    0.867808] 00:09: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+Jul 10 09:33:23 techo2-PC kernel: [    0.869260] Linux agpgart interface v0.103
+Jul 10 09:33:23 techo2-PC kernel: [    0.870736] loop: module loaded
+Jul 10 09:33:23 techo2-PC kernel: [    0.870849] ata_piix 0000:00:1f.2: version 2.13
+Jul 10 09:33:23 techo2-PC kernel: [    0.870937] ata_piix 0000:00:1f.2: MAP [ P0 P2 P1 P3 ]
+Jul 10 09:33:23 techo2-PC kernel: [    1.029087] scsi host0: ata_piix
+Jul 10 09:33:23 techo2-PC kernel: [    1.029191] scsi host1: ata_piix
+Jul 10 09:33:23 techo2-PC kernel: [    1.029230] ata1: SATA max UDMA/133 cmd 0x1f0 ctl 0x3f6 bmdma 0xff90 irq 14
+Jul 10 09:33:23 techo2-PC kernel: [    1.029234] ata2: SATA max UDMA/133 cmd 0x170 ctl 0x376 bmdma 0xff98 irq 15
+Jul 10 09:33:23 techo2-PC kernel: [    1.029315] libphy: Fixed MDIO Bus: probed
+Jul 10 09:33:23 techo2-PC kernel: [    1.029316] tun: Universal TUN/TAP device driver, 1.6
+Jul 10 09:33:23 techo2-PC kernel: [    1.029370] PPP generic driver version 2.4.2
+Jul 10 09:33:23 techo2-PC kernel: [    1.029416] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jul 10 09:33:23 techo2-PC kernel: [    1.029420] ehci-pci: EHCI PCI platform driver
+Jul 10 09:33:23 techo2-PC kernel: [    1.029517] ehci-pci 0000:00:1a.7: EHCI Host Controller
+Jul 10 09:33:23 techo2-PC kernel: [    1.029529] ehci-pci 0000:00:1a.7: new USB bus registered, assigned bus number 1
+Jul 10 09:33:23 techo2-PC kernel: [    1.029540] ehci-pci 0000:00:1a.7: debug port 1
+Jul 10 09:33:23 techo2-PC kernel: [    1.033434] ehci-pci 0000:00:1a.7: cache line size of 32 is not supported
+Jul 10 09:33:23 techo2-PC kernel: [    1.033444] ehci-pci 0000:00:1a.7: irq 18, io mem 0xfeafa000
+Jul 10 09:33:23 techo2-PC kernel: [    1.048086] ehci-pci 0000:00:1a.7: USB 2.0 started, EHCI 1.00
+Jul 10 09:33:23 techo2-PC kernel: [    1.048143] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+Jul 10 09:33:23 techo2-PC kernel: [    1.048146] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul 10 09:33:23 techo2-PC kernel: [    1.048149] usb usb1: Product: EHCI Host Controller
+Jul 10 09:33:23 techo2-PC kernel: [    1.048152] usb usb1: Manufacturer: Linux 4.13.0-36-generic ehci_hcd
+Jul 10 09:33:23 techo2-PC kernel: [    1.048154] usb usb1: SerialNumber: 0000:00:1a.7
+Jul 10 09:33:23 techo2-PC kernel: [    1.048325] hub 1-0:1.0: USB hub found
+Jul 10 09:33:23 techo2-PC kernel: [    1.048335] hub 1-0:1.0: 4 ports detected
+Jul 10 09:33:23 techo2-PC kernel: [    1.048548] ehci-pci 0000:00:1d.7: EHCI Host Controller
+Jul 10 09:33:23 techo2-PC kernel: [    1.048552] ehci-pci 0000:00:1d.7: new USB bus registered, assigned bus number 2
+Jul 10 09:33:23 techo2-PC kernel: [    1.048561] ehci-pci 0000:00:1d.7: debug port 1
+Jul 10 09:33:23 techo2-PC kernel: [    1.052446] ehci-pci 0000:00:1d.7: cache line size of 32 is not supported
+Jul 10 09:33:23 techo2-PC kernel: [    1.052455] ehci-pci 0000:00:1d.7: irq 23, io mem 0xfeaf8000
+Jul 10 09:33:23 techo2-PC kernel: [    1.068022] ehci-pci 0000:00:1d.7: USB 2.0 started, EHCI 1.00
+Jul 10 09:33:23 techo2-PC kernel: [    1.068050] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002
+Jul 10 09:33:23 techo2-PC kernel: [    1.068052] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul 10 09:33:23 techo2-PC kernel: [    1.068053] usb usb2: Product: EHCI Host Controller
+Jul 10 09:33:23 techo2-PC kernel: [    1.068055] usb usb2: Manufacturer: Linux 4.13.0-36-generic ehci_hcd
+Jul 10 09:33:23 techo2-PC kernel: [    1.068056] usb usb2: SerialNumber: 0000:00:1d.7
+Jul 10 09:33:23 techo2-PC kernel: [    1.068155] hub 2-0:1.0: USB hub found
+Jul 10 09:33:23 techo2-PC kernel: [    1.068160] hub 2-0:1.0: 8 ports detected
+Jul 10 09:33:23 techo2-PC kernel: [    1.068304] ehci-platform: EHCI generic platform driver
+Jul 10 09:33:23 techo2-PC kernel: [    1.068313] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Jul 10 09:33:23 techo2-PC kernel: [    1.068315] ohci-pci: OHCI PCI platform driver
+Jul 10 09:33:23 techo2-PC kernel: [    1.068323] ohci-platform: OHCI generic platform driver
+Jul 10 09:33:23 techo2-PC kernel: [    1.068331] uhci_hcd: USB Universal Host Controller Interface driver
+Jul 10 09:33:23 techo2-PC kernel: [    1.068397] uhci_hcd 0000:00:1a.0: UHCI Host Controller
+Jul 10 09:33:23 techo2-PC kernel: [    1.068402] uhci_hcd 0000:00:1a.0: new USB bus registered, assigned bus number 3
+Jul 10 09:33:23 techo2-PC kernel: [    1.068407] uhci_hcd 0000:00:1a.0: detected 2 ports
+Jul 10 09:33:23 techo2-PC kernel: [    1.068428] uhci_hcd 0000:00:1a.0: irq 16, io base 0x0000d880
+Jul 10 09:33:23 techo2-PC kernel: [    1.068466] usb usb3: New USB device found, idVendor=1d6b, idProduct=0001
+Jul 10 09:33:23 techo2-PC kernel: [    1.068467] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul 10 09:33:23 techo2-PC kernel: [    1.068469] usb usb3: Product: UHCI Host Controller
+Jul 10 09:33:23 techo2-PC kernel: [    1.068470] usb usb3: Manufacturer: Linux 4.13.0-36-generic uhci_hcd
+Jul 10 09:33:23 techo2-PC kernel: [    1.068472] usb usb3: SerialNumber: 0000:00:1a.0
+Jul 10 09:33:23 techo2-PC kernel: [    1.068567] hub 3-0:1.0: USB hub found
+Jul 10 09:33:23 techo2-PC kernel: [    1.068572] hub 3-0:1.0: 2 ports detected
+Jul 10 09:33:23 techo2-PC kernel: [    1.068712] uhci_hcd 0000:00:1a.1: UHCI Host Controller
+Jul 10 09:33:23 techo2-PC kernel: [    1.068717] uhci_hcd 0000:00:1a.1: new USB bus registered, assigned bus number 4
+Jul 10 09:33:23 techo2-PC kernel: [    1.068721] uhci_hcd 0000:00:1a.1: detected 2 ports
+Jul 10 09:33:23 techo2-PC kernel: [    1.068741] uhci_hcd 0000:00:1a.1: irq 21, io base 0x0000d800
+Jul 10 09:33:23 techo2-PC kernel: [    1.068786] usb usb4: New USB device found, idVendor=1d6b, idProduct=0001
+Jul 10 09:33:23 techo2-PC kernel: [    1.068788] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul 10 09:33:23 techo2-PC kernel: [    1.068789] usb usb4: Product: UHCI Host Controller
+Jul 10 09:33:23 techo2-PC kernel: [    1.068791] usb usb4: Manufacturer: Linux 4.13.0-36-generic uhci_hcd
+Jul 10 09:33:23 techo2-PC kernel: [    1.068792] usb usb4: SerialNumber: 0000:00:1a.1
+Jul 10 09:33:23 techo2-PC kernel: [    1.068892] hub 4-0:1.0: USB hub found
+Jul 10 09:33:23 techo2-PC kernel: [    1.068897] hub 4-0:1.0: 2 ports detected
+Jul 10 09:33:23 techo2-PC kernel: [    1.069024] uhci_hcd 0000:00:1d.0: UHCI Host Controller
+Jul 10 09:33:23 techo2-PC kernel: [    1.069028] uhci_hcd 0000:00:1d.0: new USB bus registered, assigned bus number 5
+Jul 10 09:33:23 techo2-PC kernel: [    1.069033] uhci_hcd 0000:00:1d.0: detected 2 ports
+Jul 10 09:33:23 techo2-PC kernel: [    1.069050] uhci_hcd 0000:00:1d.0: irq 23, io base 0x0000d480
+Jul 10 09:33:23 techo2-PC kernel: [    1.069087] usb usb5: New USB device found, idVendor=1d6b, idProduct=0001
+Jul 10 09:33:23 techo2-PC kernel: [    1.069089] usb usb5: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul 10 09:33:23 techo2-PC kernel: [    1.069090] usb usb5: Product: UHCI Host Controller
+Jul 10 09:33:23 techo2-PC kernel: [    1.069092] usb usb5: Manufacturer: Linux 4.13.0-36-generic uhci_hcd
+Jul 10 09:33:23 techo2-PC kernel: [    1.069093] usb usb5: SerialNumber: 0000:00:1d.0
+Jul 10 09:33:23 techo2-PC kernel: [    1.069194] hub 5-0:1.0: USB hub found
+Jul 10 09:33:23 techo2-PC kernel: [    1.069199] hub 5-0:1.0: 2 ports detected
+Jul 10 09:33:23 techo2-PC kernel: [    1.069327] uhci_hcd 0000:00:1d.1: UHCI Host Controller
+Jul 10 09:33:23 techo2-PC kernel: [    1.069332] uhci_hcd 0000:00:1d.1: new USB bus registered, assigned bus number 6
+Jul 10 09:33:23 techo2-PC kernel: [    1.069337] uhci_hcd 0000:00:1d.1: detected 2 ports
+Jul 10 09:33:23 techo2-PC kernel: [    1.069357] uhci_hcd 0000:00:1d.1: irq 19, io base 0x0000d400
+Jul 10 09:33:23 techo2-PC kernel: [    1.069396] usb usb6: New USB device found, idVendor=1d6b, idProduct=0001
+Jul 10 09:33:23 techo2-PC kernel: [    1.069397] usb usb6: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul 10 09:33:23 techo2-PC kernel: [    1.069399] usb usb6: Product: UHCI Host Controller
+Jul 10 09:33:23 techo2-PC kernel: [    1.069400] usb usb6: Manufacturer: Linux 4.13.0-36-generic uhci_hcd
+Jul 10 09:33:23 techo2-PC kernel: [    1.069401] usb usb6: SerialNumber: 0000:00:1d.1
+Jul 10 09:33:23 techo2-PC kernel: [    1.069500] hub 6-0:1.0: USB hub found
+Jul 10 09:33:23 techo2-PC kernel: [    1.069505] hub 6-0:1.0: 2 ports detected
+Jul 10 09:33:23 techo2-PC kernel: [    1.069632] uhci_hcd 0000:00:1d.2: UHCI Host Controller
+Jul 10 09:33:23 techo2-PC kernel: [    1.069636] uhci_hcd 0000:00:1d.2: new USB bus registered, assigned bus number 7
+Jul 10 09:33:23 techo2-PC kernel: [    1.069641] uhci_hcd 0000:00:1d.2: detected 2 ports
+Jul 10 09:33:23 techo2-PC kernel: [    1.069659] uhci_hcd 0000:00:1d.2: irq 18, io base 0x0000d080
+Jul 10 09:33:23 techo2-PC kernel: [    1.069695] usb usb7: New USB device found, idVendor=1d6b, idProduct=0001
+Jul 10 09:33:23 techo2-PC kernel: [    1.069697] usb usb7: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul 10 09:33:23 techo2-PC kernel: [    1.069698] usb usb7: Product: UHCI Host Controller
+Jul 10 09:33:23 techo2-PC kernel: [    1.069700] usb usb7: Manufacturer: Linux 4.13.0-36-generic uhci_hcd
+Jul 10 09:33:23 techo2-PC kernel: [    1.069701] usb usb7: SerialNumber: 0000:00:1d.2
+Jul 10 09:33:23 techo2-PC kernel: [    1.069794] hub 7-0:1.0: USB hub found
+Jul 10 09:33:23 techo2-PC kernel: [    1.069799] hub 7-0:1.0: 2 ports detected
+Jul 10 09:33:23 techo2-PC kernel: [    1.069924] uhci_hcd 0000:00:1d.3: UHCI Host Controller
+Jul 10 09:33:23 techo2-PC kernel: [    1.069928] uhci_hcd 0000:00:1d.3: new USB bus registered, assigned bus number 8
+Jul 10 09:33:23 techo2-PC kernel: [    1.069933] uhci_hcd 0000:00:1d.3: detected 2 ports
+Jul 10 09:33:23 techo2-PC kernel: [    1.069948] uhci_hcd 0000:00:1d.3: irq 16, io base 0x0000d000
+Jul 10 09:33:23 techo2-PC kernel: [    1.069987] usb usb8: New USB device found, idVendor=1d6b, idProduct=0001
+Jul 10 09:33:23 techo2-PC kernel: [    1.069988] usb usb8: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul 10 09:33:23 techo2-PC kernel: [    1.069990] usb usb8: Product: UHCI Host Controller
+Jul 10 09:33:23 techo2-PC kernel: [    1.069991] usb usb8: Manufacturer: Linux 4.13.0-36-generic uhci_hcd
+Jul 10 09:33:23 techo2-PC kernel: [    1.069992] usb usb8: SerialNumber: 0000:00:1d.3
+Jul 10 09:33:23 techo2-PC kernel: [    1.070090] hub 8-0:1.0: USB hub found
+Jul 10 09:33:23 techo2-PC kernel: [    1.070094] hub 8-0:1.0: 2 ports detected
+Jul 10 09:33:23 techo2-PC kernel: [    1.070214] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Jul 10 09:33:23 techo2-PC kernel: [    1.072672] serio: i8042 KBD port at 0x60,0x64 irq 1
+Jul 10 09:33:23 techo2-PC kernel: [    1.072675] serio: i8042 AUX port at 0x60,0x64 irq 12
+Jul 10 09:33:23 techo2-PC kernel: [    1.072805] mousedev: PS/2 mouse device common for all mice
+Jul 10 09:33:23 techo2-PC kernel: [    1.072947] rtc_cmos 00:01: RTC can wake from S4
+Jul 10 09:33:23 techo2-PC kernel: [    1.073045] rtc_cmos 00:01: rtc core: registered rtc_cmos as rtc0
+Jul 10 09:33:23 techo2-PC kernel: [    1.073069] rtc_cmos 00:01: alarms up to one month, y3k, 114 bytes nvram, hpet irqs
+Jul 10 09:33:23 techo2-PC kernel: [    1.073075] i2c /dev entries driver
+Jul 10 09:33:23 techo2-PC kernel: [    1.073126] device-mapper: uevent: version 1.0.3
+Jul 10 09:33:23 techo2-PC kernel: [    1.073197] device-mapper: ioctl: 4.37.0-ioctl (2017-09-20) initialised: dm-devel@redhat.com
+Jul 10 09:33:23 techo2-PC kernel: [    1.073220] ledtrig-cpu: registered to indicate activity on CPUs
+Jul 10 09:33:23 techo2-PC kernel: [    1.073556] NET: Registered protocol family 10
+Jul 10 09:33:23 techo2-PC kernel: [    1.077307] Segment Routing with IPv6
+Jul 10 09:33:23 techo2-PC kernel: [    1.077325] NET: Registered protocol family 17
+Jul 10 09:33:23 techo2-PC kernel: [    1.077333] Key type dns_resolver registered
+Jul 10 09:33:23 techo2-PC kernel: [    1.077501] RAS: Correctable Errors collector initialized.
+Jul 10 09:33:23 techo2-PC kernel: [    1.077533] microcode: sig=0x1067a, pf=0x1, revision=0xa07
+Jul 10 09:33:23 techo2-PC kernel: [    1.077573] microcode: Microcode Update Driver: v2.2.
+Jul 10 09:33:23 techo2-PC kernel: [    1.077715] registered taskstats version 1
+Jul 10 09:33:23 techo2-PC kernel: [    1.077726] Loading compiled-in X.509 certificates
+Jul 10 09:33:23 techo2-PC kernel: [    1.080284] Loaded X.509 cert 'Build time autogenerated kernel key: 6392960b5d1a7feefef54e83c93c27dba99187fc'
+Jul 10 09:33:23 techo2-PC kernel: [    1.080309] zswap: loaded using pool lzo/zbud
+Jul 10 09:33:23 techo2-PC kernel: [    1.083558] Key type big_key registered
+Jul 10 09:33:23 techo2-PC kernel: [    1.083561] Key type trusted registered
+Jul 10 09:33:23 techo2-PC kernel: [    1.085164] Key type encrypted registered
+Jul 10 09:33:23 techo2-PC kernel: [    1.085167] AppArmor: AppArmor sha1 policy hashing enabled
+Jul 10 09:33:23 techo2-PC kernel: [    1.085169] ima: No TPM chip found, activating TPM-bypass! (rc=-19)
+Jul 10 09:33:23 techo2-PC kernel: [    1.085187] evm: HMAC attrs: 0x1
+Jul 10 09:33:23 techo2-PC kernel: [    1.085394]   Magic number: 11:140:9
+Jul 10 09:33:23 techo2-PC kernel: [    1.085406] hub 4-0:1.0: hash matches
+Jul 10 09:33:23 techo2-PC kernel: [    1.085517] rtc_cmos 00:01: setting system clock to 2019-07-10 04:02:54 UTC (1562731374)
+Jul 10 09:33:23 techo2-PC kernel: [    1.085851] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Jul 10 09:33:23 techo2-PC kernel: [    1.085851] EDD information not available.
+Jul 10 09:33:23 techo2-PC kernel: [    1.085879] PM: Hibernation image not present or could not be loaded.
+Jul 10 09:33:23 techo2-PC kernel: [    1.103382] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Jul 10 09:33:23 techo2-PC kernel: [    1.669860] ata2.00: SATA link down (SStatus 0 SControl 300)
+Jul 10 09:33:23 techo2-PC kernel: [    1.669871] ata2.01: SATA link down (SStatus 0 SControl 300)
+Jul 10 09:33:23 techo2-PC kernel: [    1.816135] ata1.00: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Jul 10 09:33:23 techo2-PC kernel: [    1.816146] ata1.01: SATA link down (SStatus 0 SControl 300)
+Jul 10 09:33:23 techo2-PC kernel: [    1.818546] ata1.00: ATA-7: ST3250310AS, 3.AHB, max UDMA/100
+Jul 10 09:33:23 techo2-PC kernel: [    1.818548] ata1.00: 488397168 sectors, multi 16: LBA48 NCQ (depth 0/32)
+Jul 10 09:33:23 techo2-PC kernel: [    1.823072] ata1.00: configured for UDMA/100
+Jul 10 09:33:23 techo2-PC kernel: [    1.823217] scsi 0:0:0:0: Direct-Access     ATA      ST3250310AS      B    PQ: 0 ANSI: 5
+Jul 10 09:33:23 techo2-PC kernel: [    1.823423] sd 0:0:0:0: Attached scsi generic sg0 type 0
+Jul 10 09:33:23 techo2-PC kernel: [    1.823439] sd 0:0:0:0: [sda] 488397168 512-byte logical blocks: (250 GB/233 GiB)
+Jul 10 09:33:23 techo2-PC kernel: [    1.823451] sd 0:0:0:0: [sda] Write Protect is off
+Jul 10 09:33:23 techo2-PC kernel: [    1.823453] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Jul 10 09:33:23 techo2-PC kernel: [    1.823479] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Jul 10 09:33:23 techo2-PC kernel: [    1.852051] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2a2cdadc745, max_idle_ns: 440795335968 ns
+Jul 10 09:33:23 techo2-PC kernel: [    1.903116]  sda: sda1 sda2 < sda5 >
+Jul 10 09:33:23 techo2-PC kernel: [    1.903575] sd 0:0:0:0: [sda] Attached SCSI disk
+Jul 10 09:33:23 techo2-PC kernel: [    1.906380] Freeing unused kernel memory: 2364K
+Jul 10 09:33:23 techo2-PC kernel: [    1.906381] Write protecting the kernel read-only data: 18432k
+Jul 10 09:33:23 techo2-PC kernel: [    1.907303] Freeing unused kernel memory: 2024K
+Jul 10 09:33:23 techo2-PC kernel: [    1.907560] Freeing unused kernel memory: 88K
+Jul 10 09:33:23 techo2-PC kernel: [    1.909763] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Jul 10 09:33:23 techo2-PC kernel: [    1.909764] x86/mm: Checking user space page tables
+Jul 10 09:33:23 techo2-PC kernel: [    1.911718] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Jul 10 09:33:23 techo2-PC kernel: [    1.979825] Floppy drive(s): fd0 is 1.44M
+Jul 10 09:33:23 techo2-PC kernel: [    2.018468] r8169 Gigabit Ethernet driver 2.3LK-NAPI loaded
+Jul 10 09:33:23 techo2-PC kernel: [    2.018479] r8169 0000:02:00.0: can't disable ASPM; OS doesn't have ASPM control
+Jul 10 09:33:23 techo2-PC kernel: [    2.018885] r8169 0000:02:00.0 eth0: RTL8168d/8111d at 0xffffb77f80659000, 6c:62:6d:b2:b4:4d, XID 081000c0 IRQ 24
+Jul 10 09:33:23 techo2-PC kernel: [    2.018887] r8169 0000:02:00.0 eth0: jumbo features [frames: 9200 bytes, tx checksumming: ko]
+Jul 10 09:33:23 techo2-PC kernel: [    2.046152] r8169 0000:02:00.0 enp2s0: renamed from eth0
+Jul 10 09:33:23 techo2-PC kernel: [    2.090485] pci 0000:00:00.0: Intel G45/G43 Chipset
+Jul 10 09:33:23 techo2-PC kernel: [    2.090500] pci 0000:00:00.0: detected gtt size: 2097152K total, 262144K mappable
+Jul 10 09:33:23 techo2-PC kernel: [    2.091102] pci 0000:00:00.0: detected 131072K stolen memory
+Jul 10 09:33:23 techo2-PC kernel: [    2.091346] [drm] Memory usable by graphics device = 2048M
+Jul 10 09:33:23 techo2-PC kernel: [    2.091349] checking generic (d0000000 300000) vs hw (d0000000 10000000)
+Jul 10 09:33:23 techo2-PC kernel: [    2.091350] fb: switching to inteldrmfb from VESA VGA
+Jul 10 09:33:23 techo2-PC kernel: [    2.091377] Console: switching to colour dummy device 80x25
+Jul 10 09:33:23 techo2-PC kernel: [    2.091484] [drm] Replacing VGA console driver
+Jul 10 09:33:23 techo2-PC kernel: [    2.097644] [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+Jul 10 09:33:23 techo2-PC kernel: [    2.097645] [drm] Driver supports precise vblank timestamp query.
+Jul 10 09:33:23 techo2-PC kernel: [    2.098181] i915 0000:00:02.0: vgaarb: changed VGA decodes: olddecodes=io+mem,decodes=io+mem:owns=io+mem
+Jul 10 09:33:23 techo2-PC kernel: [    2.103950] [drm] RC6 disabled, disabling runtime PM support
+Jul 10 09:33:23 techo2-PC kernel: [    2.104152] [drm] Initialized i915 1.6.0 20170619 for 0000:00:02.0 on minor 0
+Jul 10 09:33:23 techo2-PC kernel: [    2.202684] fbcon: inteldrmfb (fb0) is primary device
+Jul 10 09:33:23 techo2-PC kernel: [    2.202745] Console: switching to colour frame buffer device 180x56
+Jul 10 09:33:23 techo2-PC kernel: [    2.202775] i915 0000:00:02.0: fb0: inteldrmfb frame buffer device
+Jul 10 09:33:23 techo2-PC kernel: [    3.206307] input: ImPS/2 Logitech Wheel Mouse as /devices/platform/i8042/serio1/input/input4
+Jul 10 09:33:23 techo2-PC kernel: [    5.084117] floppy0: no floppy controllers found
+Jul 10 09:33:23 techo2-PC kernel: [    5.300130] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Jul 10 09:33:23 techo2-PC kernel: [    6.736161] random: crng init done
+Jul 10 09:33:23 techo2-PC kernel: [    9.689471] ip_tables: (C) 2000-2006 Netfilter Core Team
+Jul 10 09:33:23 techo2-PC kernel: [   10.109133] lp: driver loaded but no devices found
+Jul 10 09:33:23 techo2-PC kernel: [   10.150388] ppdev: user-space parallel port driver
+Jul 10 09:33:23 techo2-PC kernel: [   10.160673] nf_conntrack version 0.5.0 (16384 buckets, 65536 max)
+Jul 10 09:33:23 techo2-PC kernel: [   10.185721] parport_pc 00:04: reported by Plug and Play ACPI
+Jul 10 09:33:23 techo2-PC kernel: [   10.185779] parport0: PC-style at 0x378 (0x778), irq 7, dma 3 [PCSPP,TRISTATE,COMPAT,EPP,ECP,DMA]
+Jul 10 09:33:23 techo2-PC kernel: [   10.288141] lp0: using parport0 (interrupt-driven).
+Jul 10 09:33:23 techo2-PC kernel: [   13.713232] ip6_tables: (C) 2000-2006 Netfilter Core Team
+Jul 10 09:33:23 techo2-PC kernel: [   26.510847] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Jul 10 09:33:23 techo2-PC kernel: [   26.702037] Floppy drive(s): fd0 is 1.44M
+Jul 10 09:33:23 techo2-PC kernel: [   26.761719] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Jul 10 09:33:23 techo2-PC kernel: [   26.767040] ACPI Warning: SystemIO range 0x0000000000000828-0x000000000000082F conflicts with OpRegion 0x0000000000000800-0x000000000000084F (\PMRG) (20170531/utaddress-247)
+Jul 10 09:33:23 techo2-PC kernel: [   26.767046] ACPI: If an ACPI driver is available for this device, you should use it instead of the native driver
+Jul 10 09:33:23 techo2-PC kernel: [   26.767073] lpc_ich: Resource conflict(s) found affecting gpio_ich
+Jul 10 09:33:23 techo2-PC kernel: [   26.862584] intel_powerclamp: No package C-state available
+Jul 10 09:33:23 techo2-PC kernel: [   26.932069] snd_hda_codec_realtek hdaudioC0D0: autoconfig for ALC888: line_outs=1 (0x14/0x0/0x0/0x0/0x0) type:line
+Jul 10 09:33:23 techo2-PC kernel: [   26.932071] snd_hda_codec_realtek hdaudioC0D0:    speaker_outs=1 (0x15/0x0/0x0/0x0/0x0)
+Jul 10 09:33:23 techo2-PC kernel: [   26.932073] snd_hda_codec_realtek hdaudioC0D0:    hp_outs=1 (0x1b/0x0/0x0/0x0/0x0)
+Jul 10 09:33:23 techo2-PC kernel: [   26.932074] snd_hda_codec_realtek hdaudioC0D0:    mono: mono_out=0x0
+Jul 10 09:33:23 techo2-PC kernel: [   26.932076] snd_hda_codec_realtek hdaudioC0D0:    inputs:
+Jul 10 09:33:23 techo2-PC kernel: [   26.932078] snd_hda_codec_realtek hdaudioC0D0:      Front Mic=0x19
+Jul 10 09:33:23 techo2-PC kernel: [   26.932079] snd_hda_codec_realtek hdaudioC0D0:      Rear Mic=0x18
+Jul 10 09:33:23 techo2-PC kernel: [   26.932081] snd_hda_codec_realtek hdaudioC0D0:      Line=0x1a
+Jul 10 09:33:23 techo2-PC kernel: [   26.944239] input: HDA Intel Front Mic as /devices/pci0000:00/0000:00:1b.0/sound/card0/input5
+Jul 10 09:33:23 techo2-PC kernel: [   26.944294] input: HDA Intel Rear Mic as /devices/pci0000:00/0000:00:1b.0/sound/card0/input6
+Jul 10 09:33:23 techo2-PC kernel: [   26.944345] input: HDA Intel Line as /devices/pci0000:00/0000:00:1b.0/sound/card0/input7
+Jul 10 09:33:23 techo2-PC kernel: [   26.944397] input: HDA Intel Line Out as /devices/pci0000:00/0000:00:1b.0/sound/card0/input8
+Jul 10 09:33:23 techo2-PC kernel: [   26.944450] input: HDA Intel Front Headphone as /devices/pci0000:00/0000:00:1b.0/sound/card0/input9
+Jul 10 09:33:23 techo2-PC kernel: [   27.182370] audit: type=1400 audit(1562731400.596:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=532 comm="apparmor_parser"
+Jul 10 09:33:23 techo2-PC kernel: [   27.182375] audit: type=1400 audit(1562731400.596:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=532 comm="apparmor_parser"
+Jul 10 09:33:23 techo2-PC kernel: [   27.182377] audit: type=1400 audit(1562731400.596:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=532 comm="apparmor_parser"
+Jul 10 09:33:23 techo2-PC kernel: [   27.182379] audit: type=1400 audit(1562731400.596:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=532 comm="apparmor_parser"
+Jul 10 09:33:23 techo2-PC kernel: [   27.182985] audit: type=1400 audit(1562731400.597:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lightdm/lightdm-guest-session" pid=531 comm="apparmor_parser"
+Jul 10 09:33:23 techo2-PC kernel: [   27.182988] audit: type=1400 audit(1562731400.597:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lightdm/lightdm-guest-session//chromium" pid=531 comm="apparmor_parser"
+Jul 10 09:33:23 techo2-PC kernel: [   27.195622] audit: type=1400 audit(1562731400.610:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince" pid=533 comm="apparmor_parser"
+Jul 10 09:33:23 techo2-PC kernel: [   27.195629] audit: type=1400 audit(1562731400.610:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince//sanitized_helper" pid=533 comm="apparmor_parser"
+Jul 10 09:33:23 techo2-PC kernel: [   27.195631] audit: type=1400 audit(1562731400.610:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince-previewer" pid=533 comm="apparmor_parser"
+Jul 10 09:33:23 techo2-PC kernel: [   27.195634] audit: type=1400 audit(1562731400.610:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince-previewer//sanitized_helper" pid=533 comm="apparmor_parser"
+Jul 10 09:33:23 techo2-PC kernel: [   28.200427] gpio_ich: GPIO from 451 to 511 on gpio_ich
+Jul 10 09:33:23 techo2-PC kernel: [   29.361220] Adding 4059132k swap on /dev/sda5.  Priority:-1 extents:1 across:4059132k FS
+Jul 10 09:33:23 techo2-PC kernel: [   29.916057] floppy0: no floppy controllers found
+Jul 10 09:33:27 techo2-PC NetworkManager[768]: <info>  [1562731407.1331] NetworkManager (version 1.2.6) is starting...
+Jul 10 09:33:27 techo2-PC NetworkManager[768]: <info>  [1562731407.1332] Read config: /etc/NetworkManager/NetworkManager.conf (etc: default-wifi-powersave-on.conf)
+Jul 10 09:33:27 techo2-PC NetworkManager[768]: <info>  [1562731407.6095] manager[0x1d0d200]: monitoring kernel firmware directory '/lib/firmware'.
+Jul 10 09:33:27 techo2-PC NetworkManager[768]: <info>  [1562731407.6095] monitoring ifupdown state file '/run/network/ifstate'.
+Jul 10 09:33:27 techo2-PC NetworkManager[768]: <info>  [1562731407.7242] dns-mgr[0x1d06940]: init: dns=dnsmasq, rc-manager=resolvconf, plugin=dnsmasq
+Jul 10 09:33:28 techo2-PC kernel: [   35.267781] kauditd_printk_skb: 14 callbacks suppressed
+Jul 10 09:33:28 techo2-PC kernel: [   35.267783] audit: type=1400 audit(1562731408.682:26): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/870/status" pid=870 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=122 ouid=122
+Jul 10 09:33:28 techo2-PC kernel: [   35.267798] audit: type=1400 audit(1562731408.682:27): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=870 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=122 ouid=0
+Jul 10 09:33:28 techo2-PC kernel: [   35.267859] audit: type=1400 audit(1562731408.682:28): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/870/status" pid=870 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=122 ouid=122
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.3236] init!
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.3238] management mode: unmanaged
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.3242] devices added (path: /sys/devices/pci0000:00/0000:00:1c.1/0000:02:00.0/net/enp2s0, iface: enp2s0)
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.3242] device added (path: /sys/devices/pci0000:00/0000:00:1c.1/0000:02:00.0/net/enp2s0, iface: enp2s0): no ifupdown configuration found.
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.3242] devices added (path: /sys/devices/virtual/net/lo, iface: lo)
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.3243] device added (path: /sys/devices/virtual/net/lo, iface: lo): no ifupdown configuration found.
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.3243] end _init.
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.3243] settings: loaded plugin ifupdown: (C) 2008 Canonical Ltd.  To report bugs please use the NetworkManager mailing list. (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-settings-plugin-ifupdown.so)
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.3244] settings: loaded plugin keyfile: (c) 2007 - 2015 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.3245] SettingsPlugin-Ofono: init!
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <warn>  [1562731409.3246] SettingsPlugin-Ofono: file doesn't exist: /var/lib/ofono
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.3246] SettingsPlugin-Ofono: end _init.
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.3246] settings: loaded plugin ofono: (C) 2013-2016 Canonical Ltd.  To report bugs please use the NetworkManager mailing list. (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-settings-plugin-ofono.so)
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.3246] (30583712) ... get_connections.
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.3247] (30583712) ... get_connections (managed=false): return empty list.
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.6302] keyfile: new connection /etc/NetworkManager/system-connections/Wired connection 1 (4245a977-20ce-3117-95fe-5be0f364b288,"Wired connection 1")
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.6307] SettingsPlugin-Ofono: (30583936) ... get_connections.
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.6307] SettingsPlugin-Ofono: (30583936) connections count: 0
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.6307] get unmanaged devices count: 0
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.6792] settings: hostname: using hostnamed
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.6792] settings: hostname changed from (none) to "techo2-PC"
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.6794] Using DHCP client 'dhclient'
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.6795] manager: WiFi enabled by radio killswitch; enabled by state file
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.6795] manager: WWAN enabled by radio killswitch; enabled by state file
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.6795] manager: Networking is enabled by state file
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.6796] Loaded device plugin: NMVxlanFactory (internal)
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.6796] Loaded device plugin: NMVlanFactory (internal)
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.6796] Loaded device plugin: NMVethFactory (internal)
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.6797] Loaded device plugin: NMTunFactory (internal)
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.6797] Loaded device plugin: NMMacvlanFactory (internal)
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.6797] Loaded device plugin: NMIPTunnelFactory (internal)
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.6797] Loaded device plugin: NMInfinibandFactory (internal)
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.6798] Loaded device plugin: NMEthernetFactory (internal)
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.6798] Loaded device plugin: NMBridgeFactory (internal)
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.6798] Loaded device plugin: NMBondFactory (internal)
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.6803] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-adsl.so)
+Jul 10 09:33:29 techo2-PC NetworkManager[768]: <info>  [1562731409.6807] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-wifi.so)
+Jul 10 09:33:30 techo2-PC NetworkManager[768]: <info>  [1562731410.3676] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-wwan.so)
+Jul 10 09:33:30 techo2-PC NetworkManager[768]: <info>  [1562731410.4872] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-bluetooth.so)
+Jul 10 09:33:30 techo2-PC NetworkManager[768]: <info>  [1562731410.5222] manager: (enp2s0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/0)
+Jul 10 09:33:30 techo2-PC NetworkManager[768]: <info>  [1562731410.5239] device (enp2s0): state change: unmanaged -> unavailable (reason 'managed') [10 20 2]
+Jul 10 09:33:30 techo2-PC kernel: [   37.109766] IPv6: ADDRCONF(NETDEV_UP): enp2s0: link is not ready
+Jul 10 09:33:31 techo2-PC NetworkManager[768]: nm_device_get_device_type: assertion 'NM_IS_DEVICE (self)' failed
+Jul 10 09:33:31 techo2-PC NetworkManager[768]: <info>  [1562731411.2093] device (lo): link connected
+Jul 10 09:33:31 techo2-PC NetworkManager[768]: <info>  [1562731411.2101] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Jul 10 09:33:31 techo2-PC kernel: [   37.793353] r8169 0000:02:00.0 enp2s0: link down
+Jul 10 09:33:31 techo2-PC kernel: [   37.793364] r8169 0000:02:00.0 enp2s0: link down
+Jul 10 09:33:31 techo2-PC kernel: [   37.793411] IPv6: ADDRCONF(NETDEV_UP): enp2s0: link is not ready
+Jul 10 09:33:31 techo2-PC NetworkManager[768]: <info>  [1562731411.3422] urfkill disappeared from the bus
+Jul 10 09:33:31 techo2-PC NetworkManager[768]: <info>  [1562731411.4308] ofono is now available
+Jul 10 09:33:31 techo2-PC NetworkManager[768]: <warn>  [1562731411.4319] failed to enumerate oFono devices: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.ofono was not provided by any .service files
+Jul 10 09:33:33 techo2-PC kernel: [   40.159863] r8169 0000:02:00.0 enp2s0: link up
+Jul 10 09:33:33 techo2-PC kernel: [   40.159875] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0: link becomes ready
+Jul 10 09:33:33 techo2-PC NetworkManager[768]: <info>  [1562731413.5746] device (enp2s0): link connected
+Jul 10 09:33:33 techo2-PC NetworkManager[768]: <info>  [1562731413.5758] device (enp2s0): state change: unavailable -> disconnected (reason 'carrier-changed') [20 30 40]
+Jul 10 09:33:33 techo2-PC NetworkManager[768]: <info>  [1562731413.5766] policy: auto-activating connection 'Wired connection 1'
+Jul 10 09:33:33 techo2-PC NetworkManager[768]: <info>  [1562731413.5776] device (enp2s0): Activation: starting connection 'Wired connection 1' (4245a977-20ce-3117-95fe-5be0f364b288)
+Jul 10 09:33:33 techo2-PC NetworkManager[768]: <info>  [1562731413.5778] device (enp2s0): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Jul 10 09:33:33 techo2-PC NetworkManager[768]: <info>  [1562731413.5780] manager: NetworkManager state is now CONNECTING
+Jul 10 09:33:33 techo2-PC NetworkManager[768]: <info>  [1562731413.5786] device (enp2s0): state change: prepare -> config (reason 'none') [40 50 0]
+Jul 10 09:33:33 techo2-PC NetworkManager[768]: <info>  [1562731413.5795] device (enp2s0): state change: config -> ip-config (reason 'none') [50 70 0]
+Jul 10 09:33:33 techo2-PC NetworkManager[768]: <info>  [1562731413.5842] device (enp2s0): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+Jul 10 09:33:33 techo2-PC NetworkManager[768]: <info>  [1562731413.5879] device (enp2s0): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+Jul 10 09:33:33 techo2-PC NetworkManager[768]: <info>  [1562731413.5882] device (enp2s0): state change: secondaries -> activated (reason 'none') [90 100 0]
+Jul 10 09:33:33 techo2-PC NetworkManager[768]: <info>  [1562731413.5883] manager: NetworkManager state is now CONNECTED_LOCAL
+Jul 10 09:33:33 techo2-PC NetworkManager[768]: <info>  [1562731413.6802] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jul 10 09:33:33 techo2-PC NetworkManager[768]: <info>  [1562731413.6804] policy: set 'Wired connection 1' (enp2s0) as default for IPv4 routing and DNS
+Jul 10 09:33:33 techo2-PC NetworkManager[768]: <info>  [1562731413.6805] dns-plugin[0x1d1f8e0]: starting dnsmasq...
+Jul 10 09:33:33 techo2-PC NetworkManager[768]: <info>  [1562731413.6823] dns-mgr: Writing DNS information to /sbin/resolvconf
+Jul 10 09:33:34 techo2-PC NetworkManager[768]: <info>  [1562731414.3005] device (enp2s0): Activation: successful, device activated.
+Jul 10 09:33:34 techo2-PC NetworkManager[768]: <info>  [1562731414.3079] dnsmasq[0x1d1f8e0]: dnsmasq appeared as :1.16
+Jul 10 09:33:38 techo2-PC NetworkManager[768]: <info>  [1562731418.4151] manager: WiFi hardware radio set enabled
+Jul 10 09:33:38 techo2-PC NetworkManager[768]: <info>  [1562731418.4152] manager: WWAN hardware radio set enabled
+Jul 10 09:33:38 techo2-PC NetworkManager[768]: <info>  [1562731418.4153] manager: startup complete
+Jul 10 09:35:34 techo2-PC kernel: [  161.913599] perf: interrupt took too long (2508 > 2500), lowering kernel.perf_event_max_sample_rate to 79500
+Jul 10 09:36:45 techo2-PC kernel: [  232.643932] perf: interrupt took too long (3138 > 3135), lowering kernel.perf_event_max_sample_rate to 63500
+Jul 10 09:38:11 techo2-PC gnome-session-binary[2186]: Entering running state
+Jul 10 09:38:13 techo2-PC kernel: [  320.888758] [UFW BLOCK] IN=enp2s0 OUT= MAC= SRC=fe80:0000:0000:0000:7ed6:19cc:d270:94f5 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=64 TC=0 HOPLIMIT=1 FLOWLBL=112354 PROTO=UDP SPT=8612 DPT=8612 LEN=24 
+Jul 10 09:38:13 techo2-PC kernel: [  320.888782] [UFW BLOCK] IN=enp2s0 OUT= MAC= SRC=fe80:0000:0000:0000:7ed6:19cc:d270:94f5 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=64 TC=0 HOPLIMIT=1 FLOWLBL=1030159 PROTO=UDP SPT=8612 DPT=8610 LEN=24 
+Jul 10 09:38:13 techo2-PC kernel: [  320.898917] [UFW BLOCK] IN=enp2s0 OUT= MAC= SRC=fe80:0000:0000:0000:7ed6:19cc:d270:94f5 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=64 TC=0 HOPLIMIT=1 FLOWLBL=112354 PROTO=UDP SPT=8612 DPT=8612 LEN=24 
+Jul 10 09:38:13 techo2-PC kernel: [  320.898936] [UFW BLOCK] IN=enp2s0 OUT= MAC= SRC=fe80:0000:0000:0000:7ed6:19cc:d270:94f5 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=64 TC=0 HOPLIMIT=1 FLOWLBL=1030159 PROTO=UDP SPT=8612 DPT=8610 LEN=24 
+Jul 10 09:39:10 techo2-PC kernel: [  377.500840] nf_conntrack: default automatic helper assignment has been turned off for security reasons and CT-based  firewall rule not found. Use the iptables CT target to attach helpers instead.
+Jul 10 09:40:34 techo2-PC kernel: [  461.546167] [UFW BLOCK] IN=enp2s0 OUT= MAC=6c:62:6d:b2:b4:4d:00:1e:0b:fc:2b:c5:08:00 SRC=10.10.73.50 DST=10.10.73.82 LEN=90 TOS=0x00 PREC=0x00 TTL=128 ID=24321 PROTO=UDP SPT=137 DPT=59876 LEN=70 
+Jul 10 09:40:37 techo2-PC kernel: [  464.570067] [UFW BLOCK] IN=enp2s0 OUT= MAC=6c:62:6d:b2:b4:4d:00:1e:0b:fc:2b:c5:08:00 SRC=10.10.73.50 DST=10.10.73.82 LEN=90 TOS=0x00 PREC=0x00 TTL=128 ID=24322 PROTO=UDP SPT=137 DPT=50827 LEN=70 
+Jul 10 09:47:10 techo2-PC kernel: [  858.251444] perf: interrupt took too long (3924 > 3922), lowering kernel.perf_event_max_sample_rate to 50750
+Jul 10 10:05:29 techo2-PC kernel: [ 1957.173560] [UFW BLOCK] IN=enp2s0 OUT= MAC=33:33:00:00:00:01:6c:62:6d:c8:9d:1f:86:dd SRC=fe80:0000:0000:0000:ebfa:29d9:17f3:31c0 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=64 TC=0 HOPLIMIT=1 FLOWLBL=952335 PROTO=UDP SPT=8612 DPT=8612 LEN=24 
+Jul 10 10:05:29 techo2-PC kernel: [ 1957.173591] [UFW BLOCK] IN=enp2s0 OUT= MAC=33:33:00:00:00:01:6c:62:6d:c8:9d:1f:86:dd SRC=fe80:0000:0000:0000:ebfa:29d9:17f3:31c0 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=64 TC=0 HOPLIMIT=1 FLOWLBL=652783 PROTO=UDP SPT=8612 DPT=8610 LEN=24 
+Jul 10 10:05:29 techo2-PC kernel: [ 1957.183715] [UFW BLOCK] IN=enp2s0 OUT= MAC=33:33:00:00:00:01:6c:62:6d:c8:9d:1f:86:dd SRC=fe80:0000:0000:0000:ebfa:29d9:17f3:31c0 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=64 TC=0 HOPLIMIT=1 FLOWLBL=952335 PROTO=UDP SPT=8612 DPT=8612 LEN=24 
+Jul 10 10:05:29 techo2-PC kernel: [ 1957.183734] [UFW BLOCK] IN=enp2s0 OUT= MAC=33:33:00:00:00:01:6c:62:6d:c8:9d:1f:86:dd SRC=fe80:0000:0000:0000:ebfa:29d9:17f3:31c0 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=64 TC=0 HOPLIMIT=1 FLOWLBL=652783 PROTO=UDP SPT=8612 DPT=8610 LEN=24 
+Jul 10 16:47:35 techo2-PC kernel: [26082.864085] traps: pool[23211] general protection ip:7f460446f5e6 sp:7f45e2851a68 error:0 in libc-2.23.so[7f4604321000+1c0000]

@@ -1,0 +1,6 @@
+8584e6bd5613c48953181c8e78c6860c  usr/lib/pulse-8.0/modules/libbluez5-util.so
+f154390d69c07381356f2aa2b20bb867  usr/lib/pulse-8.0/modules/module-bluetooth-discover.so
+c9da694017b428fb71aa0598a50899a3  usr/lib/pulse-8.0/modules/module-bluetooth-policy.so
+cca5df72ae34eef97f44241e441e9c50  usr/lib/pulse-8.0/modules/module-bluez5-device.so
+19d0b3617aabd4aacfebd6d93fa84c13  usr/lib/pulse-8.0/modules/module-bluez5-discover.so
+1a70969fd317243739e917dee33e532a  usr/share/doc/pulseaudio-module-bluetooth/copyright

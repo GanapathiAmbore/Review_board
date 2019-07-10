@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/python-qt4-gl
+/usr/share/doc/python-qt4-gl/copyright
+/usr/lib
+/usr/lib/python2.7
+/usr/lib/python2.7/dist-packages
+/usr/lib/python2.7/dist-packages/PyQt4
+/usr/lib/python2.7/dist-packages/PyQt4/QtOpenGL.so
+/usr/share/doc/python-qt4-gl/THANKS
+/usr/share/doc/python-qt4-gl/changelog.Debian.gz

@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libqtassistantclient4
+/usr/share/doc/libqtassistantclient4/copyright
+/usr/share/doc/libqtassistantclient4/changelog.Debian.gz
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libQtAssistantClient.so.4.8.6
+/usr/lib/x86_64-linux-gnu/libQtAssistantClient.so.4
+/usr/lib/x86_64-linux-gnu/libQtAssistantClient.so.4.8

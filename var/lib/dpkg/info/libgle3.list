@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libgle3
+/usr/share/doc/libgle3/changelog.Debian.gz
+/usr/share/doc/libgle3/AUTHORS
+/usr/share/doc/libgle3/README
+/usr/share/doc/libgle3/copyright
+/usr/share/doc/libgle3/NEWS.gz
+/usr/lib
+/usr/lib/libgle.so.3.1.0
+/usr/lib/libgle.so.3

@@ -1,0 +1,12 @@
+1b2c16fe9b2df1626918fea972331565  usr/lib/python2.7/dist-packages/pysvn/__init__.py
+aff598cd73e9329abf6328d2df77eefd  usr/lib/python2.7/dist-packages/pysvn/_pysvn_2_7.x86_64-linux-gnu.so
+89121b6cdeb3f0f4cd4998d6a4f567fb  usr/share/doc-base/pysvn
+610dd18e8c8e5f11850386b64efb2018  usr/share/doc/python-svn/changelog.Debian.gz
+899802348e7ac731a5814654f0b79085  usr/share/doc/python-svn/copyright
+84fc7cc53757f51f764a54def7e1c301  usr/share/doc/python-svn/examples/Client/parse_datetime.py.gz
+4c9b87eaeb40ffa0dd0732b8442f4579  usr/share/doc/python-svn/examples/Client/pysvn_print_doc.py
+db5bcd62e765eaa9f74964b51cd593a5  usr/share/doc/python-svn/examples/Client/svn_cmd.py.gz
+9179da00aeea2b75cf0e7405e18ccb95  usr/share/doc/python-svn/pysvn.html
+fe80f73294e929083f5192e417d0872f  usr/share/doc/python-svn/pysvn_prog_guide.html
+b5a08315cb748faf4431d52bffa6d527  usr/share/doc/python-svn/pysvn_prog_ref.html
+2a1920b490e54923ec2aa9e13c9822dc  usr/share/doc/python-svn/pysvn_prog_ref.js

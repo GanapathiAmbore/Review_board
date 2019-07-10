@@ -1,0 +1,155 @@
+Jul 10 09:38:27 techo2-PC rsyslogd: [origin software="rsyslogd" swVersion="8.16.0" x-pid="781" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Jul 10 09:38:27 techo2-PC pulseaudio[2298]: [pulseaudio] bluez5-util.c: GetManagedObjects() failed: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out
+Jul 10 09:38:32 techo2-PC org.gnome.zeitgeist.Engine[2028]: ** (zeitgeist-datahub:2911): WARNING **: zeitgeist-datahub.vala:229: Unable to get name "org.gnome.zeitgeist.datahub" on the bus!
+Jul 10 09:39:00 techo2-PC systemd[1]: Starting Clean php session files...
+Jul 10 09:39:00 techo2-PC systemd[1]: Started Clean php session files.
+Jul 10 09:39:01 techo2-PC CRON[2992]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jul 10 09:39:09 techo2-PC dbus[742]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Jul 10 09:39:10 techo2-PC kernel: [  377.500840] nf_conntrack: default automatic helper assignment has been turned off for security reasons and CT-based  firewall rule not found. Use the iptables CT target to attach helpers instead.
+Jul 10 09:39:16 techo2-PC gnome-session[2186]: /var/lib/dpkg/lock:
+Jul 10 09:39:20 techo2-PC gnome-session[2186]: (gnome-software:2367): GsPlugin-WARNING **: Failed to download https://s3.amazonaws.com/lvfsbucket/downloads/firmware.xml.gz.asc, ignoring: Not Found
+Jul 10 09:39:20 techo2-PC dbus[742]: [system] Activating service name='org.debian.apt' (using servicehelper)
+Jul 10 09:39:28 techo2-PC AptDaemon: INFO: Initializing daemon
+Jul 10 09:39:28 techo2-PC org.debian.apt[742]: 09:39:28 AptDaemon [INFO]: Initializing daemon
+Jul 10 09:39:28 techo2-PC dbus[742]: [system] Successfully activated service 'org.debian.apt'
+Jul 10 09:39:29 techo2-PC AptDaemon.PackageKit: INFO: Initializing PackageKit compat layer
+Jul 10 09:39:29 techo2-PC org.debian.apt[742]: /usr/lib/python3/dist-packages/aptdaemon/worker/pkworker.py:35: PyGIWarning: PackageKitGlib was imported without specifying a version first. Use gi.require_version('PackageKitGlib', '1.0') before import to ensure that the right version gets loaded.
+Jul 10 09:39:29 techo2-PC org.debian.apt[742]:   from gi.repository import PackageKitGlib as pk
+Jul 10 09:39:29 techo2-PC org.debian.apt[742]: 09:39:29 AptDaemon.PackageKit [INFO]: Initializing PackageKit compat layer
+Jul 10 09:39:29 techo2-PC AptDaemon: INFO: UpdateCache() was called
+Jul 10 09:39:29 techo2-PC org.debian.apt[742]: 09:39:29 AptDaemon [INFO]: UpdateCache() was called
+Jul 10 09:39:29 techo2-PC AptDaemon.Trans: INFO: Queuing transaction /org/debian/apt/transaction/b16f3a405bae4803a90f882901a8d400
+Jul 10 09:39:29 techo2-PC org.debian.apt[742]: 09:39:29 AptDaemon.Trans [INFO]: Queuing transaction /org/debian/apt/transaction/b16f3a405bae4803a90f882901a8d400
+Jul 10 09:39:29 techo2-PC AptDaemon.Worker: INFO: Simulating trans: /org/debian/apt/transaction/b16f3a405bae4803a90f882901a8d400
+Jul 10 09:39:29 techo2-PC org.debian.apt[742]: 09:39:29 AptDaemon.Worker [INFO]: Simulating trans: /org/debian/apt/transaction/b16f3a405bae4803a90f882901a8d400
+Jul 10 09:39:29 techo2-PC AptDaemon.Worker: INFO: Processing transaction /org/debian/apt/transaction/b16f3a405bae4803a90f882901a8d400
+Jul 10 09:39:29 techo2-PC org.debian.apt[742]: 09:39:29 AptDaemon.Worker [INFO]: Processing transaction /org/debian/apt/transaction/b16f3a405bae4803a90f882901a8d400
+Jul 10 09:40:28 techo2-PC anacron[736]: Job `cron.daily' terminated
+Jul 10 09:40:28 techo2-PC anacron[736]: Normal exit (1 job run)
+Jul 10 09:40:30 techo2-PC dbus[742]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Jul 10 09:40:30 techo2-PC systemd[1]: Starting Hostname Service...
+Jul 10 09:40:30 techo2-PC dbus[742]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jul 10 09:40:30 techo2-PC systemd[1]: Started Hostname Service.
+Jul 10 09:40:33 techo2-PC systemd[1]: Started Daemon for generating UUIDs.
+Jul 10 09:40:34 techo2-PC kernel: [  461.546167] [UFW BLOCK] IN=enp2s0 OUT= MAC=6c:62:6d:b2:b4:4d:00:1e:0b:fc:2b:c5:08:00 SRC=10.10.73.50 DST=10.10.73.82 LEN=90 TOS=0x00 PREC=0x00 TTL=128 ID=24321 PROTO=UDP SPT=137 DPT=59876 LEN=70 
+Jul 10 09:40:35 techo2-PC gnome-session[2186]: Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Jul 10 09:40:37 techo2-PC org.gtk.vfs.Daemon[2028]: ** (gvfsd:2093): WARNING **: dbus_mount_reply: Error from org.gtk.vfs.Mountable.mount(): Failed to retrieve share list from server: Connection refused
+Jul 10 09:40:37 techo2-PC kernel: [  464.570067] [UFW BLOCK] IN=enp2s0 OUT= MAC=6c:62:6d:b2:b4:4d:00:1e:0b:fc:2b:c5:08:00 SRC=10.10.73.50 DST=10.10.73.82 LEN=90 TOS=0x00 PREC=0x00 TTL=128 ID=24322 PROTO=UDP SPT=137 DPT=50827 LEN=70 
+Jul 10 09:40:37 techo2-PC org.gtk.vfs.Daemon[2028]: ** (process:3568): WARNING **: Couldn't create directory monitor on smb://x-gnome-default-workgroup/. Error: The specified location is not mounted
+Jul 10 09:40:40 techo2-PC org.gtk.vfs.Daemon[2028]: ** (gvfsd:2093): WARNING **: dbus_mount_reply: Error from org.gtk.vfs.Mountable.mount(): Failed to retrieve share list from server: Connection refused
+Jul 10 09:40:40 techo2-PC org.gtk.vfs.Daemon[2028]: ** (process:3572): WARNING **: Couldn't create directory monitor on smb://x-gnome-default-workgroup/. Error: The specified location is not mounted
+Jul 10 09:45:03 techo2-PC systemd[1]: Started Daily apt download activities.
+Jul 10 09:45:03 techo2-PC systemd[1]: Starting Daily apt upgrade and clean activities...
+Jul 10 09:47:10 techo2-PC kernel: [  858.251444] perf: interrupt took too long (3924 > 3922), lowering kernel.perf_event_max_sample_rate to 50750
+Jul 10 09:47:52 techo2-PC systemd[1]: Starting Cleanup of Temporary Directories...
+Jul 10 09:47:53 techo2-PC systemd-tmpfiles[4352]: [/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.
+Jul 10 09:47:53 techo2-PC systemd[1]: Started Cleanup of Temporary Directories.
+Jul 10 09:57:03 techo2-PC AptDaemon.Worker: INFO: Updating cache
+Jul 10 09:57:03 techo2-PC org.debian.apt[742]: 09:57:03 AptDaemon.Worker [INFO]: Updating cache
+Jul 10 09:57:07 techo2-PC AptDaemon.Worker: INFO: Finished transaction /org/debian/apt/transaction/b16f3a405bae4803a90f882901a8d400
+Jul 10 09:57:07 techo2-PC org.debian.apt[742]: 09:57:07 AptDaemon.Worker [INFO]: Finished transaction /org/debian/apt/transaction/b16f3a405bae4803a90f882901a8d400
+Jul 10 09:57:20 techo2-PC systemd[1]: Started Daily apt upgrade and clean activities.
+Jul 10 09:57:20 techo2-PC systemd[1]: Startup finished in 6.098s (kernel) + 24min 21.928s (userspace) = 24min 28.027s.
+Jul 10 09:57:28 techo2-PC gnome-session[2186]: (gnome-software:2367): GsPlugin-WARNING **: failed to load cached icon usb-creator-gtk_usb-creator-gtk.png: Failed to open file '/var/lib/app-info/icons/ubuntu-xenial-updates-main/usb-creator-gtk_usb-creator-gtk.png': No such file or directory
+Jul 10 09:57:28 techo2-PC gnome-session[2186]: (gnome-software:2367): GsPlugin-WARNING **: failed to load cached icon usb-creator-gtk_usb-creator-gtk.png: Failed to open file '/var/lib/app-info/icons/ubuntu-xenial-updates-main/usb-creator-gtk_usb-creator-gtk.png': No such file or directory
+Jul 10 10:00:58 techo2-PC systemd[1]: Stopping LSB: Apache2 web server...
+Jul 10 10:00:59 techo2-PC apache2[5375]:  * Stopping Apache httpd web server apache2
+Jul 10 10:01:00 techo2-PC apache2[5375]:  *
+Jul 10 10:01:00 techo2-PC systemd[1]: Stopped LSB: Apache2 web server.
+Jul 10 10:01:00 techo2-PC systemd[1]: Starting LSB: Apache2 web server...
+Jul 10 10:01:00 techo2-PC apache2[5398]:  * Starting Apache httpd web server apache2
+Jul 10 10:01:00 techo2-PC apache2[5398]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Jul 10 10:01:01 techo2-PC apache2[5398]:  *
+Jul 10 10:01:01 techo2-PC systemd[1]: Started LSB: Apache2 web server.
+Jul 10 10:05:29 techo2-PC kernel: [ 1957.173560] [UFW BLOCK] IN=enp2s0 OUT= MAC=33:33:00:00:00:01:6c:62:6d:c8:9d:1f:86:dd SRC=fe80:0000:0000:0000:ebfa:29d9:17f3:31c0 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=64 TC=0 HOPLIMIT=1 FLOWLBL=952335 PROTO=UDP SPT=8612 DPT=8612 LEN=24 
+Jul 10 10:05:29 techo2-PC kernel: [ 1957.173591] [UFW BLOCK] IN=enp2s0 OUT= MAC=33:33:00:00:00:01:6c:62:6d:c8:9d:1f:86:dd SRC=fe80:0000:0000:0000:ebfa:29d9:17f3:31c0 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=64 TC=0 HOPLIMIT=1 FLOWLBL=652783 PROTO=UDP SPT=8612 DPT=8610 LEN=24 
+Jul 10 10:05:29 techo2-PC kernel: [ 1957.183715] [UFW BLOCK] IN=enp2s0 OUT= MAC=33:33:00:00:00:01:6c:62:6d:c8:9d:1f:86:dd SRC=fe80:0000:0000:0000:ebfa:29d9:17f3:31c0 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=64 TC=0 HOPLIMIT=1 FLOWLBL=952335 PROTO=UDP SPT=8612 DPT=8612 LEN=24 
+Jul 10 10:05:29 techo2-PC kernel: [ 1957.183734] [UFW BLOCK] IN=enp2s0 OUT= MAC=33:33:00:00:00:01:6c:62:6d:c8:9d:1f:86:dd SRC=fe80:0000:0000:0000:ebfa:29d9:17f3:31c0 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=64 TC=0 HOPLIMIT=1 FLOWLBL=652783 PROTO=UDP SPT=8612 DPT=8610 LEN=24 
+Jul 10 10:07:29 techo2-PC AptDaemon: INFO: Quitting due to inactivity
+Jul 10 10:07:29 techo2-PC AptDaemon: INFO: Quitting was requested
+Jul 10 10:07:29 techo2-PC org.debian.apt[742]: 10:07:29 AptDaemon [INFO]: Quitting due to inactivity
+Jul 10 10:07:29 techo2-PC org.debian.apt[742]: 10:07:29 AptDaemon [INFO]: Quitting was requested
+Jul 10 10:09:01 techo2-PC CRON[6039]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jul 10 10:09:02 techo2-PC systemd[1]: Starting Clean php session files...
+Jul 10 10:09:02 techo2-PC systemd[1]: Started Clean php session files.
+Jul 10 10:15:45 techo2-PC systemd[1]: Stopping LSB: Apache2 web server...
+Jul 10 10:15:45 techo2-PC apache2[6262]:  * Stopping Apache httpd web server apache2
+Jul 10 10:15:47 techo2-PC apache2[6262]:  *
+Jul 10 10:15:47 techo2-PC systemd[1]: Stopped LSB: Apache2 web server.
+Jul 10 10:17:01 techo2-PC CRON[6345]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 10 10:30:05 techo2-PC com.canonical.Unity.Scope.Applications[2028]: Error loading package indexes: Couldn't stat '/var/cache/software-center/xapian'
+Jul 10 10:30:05 techo2-PC com.canonical.Unity.Scope.Applications[2028]: (unity-scope-loader:6777): unity-applications-daemon-CRITICAL **: daemon.vala:144: Failed to load Software Center index. 'Apps Available for Download' will not be listed
+Jul 10 10:38:12 techo2-PC org.gnome.evolution.dataserver.Sources5[2028]: ** (evolution-source-registry:2291): WARNING **: secret_service_search_sync: must specify at least one attribute to match
+Jul 10 10:39:02 techo2-PC CRON[7596]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jul 10 10:39:02 techo2-PC systemd[1]: Starting Clean php session files...
+Jul 10 10:39:05 techo2-PC systemd[1]: Started Clean php session files.
+Jul 10 10:42:24 techo2-PC gnome-session[2186]: Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Jul 10 10:42:32 techo2-PC gnome-session[2186]: polkit-agent-helper-1: pam_authenticate failed: Authentication failure
+Jul 10 10:52:20 techo2-PC fsnotifier[6886]: table error: collision at 60869 (new /home/techo2/PycharmProjects/reviewpro/venv/lib/python2.7/site-packages/~jango-1.11.22.dist-info, existing /home/techo2/PycharmProjects/reviewpro/venv/lib/python2.7/site-packages/Django-1.11.22.dist-info)
+Jul 10 11:01:06 techo2-PC dbus[742]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Jul 10 11:09:01 techo2-PC CRON[12995]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jul 10 11:09:02 techo2-PC systemd[1]: Starting Clean php session files...
+Jul 10 11:09:04 techo2-PC systemd[1]: Started Clean php session files.
+Jul 10 11:17:01 techo2-PC CRON[13145]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 10 11:23:50 techo2-PC systemd[1]: Stopped LSB: Apache2 web server.
+Jul 10 11:23:50 techo2-PC systemd[1]: Starting LSB: Apache2 web server...
+Jul 10 11:23:50 techo2-PC apache2[13478]:  * Starting Apache httpd web server apache2
+Jul 10 11:23:51 techo2-PC apache2[13478]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Jul 10 11:23:52 techo2-PC apache2[13478]:  *
+Jul 10 11:23:52 techo2-PC systemd[1]: Started LSB: Apache2 web server.
+Jul 10 11:39:01 techo2-PC CRON[14176]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jul 10 11:39:01 techo2-PC systemd[1]: Starting Clean php session files...
+Jul 10 11:39:02 techo2-PC systemd[1]: Started Clean php session files.
+Jul 10 11:39:35 techo2-PC org.gnome.zeitgeist.SimpleIndexer[2028]: ** (zeitgeist-fts:2910): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+Jul 10 12:09:01 techo2-PC CRON[14776]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jul 10 12:09:01 techo2-PC systemd[1]: Starting Clean php session files...
+Jul 10 12:09:02 techo2-PC systemd[1]: Started Clean php session files.
+Jul 10 12:17:01 techo2-PC CRON[15045]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 10 12:39:01 techo2-PC systemd[1]: Starting Clean php session files...
+Jul 10 12:39:01 techo2-PC CRON[15865]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jul 10 12:39:02 techo2-PC systemd[1]: Started Clean php session files.
+Jul 10 13:04:05 techo2-PC dbus[742]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Jul 10 13:04:05 techo2-PC systemd[1]: Starting Hostname Service...
+Jul 10 13:04:05 techo2-PC dbus[742]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jul 10 13:04:05 techo2-PC systemd[1]: Started Hostname Service.
+Jul 10 13:04:20 techo2-PC org.gtk.vfs.Daemon[2028]: ** (process:2464): WARNING **: send_done_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/2 (g-dbus-error-quark, 19)
+Jul 10 13:06:29 techo2-PC dbus[742]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Jul 10 13:06:29 techo2-PC systemd[1]: Starting Hostname Service...
+Jul 10 13:06:29 techo2-PC dbus[742]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jul 10 13:06:29 techo2-PC systemd[1]: Started Hostname Service.
+Jul 10 13:09:01 techo2-PC CRON[16883]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jul 10 13:09:01 techo2-PC systemd[1]: Starting Clean php session files...
+Jul 10 13:09:02 techo2-PC systemd[1]: Started Clean php session files.
+Jul 10 13:16:25 techo2-PC gnome-session[2186]: Nautilus-Share-Message: Called "net usershare info" but it failed: Failed to execute child process "net" (No such file or directory)
+Jul 10 13:17:01 techo2-PC CRON[17055]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 10 13:39:01 techo2-PC CRON[17428]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jul 10 13:39:01 techo2-PC systemd[1]: Starting Clean php session files...
+Jul 10 13:39:02 techo2-PC systemd[1]: Started Clean php session files.
+Jul 10 14:09:01 techo2-PC CRON[17869]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jul 10 14:09:37 techo2-PC systemd[1]: Starting Clean php session files...
+Jul 10 14:09:37 techo2-PC systemd[1]: Started Clean php session files.
+Jul 10 14:17:01 techo2-PC CRON[17975]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 10 14:39:01 techo2-PC CRON[18344]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jul 10 14:39:37 techo2-PC systemd[1]: Starting Clean php session files...
+Jul 10 14:39:37 techo2-PC systemd[1]: Started Clean php session files.
+Jul 10 15:09:01 techo2-PC CRON[19913]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jul 10 15:09:37 techo2-PC systemd[1]: Starting Clean php session files...
+Jul 10 15:09:38 techo2-PC systemd[1]: Started Clean php session files.
+Jul 10 15:17:01 techo2-PC CRON[20379]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 10 15:39:01 techo2-PC CRON[21194]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jul 10 15:39:37 techo2-PC systemd[1]: Starting Clean php session files...
+Jul 10 15:39:37 techo2-PC systemd[1]: Started Clean php session files.
+Jul 10 16:09:01 techo2-PC CRON[21848]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jul 10 16:09:37 techo2-PC systemd[1]: Starting Clean php session files...
+Jul 10 16:09:37 techo2-PC systemd[1]: Started Clean php session files.
+Jul 10 16:17:01 techo2-PC CRON[22195]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 10 16:39:01 techo2-PC CRON[22674]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jul 10 16:39:37 techo2-PC systemd[1]: Starting Clean php session files...
+Jul 10 16:39:37 techo2-PC systemd[1]: Started Clean php session files.
+Jul 10 16:44:41 techo2-PC gnome-session[2186]: Nautilus-Share-Message: Called "net usershare info" but it failed: Failed to execute child process "net" (No such file or directory)
+Jul 10 16:47:35 techo2-PC kernel: [26082.864085] traps: pool[23211] general protection ip:7f460446f5e6 sp:7f45e2851a68 error:0 in libc-2.23.so[7f4604321000+1c0000]
+Jul 10 16:50:19 techo2-PC whoopsie[1145]: [16:50:19] Parsing /var/crash/_usr_bin_gnome-software.1000.crash.
+Jul 10 16:50:20 techo2-PC whoopsie[1145]: [16:50:20] Uploading /var/crash/_usr_bin_gnome-software.1000.crash.
+Jul 10 16:50:23 techo2-PC whoopsie[1145]: [16:50:23] Sent; server replied with: No error
+Jul 10 16:50:23 techo2-PC whoopsie[1145]: [16:50:23] Response code: 200
+Jul 10 16:50:23 techo2-PC whoopsie[1145]: [16:50:23] Reported OOPS ID b5086f90-a304-11e9-b1e2-fa163e102db1

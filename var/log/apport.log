@@ -1,0 +1,5 @@
+ERROR: apport (pid 23223) Wed Jul 10 16:47:38 2019: called for pid 2367, signal 11, core limit 0, dump mode 1
+ERROR: apport (pid 23223) Wed Jul 10 16:47:38 2019: executable: /usr/bin/gnome-software (command line "/usr/bin/gnome-software --gapplication-service")
+ERROR: apport (pid 23223) Wed Jul 10 16:47:39 2019: debug: session gdbus call: (true,)
+
+ERROR: apport (pid 23223) Wed Jul 10 16:47:59 2019: wrote report /var/crash/_usr_bin_gnome-software.1000.crash

@@ -1,0 +1,14 @@
+[02-Jul-2019 17:11:42] NOTICE: configuration file /etc/php/7.0/fpm/php-fpm.conf test is successful
+
+[02-Jul-2019 17:11:42] NOTICE: fpm is running, pid 2935
+[02-Jul-2019 17:11:42] NOTICE: ready to handle connections
+[02-Jul-2019 17:11:42] NOTICE: systemd monitor interval set to 10000ms
+[02-Jul-2019 19:06:39] NOTICE: Terminating ...
+[02-Jul-2019 19:06:54] NOTICE: exiting, bye-bye!
+[03-Jul-2019 09:35:46] NOTICE: configuration file /etc/php/7.0/fpm/php-fpm.conf test is successful
+
+[03-Jul-2019 09:35:46] NOTICE: fpm is running, pid 1036
+[03-Jul-2019 09:35:46] NOTICE: ready to handle connections
+[03-Jul-2019 09:35:46] NOTICE: systemd monitor interval set to 10000ms
+[03-Jul-2019 10:47:57] NOTICE: Terminating ...
+[03-Jul-2019 10:47:57] NOTICE: exiting, bye-bye!

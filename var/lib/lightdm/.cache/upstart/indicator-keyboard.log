@@ -1,0 +1,16 @@
+
+(indicator-keyboard-service:1053): dconf-WARNING **: failed to commit changes to dconf: The connection is closed
+
+(indicator-keyboard-service:1053): dconf-WARNING **: failed to commit changes to dconf: The connection is closed
+
+(indicator-keyboard-service:1053): dconf-WARNING **: failed to commit changes to dconf: The connection is closed
+
+** (indicator-keyboard-service:1253): CRITICAL **: indicator_keyboard_service_handle_unity_greeter_name_vanished: assertion 'connection != NULL' failed
+
+** (indicator-keyboard-service:1168): CRITICAL **: indicator_keyboard_service_handle_unity_greeter_name_vanished: assertion 'connection != NULL' failed
+
+(indicator-keyboard-service:1023): dconf-WARNING **: failed to commit changes to dconf: The connection is closed
+
+(indicator-keyboard-service:1023): dconf-WARNING **: failed to commit changes to dconf: The connection is closed
+
+(indicator-keyboard-service:1023): dconf-WARNING **: failed to commit changes to dconf: The connection is closed

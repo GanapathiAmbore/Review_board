@@ -1,0 +1,56 @@
+
+** (process:1050): CRITICAL **: service_on_name_lost: assertion 'connection != NULL' failed
+
+** (process:1021): CRITICAL **: service_on_name_lost: assertion 'connection != NULL' failed
+
+** (process:1433): WARNING **: killswitch.vala:103: Can't open /dev/rfkill for use as a killswitch backend: Permission denied
+
+** (process:1433): CRITICAL **: service_on_name_lost: assertion 'connection != NULL' failed
+
+** (process:911): CRITICAL **: service_on_name_lost: assertion 'connection != NULL' failed
+
+** (process:909): CRITICAL **: service_on_name_lost: assertion 'connection != NULL' failed
+
+** (process:1026): CRITICAL **: service_on_name_lost: assertion 'connection != NULL' failed
+
+** (process:1021): CRITICAL **: service_on_name_lost: assertion 'connection != NULL' failed
+
+** (process:1019): CRITICAL **: service_on_name_lost: assertion 'connection != NULL' failed
+
+** (process:1248): CRITICAL **: service_on_name_lost: assertion 'connection != NULL' failed
+
+** (process:1059): CRITICAL **: service_on_name_lost: assertion 'connection != NULL' failed
+
+** (process:1160): WARNING **: killswitch.vala:103: Can't open /dev/rfkill for use as a killswitch backend: Permission denied
+
+** (process:1160): CRITICAL **: service_on_name_lost: assertion 'connection != NULL' failed
+
+** (process:1027): CRITICAL **: service_on_name_lost: assertion 'connection != NULL' failed
+
+** (process:1033): CRITICAL **: service_on_name_lost: assertion 'connection != NULL' failed
+
+** (process:1020): CRITICAL **: service_on_name_lost: assertion 'connection != NULL' failed
+
+** (process:1028): CRITICAL **: service_on_name_lost: assertion 'connection != NULL' failed
+
+** (process:1021): CRITICAL **: service_on_name_lost: assertion 'connection != NULL' failed
+
+** (process:1505): CRITICAL **: service_on_name_lost: assertion 'connection != NULL' failed
+
+** (process:1273): CRITICAL **: service_on_name_lost: assertion 'connection != NULL' failed
+
+** (process:1748): CRITICAL **: service_on_name_lost: assertion 'connection != NULL' failed
+
+** (process:1871): CRITICAL **: service_on_name_lost: assertion 'connection != NULL' failed
+
+** (process:1242): CRITICAL **: service_on_name_lost: assertion 'connection != NULL' failed
+
+** (process:1813): WARNING **: killswitch.vala:103: Can't open /dev/rfkill for use as a killswitch backend: Permission denied
+
+** (process:1262): CRITICAL **: service_on_name_lost: assertion 'connection != NULL' failed
+
+** (process:1621): CRITICAL **: service_on_name_lost: assertion 'connection != NULL' failed
+
+** (process:1831): WARNING **: killswitch.vala:103: Can't open /dev/rfkill for use as a killswitch backend: Permission denied
+
+** (process:1831): CRITICAL **: service_on_name_lost: assertion 'connection != NULL' failed

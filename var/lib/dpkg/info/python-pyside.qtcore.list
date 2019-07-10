@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/python2.7
+/usr/lib/python2.7/dist-packages
+/usr/lib/python2.7/dist-packages/PySide
+/usr/lib/python2.7/dist-packages/PySide/QtCore.so
+/usr/lib/python2.7/dist-packages/PySide/__init__.py
+/usr/lib/python2.7/dist-packages/PySide/_utils.py
+/usr/share
+/usr/share/doc
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/python-pyside.qtcore
+/usr/share/doc/python-pyside.qtcore

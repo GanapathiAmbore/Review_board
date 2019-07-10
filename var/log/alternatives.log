@@ -1,0 +1,28 @@
+update-alternatives 2019-07-01 15:07:08: run with --install /usr/bin/rename rename /usr/bin/prename 60 --slave /usr/share/man/man1/rename.1.gz rename.1.gz /usr/share/man/man1/prename.1.gz
+update-alternatives 2019-07-01 15:09:45: run with --install /etc/mysql/my.cnf my.cnf /etc/mysql/my.cnf.fallback 100
+update-alternatives 2019-07-01 15:09:45: link group my.cnf updated to point to /etc/mysql/my.cnf.fallback
+update-alternatives 2019-07-01 15:12:27: run with --force --install /etc/ld.so.conf.d/x86_64-linux-gnu_GL.conf x86_64-linux-gnu_gl_conf /usr/lib/x86_64-linux-gnu/mesa/ld.so.conf 500 --slave /usr/lib/x86_64-linux-gnu/xorg/extra-modules x86_64-linux-gnu_xorg_extra_modules /usr/lib/x86_64-linux-gnu/xorg/x11-extra-modules
+update-alternatives 2019-07-01 15:12:29: run with --install /usr/bin/automake automake /usr/bin/automake-1.15 33 --slave /usr/bin/aclocal aclocal /usr/bin/aclocal-1.15 --slave /usr/share/man/man1/automake.1.gz automake.1.gz /usr/share/man/man1/automake-1.15.1.gz --slave /usr/share/man/man1/aclocal.1.gz aclocal.1.gz /usr/share/man/man1/aclocal-1.15.1.gz
+update-alternatives 2019-07-01 15:12:29: link group automake updated to point to /usr/bin/automake-1.15
+update-alternatives 2019-07-01 15:15:52: run with --install /etc/mysql/my.cnf my.cnf /etc/mysql/mysql.cnf 200
+update-alternatives 2019-07-01 15:15:52: link group my.cnf updated to point to /etc/mysql/mysql.cnf
+update-alternatives 2019-07-02 15:08:32: run with --install /usr/bin/php php /usr/bin/php7.0 70 --slave /usr/share/man/man1/php.1.gz php.1.gz /usr/share/man/man1/php7.0.1.gz
+update-alternatives 2019-07-02 15:08:32: link group php updated to point to /usr/bin/php7.0
+update-alternatives 2019-07-02 15:08:32: run with --install /usr/bin/phar phar /usr/bin/phar7.0 70 --slave /usr/share/man/man1/phar.1.gz phar.1.gz /usr/share/man/man1/phar7.0.1.gz
+update-alternatives 2019-07-02 15:08:32: link group phar updated to point to /usr/bin/phar7.0
+update-alternatives 2019-07-02 15:08:32: run with --install /usr/bin/phar.phar phar.phar /usr/bin/phar.phar7.0 70 --slave /usr/share/man/man1/phar.phar.1.gz phar.phar.1.gz /usr/share/man/man1/phar.phar7.0.1.gz
+update-alternatives 2019-07-02 15:08:32: link group phar.phar updated to point to /usr/bin/phar.phar7.0
+update-alternatives 2019-07-03 10:47:40: run with --install /usr/bin/aptitude aptitude /usr/bin/aptitude-curses 30 --slave /usr/share/man/man8/aptitude.8.gz aptitude.8.gz /usr/share/man/man8/aptitude-curses.8.gz --slave /usr/share/man/cs/man8/aptitude.8.gz aptitude.cs.8.gz /usr/share/man/cs/man8/aptitude-curses.8.gz --slave /usr/share/man/de/man8/aptitude.8.gz aptitude.de.8.gz /usr/share/man/de/man8/aptitude-curses.8.gz --slave /usr/share/man/es/man8/aptitude.8.gz aptitude.es.8.gz /usr/share/man/es/man8/aptitude-curses.8.gz --slave /usr/share/man/fi/man8/aptitude.8.gz aptitude.fi.8.gz /usr/share/man/fi/man8/aptitude-curses.8.gz --slave /usr/share/man/fr/man8/aptitude.8.gz aptitude.fr.8.gz /usr/share/man/fr/man8/aptitude-curses.8.gz --slave /usr/share/man/gl/man8/aptitude.8.gz aptitude.gl.8.gz /usr/share/man/gl/man8/aptitude-curses.8.gz --slave /usr/share/man/it/man8/aptitude.8.gz aptitude.it.8.gz /usr/share/man/it/man8/aptitude-curses.8.gz --slave /usr/share/man/ja/man8/aptitude.8.gz aptitude.ja.8.gz /usr/share/man/ja/man8/aptitude-curses.8.gz --slave /usr/share/man/pl/man8/aptitude.8.gz aptitude.pl.8.gz /usr/share/man/pl/man8/aptitude-curses.8.gz
+update-alternatives 2019-07-03 10:47:40: link group aptitude updated to point to /usr/bin/aptitude-curses
+update-alternatives 2019-07-03 10:48:00: run with --remove php /usr/bin/php7.0
+update-alternatives 2019-07-03 10:48:00: link group php fully removed
+update-alternatives 2019-07-03 10:48:00: run with --remove phar /usr/bin/phar7.0
+update-alternatives 2019-07-03 10:48:00: link group phar fully removed
+update-alternatives 2019-07-03 10:48:00: run with --remove phar.phar /usr/bin/phar.phar7.0
+update-alternatives 2019-07-03 10:48:00: link group phar.phar fully removed
+update-alternatives 2019-07-03 10:49:40: run with --install /usr/bin/php php /usr/bin/php5.6 56 --slave /usr/share/man/man1/php.1.gz php.1.gz /usr/share/man/man1/php5.6.1.gz
+update-alternatives 2019-07-03 10:49:40: link group php updated to point to /usr/bin/php5.6
+update-alternatives 2019-07-03 10:49:40: run with --install /usr/bin/phar phar /usr/bin/phar5.6 56 --slave /usr/share/man/man1/phar.1.gz phar.1.gz /usr/share/man/man1/phar5.6.1.gz
+update-alternatives 2019-07-03 10:49:40: link group phar updated to point to /usr/bin/phar5.6
+update-alternatives 2019-07-03 10:49:40: run with --install /usr/bin/phar.phar phar.phar /usr/bin/phar.phar5.6 56 --slave /usr/share/man/man1/phar.phar.1.gz phar.phar.1.gz /usr/share/man/man1/phar.phar5.6.1.gz
+update-alternatives 2019-07-03 10:49:40: link group phar.phar updated to point to /usr/bin/phar.phar5.6

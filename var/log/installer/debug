@@ -1,0 +1,62 @@
+Ubiquity 2.21.63.6
+Gtk-Message: Failed to load module "overlay-scrollbar"
+Gtk-Message: Failed to load module "overlay-scrollbar"
+/usr/lib/ubiquity/ubiquity/frontend/gtk_ui.py:53: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk, Gdk, GObject, GLib, Atk
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:5: PyGIWarning: NM was imported without specifying a version first. Use gi.require_version('NM', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import NM, NMA
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:5: PyGIWarning: NMA was imported without specifying a version first. Use gi.require_version('NMA', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import NM, NMA
+/usr/lib/ubiquity/plugins/ubi-timezone.py:195: PyGIWarning: TimezoneMap was imported without specifying a version first. Use gi.require_version('TimezoneMap', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import TimezoneMap
+
+(ubiquity:1740): IBUS-WARNING **: The owner of /home/ubuntu/.config/ibus/bus is not root!
+Gtk-Message: Failed to load module "overlay-scrollbar"
+Gtk-Message: Failed to load module "overlay-scrollbar"
+Gtk-Message: Failed to load module "overlay-scrollbar"
+Gtk-Message: Failed to load module "overlay-scrollbar"
+/usr/lib/ubiquity/ubiquity/misc.py:654: PyGIWarning: Xkl was imported without specifying a version first. Use gi.require_version('Xkl', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Xkl, GdkX11
+update_release_notes_label()
+Could not translate page (prepare): 'NoneType' object has no attribute 'replace'
+update_release_notes_label()
+/usr/lib/ubiquity/plugins/ubi-language.py:303: Warning: Source ID 629 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_ui.py:471: Warning: Source ID 621 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/plugins/ubi-language.py:303: Warning: Source ID 629 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+update_release_notes_label()
+/usr/lib/ubiquity/plugins/ubi-language.py:303: Warning: Source ID 1094 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_ui.py:471: Warning: Source ID 1089 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/plugins/ubi-language.py:303: Warning: Source ID 1094 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+update_release_notes_label()
+/usr/lib/ubiquity/ubiquity/segmented_bar.py:34: PyGIWarning: PangoCairo was imported without specifying a version first. Use gi.require_version('PangoCairo', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import GObject, Gdk, Gtk, PangoCairo
+
+(ubiquity:1740): Gtk-CRITICAL **: gtk_widget_set_allocation: assertion '_gtk_widget_get_visible (widget) || _gtk_widget_is_toplevel (widget)' failed
+
+(ubiquity:1740): Gtk-CRITICAL **: gtk_widget_set_allocation: assertion '_gtk_widget_get_visible (widget) || _gtk_widget_is_toplevel (widget)' failed
+
+(ubiquity:1740): Gtk-CRITICAL **: gtk_widget_set_allocation: assertion '_gtk_widget_get_visible (widget) || _gtk_widget_is_toplevel (widget)' failed
+
+(ubiquity:1740): Gtk-CRITICAL **: gtk_widget_set_allocation: assertion '_gtk_widget_get_visible (widget) || _gtk_widget_is_toplevel (widget)' failed
+/usr/lib/ubiquity/plugins/ubi-timezone.py:98: PyGIWarning: Soup was imported without specifying a version first. Use gi.require_version('Soup', '2.4') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk, GObject, GLib, Soup
+/usr/lib/ubiquity/plugins/ubi-console-setup.py:72: Warning: Source ID 4098 was not found when attempting to remove it
+  GLib.source_remove(self.keyboard_layout_timeout_id)
+/usr/lib/ubiquity/plugins/ubi-console-setup.py:74: Warning: Source ID 4102 was not found when attempting to remove it
+  GLib.source_remove(self.keyboard_variant_timeout_id)
+/usr/lib/ubiquity/plugins/ubi-usersetup.py:394: Warning: Source ID 4920 was not found when attempting to remove it
+  GLib.source_remove(self.hostname_timeout_id)
+/usr/lib/ubiquity/plugins/ubi-usersetup.py:394: Warning: Source ID 4960 was not found when attempting to remove it
+  GLib.source_remove(self.hostname_timeout_id)
+/usr/lib/ubiquity/plugins/ubi-usersetup.py:394: Warning: Source ID 4981 was not found when attempting to remove it
+  GLib.source_remove(self.hostname_timeout_id)
+/usr/lib/ubiquity/plugins/ubi-usersetup.py:394: Warning: Source ID 4998 was not found when attempting to remove it
+  GLib.source_remove(self.hostname_timeout_id)
+Gtk-Message: Failed to load module "overlay-scrollbar"
+Gtk-Message: Failed to load module "overlay-scrollbar"

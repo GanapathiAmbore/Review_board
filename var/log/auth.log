@@ -1,0 +1,395 @@
+Jul  8 09:56:57 techo2-PC sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/3 ruser=techo2 rhost=  user=techo2
+Jul  8 09:57:04 techo2-PC sudo:   techo2 : TTY=pts/3 ; PWD=/home/techo2 ; USER=root ; COMMAND=/usr/sbin/service apache2 restart
+Jul  8 09:57:04 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  8 09:57:06 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  8 10:09:05 techo2-PC CRON[5460]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 10:09:07 techo2-PC CRON[5460]: pam_unix(cron:session): session closed for user root
+Jul  8 10:11:33 techo2-PC pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul  8 10:11:33 techo2-PC pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Jul  8 10:11:33 techo2-PC pkexec[6459]: techo2: Executing command [USER=root] [TTY=unknown] [CWD=/home/techo2] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul  8 10:17:01 techo2-PC CRON[6605]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 10:17:01 techo2-PC CRON[6605]: pam_unix(cron:session): session closed for user root
+Jul  8 10:19:04 techo2-PC sudo:   techo2 : TTY=pts/3 ; PWD=/home/techo2 ; USER=root ; COMMAND=/usr/local/bin/pip install -U ReviewBoardPowerPack
+Jul  8 10:19:04 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  8 10:19:10 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  8 10:37:12 techo2-PC sudo:   techo2 : TTY=pts/3 ; PWD=/home/techo2 ; USER=root ; COMMAND=/usr/sbin/service apache2 reload
+Jul  8 10:37:12 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  8 10:37:13 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  8 10:39:01 techo2-PC CRON[8797]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 10:39:01 techo2-PC CRON[8797]: pam_unix(cron:session): session closed for user root
+Jul  8 11:07:15 techo2-PC compiz: gkr-pam: unlocked login keyring
+Jul  8 11:09:01 techo2-PC CRON[9440]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 11:09:01 techo2-PC CRON[9440]: pam_unix(cron:session): session closed for user root
+Jul  8 11:17:01 techo2-PC CRON[9660]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 11:17:01 techo2-PC CRON[9660]: pam_unix(cron:session): session closed for user root
+Jul  8 11:39:01 techo2-PC CRON[10546]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 11:39:01 techo2-PC CRON[10546]: pam_unix(cron:session): session closed for user root
+Jul  8 11:44:13 techo2-PC compiz: gkr-pam: unlocked login keyring
+Jul  8 12:09:01 techo2-PC CRON[10897]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 12:09:01 techo2-PC CRON[10897]: pam_unix(cron:session): session closed for user root
+Jul  8 12:17:01 techo2-PC CRON[11126]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 12:17:01 techo2-PC CRON[11126]: pam_unix(cron:session): session closed for user root
+Jul  8 12:23:31 techo2-PC sudo:   techo2 : TTY=pts/3 ; PWD=/home/techo2/review_board/neeraja_folder ; USER=root ; COMMAND=/usr/local/bin/pip install -U RBTools
+Jul  8 12:23:31 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  8 12:23:35 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  8 12:28:15 techo2-PC svn: DIGEST-MD5 common mech free
+Jul  8 12:39:01 techo2-PC CRON[11677]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 12:39:01 techo2-PC CRON[11677]: pam_unix(cron:session): session closed for user root
+Jul  8 13:09:01 techo2-PC CRON[13082]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 13:09:01 techo2-PC CRON[13082]: pam_unix(cron:session): session closed for user root
+Jul  8 13:17:01 techo2-PC CRON[13415]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 13:17:01 techo2-PC CRON[13415]: pam_unix(cron:session): session closed for user root
+Jul  8 13:39:01 techo2-PC CRON[14010]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 13:39:01 techo2-PC CRON[14010]: pam_unix(cron:session): session closed for user root
+Jul  8 14:09:01 techo2-PC CRON[14236]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 14:09:01 techo2-PC CRON[14236]: pam_unix(cron:session): session closed for user root
+Jul  8 14:17:01 techo2-PC CRON[14319]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 14:17:01 techo2-PC CRON[14319]: pam_unix(cron:session): session closed for user root
+Jul  8 14:22:59 techo2-PC compiz: gkr-pam: unlocked login keyring
+Jul  8 14:39:01 techo2-PC CRON[14764]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 14:39:01 techo2-PC CRON[14764]: pam_unix(cron:session): session closed for user root
+Jul  8 15:09:02 techo2-PC CRON[15994]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 15:09:02 techo2-PC CRON[15994]: pam_unix(cron:session): session closed for user root
+Jul  8 15:17:01 techo2-PC CRON[16487]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 15:17:01 techo2-PC CRON[16487]: pam_unix(cron:session): session closed for user root
+Jul  8 15:39:01 techo2-PC CRON[16998]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 15:39:01 techo2-PC CRON[16998]: pam_unix(cron:session): session closed for user root
+Jul  8 16:09:01 techo2-PC CRON[17411]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 16:09:01 techo2-PC CRON[17411]: pam_unix(cron:session): session closed for user root
+Jul  8 16:17:01 techo2-PC CRON[17602]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 16:17:01 techo2-PC CRON[17602]: pam_unix(cron:session): session closed for user root
+Jul  8 16:39:01 techo2-PC CRON[17826]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 16:39:01 techo2-PC CRON[17826]: pam_unix(cron:session): session closed for user root
+Jul  8 16:48:33 techo2-PC compiz: gkr-pam: unlocked login keyring
+Jul  8 17:09:01 techo2-PC CRON[18473]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 17:09:01 techo2-PC CRON[18473]: pam_unix(cron:session): session closed for user root
+Jul  8 17:17:01 techo2-PC CRON[18689]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 17:17:01 techo2-PC CRON[18689]: pam_unix(cron:session): session closed for user root
+Jul  8 17:39:01 techo2-PC CRON[19002]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 17:39:01 techo2-PC CRON[19002]: pam_unix(cron:session): session closed for user root
+Jul  8 17:56:05 techo2-PC compiz: gkr-pam: unlocked login keyring
+Jul  8 18:09:02 techo2-PC CRON[19351]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 18:09:02 techo2-PC CRON[19351]: pam_unix(cron:session): session closed for user root
+Jul  8 18:17:01 techo2-PC CRON[19474]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 18:17:01 techo2-PC CRON[19474]: pam_unix(cron:session): session closed for user root
+Jul  8 18:39:01 techo2-PC CRON[19790]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 18:39:01 techo2-PC CRON[19790]: pam_unix(cron:session): session closed for user root
+Jul  8 18:59:49 techo2-PC sudo:   techo2 : TTY=pts/3 ; PWD=/home/techo2/review_board/neeraja_folder ; USER=root ; COMMAND=/usr/sbin/service apache2 stop
+Jul  8 18:59:50 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  8 18:59:56 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  8 19:09:02 techo2-PC CRON[20327]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 19:09:02 techo2-PC CRON[20327]: pam_unix(cron:session): session closed for user root
+Jul  8 19:13:14 techo2-PC systemd-logind[760]: System is powering down.
+Jul  8 19:13:14 techo2-PC polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.63, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)
+Jul  9 09:52:12 techo2-PC systemd-logind[774]: New seat seat0.
+Jul  9 09:52:12 techo2-PC systemd-logind[774]: Watching system buttons on /dev/input/event1 (Power Button)
+Jul  9 09:52:12 techo2-PC systemd-logind[774]: Watching system buttons on /dev/input/event0 (Power Button)
+Jul  9 09:52:25 techo2-PC lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul  9 09:52:25 techo2-PC lightdm: PAM adding faulty module: pam_kwallet.so
+Jul  9 09:52:25 techo2-PC lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Jul  9 09:52:25 techo2-PC lightdm: PAM adding faulty module: pam_kwallet5.so
+Jul  9 09:52:25 techo2-PC lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Jul  9 09:52:25 techo2-PC systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Jul  9 09:52:25 techo2-PC systemd-logind[774]: New session c1 of user lightdm.
+Jul  9 09:52:30 techo2-PC lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul  9 09:52:30 techo2-PC lightdm: PAM adding faulty module: pam_kwallet.so
+Jul  9 09:52:30 techo2-PC lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Jul  9 09:52:30 techo2-PC lightdm: PAM adding faulty module: pam_kwallet5.so
+Jul  9 09:52:30 techo2-PC lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "techo2"
+Jul  9 09:52:39 techo2-PC lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Jul  9 09:52:39 techo2-PC lightdm: pam_unix(lightdm:session): session opened for user techo2 by (uid=0)
+Jul  9 09:52:39 techo2-PC systemd: pam_unix(systemd-user:session): session opened for user techo2 by (uid=0)
+Jul  9 09:52:39 techo2-PC systemd-logind[774]: New session c2 of user techo2.
+Jul  9 09:52:46 techo2-PC gnome-keyring-daemon[1799]: The PKCS#11 component was already initialized
+Jul  9 09:52:46 techo2-PC gnome-keyring-daemon[1799]: The SSH agent was already initialized
+Jul  9 09:52:46 techo2-PC gnome-keyring-daemon[1799]: The Secret Service was already initialized
+Jul  9 09:52:47 techo2-PC polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.67 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_IN)
+Jul  9 09:52:55 techo2-PC dbus[747]: [system] Failed to activate service 'org.bluez': timed out
+Jul  9 09:53:31 techo2-PC gnome-keyring-daemon[1799]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jul  9 09:53:34 techo2-PC gnome-keyring-daemon[1799]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jul  9 09:53:50 techo2-PC dbus[747]: [system] Failed to activate service 'org.bluez': timed out
+Jul  9 09:53:51 techo2-PC pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul  9 09:53:51 techo2-PC pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Jul  9 09:53:51 techo2-PC pkexec[2805]: techo2: Executing command [USER=root] [TTY=unknown] [CWD=/home/techo2] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul  9 09:54:24 techo2-PC systemd-logind[774]: Removed session c1.
+Jul  9 09:54:24 techo2-PC systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Jul  9 10:09:02 techo2-PC CRON[4255]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 10:09:02 techo2-PC CRON[4255]: pam_unix(cron:session): session closed for user root
+Jul  9 10:17:01 techo2-PC CRON[4993]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 10:17:01 techo2-PC CRON[4993]: pam_unix(cron:session): session closed for user root
+Jul  9 10:17:50 techo2-PC pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul  9 10:17:50 techo2-PC pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Jul  9 10:17:50 techo2-PC pkexec[5006]: techo2: Executing command [USER=root] [TTY=unknown] [CWD=/home/techo2] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul  9 10:29:04 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/home/techo2 ; USER=root ; COMMAND=/usr/sbin/service apache2 restart
+Jul  9 10:29:04 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 10:29:08 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 10:39:01 techo2-PC CRON[6066]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 10:39:01 techo2-PC CRON[6066]: pam_unix(cron:session): session closed for user root
+Jul  9 10:51:48 techo2-PC compiz: gkr-pam: unlocked login keyring
+Jul  9 11:09:01 techo2-PC CRON[6830]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 11:09:01 techo2-PC CRON[6830]: pam_unix(cron:session): session closed for user root
+Jul  9 11:17:01 techo2-PC CRON[7108]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 11:17:01 techo2-PC CRON[7108]: pam_unix(cron:session): session closed for user root
+Jul  9 11:25:49 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/home/techo2 ; USER=root ; COMMAND=/usr/sbin/service apache2 reload
+Jul  9 11:25:49 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 11:25:49 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 11:25:53 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/home/techo2 ; USER=root ; COMMAND=/usr/sbin/service apache2 restart
+Jul  9 11:25:53 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 11:25:56 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 11:29:52 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/home/techo2 ; USER=root ; COMMAND=/usr/local/bin/pip install -U ReviewBoardPowerPack
+Jul  9 11:29:52 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 11:29:55 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 11:34:04 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/home/techo2 ; USER=root ; COMMAND=/usr/sbin/service apache2 reload
+Jul  9 11:34:04 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 11:34:05 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 11:34:11 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/home/techo2 ; USER=root ; COMMAND=/usr/sbin/service apache2 restart
+Jul  9 11:34:11 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 11:34:13 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 11:39:01 techo2-PC CRON[8237]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 11:39:01 techo2-PC CRON[8237]: pam_unix(cron:session): session closed for user root
+Jul  9 11:47:02 techo2-PC compiz: gkr-pam: unlocked login keyring
+Jul  9 11:58:15 techo2-PC compiz: gkr-pam: unlocked login keyring
+Jul  9 12:00:22 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/home/techo2 ; USER=root ; COMMAND=/usr/bin/easy_install ReviewBoardPowerPack
+Jul  9 12:00:22 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 12:00:22 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 12:09:01 techo2-PC CRON[9538]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 12:09:01 techo2-PC CRON[9538]: pam_unix(cron:session): session closed for user root
+Jul  9 12:17:01 techo2-PC CRON[9658]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 12:17:01 techo2-PC CRON[9658]: pam_unix(cron:session): session closed for user root
+Jul  9 12:20:56 techo2-PC compiz: gkr-pam: unlocked login keyring
+Jul  9 12:31:30 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/usr/sbin ; USER=root ; COMMAND=/usr/sbin/apache2ctl -k restart
+Jul  9 12:31:30 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 12:31:30 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 12:32:06 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/usr/sbin ; USER=root ; COMMAND=/usr/sbin/apache2ctl -k reload
+Jul  9 12:32:06 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 12:32:06 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 12:32:12 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/usr/sbin ; USER=root ; COMMAND=/usr/sbin/apache2ctl -t reload
+Jul  9 12:32:12 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 12:32:12 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 12:32:33 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/usr/sbin ; USER=root ; COMMAND=/usr/sbin/apache2ctl -t reload
+Jul  9 12:32:33 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 12:32:33 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 12:32:40 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/usr/sbin ; USER=root ; COMMAND=/usr/sbin/apache2 -t reload
+Jul  9 12:32:40 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 12:32:40 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 12:32:44 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/usr/sbin ; USER=root ; COMMAND=/usr/sbin/apache2 reload
+Jul  9 12:32:44 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 12:32:44 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 12:36:04 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/usr/sbin ; USER=root ; COMMAND=/etc/init.d/apache2 restart
+Jul  9 12:36:04 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 12:36:06 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 12:36:29 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/usr/sbin ; USER=root ; COMMAND=/etc/init.d/apache2 reload
+Jul  9 12:36:29 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 12:36:29 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 12:36:42 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/etc/init.d/apache2 reload
+Jul  9 12:36:42 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 12:36:42 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 12:39:01 techo2-PC CRON[11064]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 12:39:01 techo2-PC CRON[11064]: pam_unix(cron:session): session closed for user root
+Jul  9 12:40:27 techo2-PC sudo:   techo2 : TTY=pts/3 ; PWD=/var/www/mynewsite/htdocs ; USER=root ; COMMAND=/usr/bin/easy_install ReviewBoardPowerPack
+Jul  9 12:40:27 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 12:40:27 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 12:41:06 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/etc/init.d/apache2 reload
+Jul  9 12:41:06 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 12:41:06 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 12:41:10 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/etc/init.d/apache2 restart
+Jul  9 12:41:10 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 12:41:12 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 13:03:19 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/ssh -i aws_codecommit.pem ubuntu@ec2-3-19-67-151.us-east-2.compute.amazonaws.com
+Jul  9 13:03:19 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 13:03:23 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 13:08:01 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/home/techo2/Downloads ; USER=root ; COMMAND=/usr/bin/ssh -i aws_codecommit.pem ubuntu@ec2-3-19-67-151.us-east-2.compute.amazonaws.com
+Jul  9 13:08:01 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 13:09:01 techo2-PC CRON[12424]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 13:09:01 techo2-PC CRON[12424]: pam_unix(cron:session): session closed for user root
+Jul  9 13:17:01 techo2-PC CRON[12707]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 13:17:01 techo2-PC CRON[12707]: pam_unix(cron:session): session closed for user root
+Jul  9 13:39:02 techo2-PC CRON[13845]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 13:39:02 techo2-PC CRON[13845]: pam_unix(cron:session): session closed for user root
+Jul  9 14:09:01 techo2-PC CRON[14201]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 14:09:01 techo2-PC CRON[14201]: pam_unix(cron:session): session closed for user root
+Jul  9 14:17:01 techo2-PC CRON[14274]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 14:17:01 techo2-PC CRON[14274]: pam_unix(cron:session): session closed for user root
+Jul  9 14:39:01 techo2-PC CRON[14492]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 14:39:01 techo2-PC CRON[14492]: pam_unix(cron:session): session closed for user root
+Jul  9 14:39:05 techo2-PC compiz: gkr-pam: unlocked login keyring
+Jul  9 14:49:50 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 14:50:15 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/home/techo2/Downloads ; USER=root ; COMMAND=/usr/bin/ssh -i deploy.pem ubuntu@ec2-18-224-137-16.us-east-2.compute.amazonaws.com
+Jul  9 14:50:15 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 15:09:01 techo2-PC CRON[16033]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 15:09:01 techo2-PC CRON[16033]: pam_unix(cron:session): session closed for user root
+Jul  9 15:14:14 techo2-PC sudo:   techo2 : TTY=pts/3 ; PWD=/home/techo2 ; USER=root ; COMMAND=/usr/bin/ssh -i aws_codecommit.pem ubuntu@ec2-3-19-67-151.us-east-2.compute.amazonaws.com
+Jul  9 15:14:14 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 15:14:16 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 15:14:35 techo2-PC sudo:   techo2 : TTY=pts/3 ; PWD=/home/techo2/Downloads ; USER=root ; COMMAND=/usr/bin/ssh -i aws_codecommit.pem ubuntu@ec2-3-19-67-151.us-east-2.compute.amazonaws.com
+Jul  9 15:14:35 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 15:17:01 techo2-PC CRON[16254]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 15:17:02 techo2-PC CRON[16254]: pam_unix(cron:session): session closed for user root
+Jul  9 15:39:01 techo2-PC CRON[17258]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 15:39:01 techo2-PC CRON[17258]: pam_unix(cron:session): session closed for user root
+Jul  9 15:40:57 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 15:43:03 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/home/techo2 ; USER=root ; COMMAND=/usr/sbin/service apache2 restart
+Jul  9 15:43:03 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 15:43:07 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 15:44:04 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/home/techo2 ; USER=root ; COMMAND=/usr/sbin/service apache2 reload
+Jul  9 15:44:04 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 15:44:04 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 16:09:01 techo2-PC CRON[19215]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 16:09:01 techo2-PC CRON[19215]: pam_unix(cron:session): session closed for user root
+Jul  9 16:17:01 techo2-PC CRON[19518]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 16:17:01 techo2-PC CRON[19518]: pam_unix(cron:session): session closed for user root
+Jul  9 16:28:34 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/home/techo2 ; USER=root ; COMMAND=/usr/sbin/service apache2 restart
+Jul  9 16:28:34 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 16:28:36 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 16:28:58 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/home/techo2 ; USER=root ; COMMAND=/usr/sbin/service apache2 stop
+Jul  9 16:28:58 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 16:29:00 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 16:39:01 techo2-PC CRON[21015]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 16:39:01 techo2-PC CRON[21015]: pam_unix(cron:session): session closed for user root
+Jul  9 16:42:40 techo2-PC unix_chkpwd[21084]: password check failed for user (techo2)
+Jul  9 16:42:40 techo2-PC compiz: pam_unix(unity:auth): authentication failure; logname= uid=1000 euid=1000 tty= ruser= rhost=  user=techo2
+Jul  9 16:42:43 techo2-PC unix_chkpwd[21087]: password check failed for user (techo2)
+Jul  9 16:42:43 techo2-PC compiz: pam_unix(unity:auth): authentication failure; logname= uid=1000 euid=1000 tty= ruser= rhost=  user=techo2
+Jul  9 16:42:50 techo2-PC compiz: gkr-pam: unlocked login keyring
+Jul  9 17:09:01 techo2-PC CRON[21632]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 17:09:01 techo2-PC CRON[21632]: pam_unix(cron:session): session closed for user root
+Jul  9 17:17:01 techo2-PC CRON[21761]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 17:17:01 techo2-PC CRON[21761]: pam_unix(cron:session): session closed for user root
+Jul  9 17:39:01 techo2-PC CRON[22342]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 17:39:01 techo2-PC CRON[22342]: pam_unix(cron:session): session closed for user root
+Jul  9 18:09:01 techo2-PC CRON[22857]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 18:09:01 techo2-PC CRON[22857]: pam_unix(cron:session): session closed for user root
+Jul  9 18:10:02 techo2-PC compiz: gkr-pam: unlocked login keyring
+Jul  9 18:17:01 techo2-PC CRON[23119]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 18:17:01 techo2-PC CRON[23119]: pam_unix(cron:session): session closed for user root
+Jul  9 18:39:01 techo2-PC CRON[23787]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 18:39:01 techo2-PC CRON[23787]: pam_unix(cron:session): session closed for user root
+Jul  9 19:08:24 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 19:09:01 techo2-PC CRON[24775]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 19:09:01 techo2-PC CRON[24775]: pam_unix(cron:session): session closed for user root
+Jul  9 19:10:46 techo2-PC systemd-logind[774]: System is powering down.
+Jul  9 19:10:46 techo2-PC polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.67, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)
+Jul 10 09:33:23 techo2-PC systemd-logind[779]: New seat seat0.
+Jul 10 09:33:23 techo2-PC systemd-logind[779]: Watching system buttons on /dev/input/event1 (Power Button)
+Jul 10 09:33:23 techo2-PC systemd-logind[779]: Watching system buttons on /dev/input/event0 (Power Button)
+Jul 10 09:33:37 techo2-PC lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 10 09:33:37 techo2-PC lightdm: PAM adding faulty module: pam_kwallet.so
+Jul 10 09:33:37 techo2-PC lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Jul 10 09:33:37 techo2-PC lightdm: PAM adding faulty module: pam_kwallet5.so
+Jul 10 09:33:37 techo2-PC lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Jul 10 09:33:37 techo2-PC systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Jul 10 09:33:37 techo2-PC systemd-logind[779]: New session c1 of user lightdm.
+Jul 10 09:33:43 techo2-PC lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 10 09:33:43 techo2-PC lightdm: PAM adding faulty module: pam_kwallet.so
+Jul 10 09:33:43 techo2-PC lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Jul 10 09:33:43 techo2-PC lightdm: PAM adding faulty module: pam_kwallet5.so
+Jul 10 09:33:43 techo2-PC lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "techo2"
+Jul 10 09:34:07 techo2-PC dbus[742]: [system] Failed to activate service 'org.bluez': timed out
+Jul 10 09:38:02 techo2-PC lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Jul 10 09:38:02 techo2-PC lightdm: pam_unix(lightdm:session): session opened for user techo2 by (uid=0)
+Jul 10 09:38:02 techo2-PC systemd: pam_unix(systemd-user:session): session opened for user techo2 by (uid=0)
+Jul 10 09:38:02 techo2-PC systemd-logind[779]: New session c2 of user techo2.
+Jul 10 09:38:10 techo2-PC gnome-keyring-daemon[1938]: The PKCS#11 component was already initialized
+Jul 10 09:38:10 techo2-PC gnome-keyring-daemon[1938]: The SSH agent was already initialized
+Jul 10 09:38:10 techo2-PC gnome-keyring-daemon[1938]: The Secret Service was already initialized
+Jul 10 09:38:11 techo2-PC polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.68 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_IN)
+Jul 10 09:38:23 techo2-PC systemd-logind[779]: Removed session c1.
+Jul 10 09:38:27 techo2-PC dbus[742]: [system] Failed to activate service 'org.bluez': timed out
+Jul 10 09:39:01 techo2-PC CRON[2991]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 10 09:39:01 techo2-PC CRON[2991]: pam_unix(cron:session): session closed for user root
+Jul 10 09:39:15 techo2-PC pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 10 09:39:15 techo2-PC pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Jul 10 09:39:15 techo2-PC pkexec[3103]: techo2: Executing command [USER=root] [TTY=unknown] [CWD=/home/techo2] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 10 09:39:16 techo2-PC gnome-keyring-daemon[1938]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jul 10 09:39:20 techo2-PC gnome-keyring-daemon[1938]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jul 10 09:39:34 techo2-PC dbus[742]: [system] Failed to activate service 'org.bluez': timed out
+Jul 10 09:57:25 techo2-PC pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 10 09:57:25 techo2-PC pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Jul 10 09:57:25 techo2-PC pkexec[5189]: techo2: Executing command [USER=root] [TTY=unknown] [CWD=/home/techo2] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 10 10:00:58 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/home/techo2 ; USER=root ; COMMAND=/usr/sbin/service apache2 restart
+Jul 10 10:00:58 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 10 10:01:01 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul 10 10:09:01 techo2-PC CRON[6038]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 10 10:09:01 techo2-PC CRON[6038]: pam_unix(cron:session): session closed for user root
+Jul 10 10:15:45 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/home/techo2 ; USER=root ; COMMAND=/usr/sbin/service apache2 stop
+Jul 10 10:15:45 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 10 10:15:47 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul 10 10:16:04 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/home/techo2 ; USER=root ; COMMAND=/usr/bin/ssh -i aws_codecommit.pem ubuntu@ec2-3-19-67-151.us-east-2.compute.amazonaws.com
+Jul 10 10:16:04 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 10 10:16:06 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul 10 10:16:45 techo2-PC sudo:   techo2 : TTY=pts/1 ; PWD=/home/techo2/Downloads ; USER=root ; COMMAND=/usr/bin/ssh -i aws_codecommit.pem ubuntu@ec2-3-19-67-151.us-east-2.compute.amazonaws.com
+Jul 10 10:16:45 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 10 10:17:01 techo2-PC CRON[6344]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 10 10:17:01 techo2-PC CRON[6344]: pam_unix(cron:session): session closed for user root
+Jul 10 10:39:02 techo2-PC CRON[7595]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 10 10:39:02 techo2-PC CRON[7595]: pam_unix(cron:session): session closed for user root
+Jul 10 10:42:30 techo2-PC polkit-agent-helper-1[8766]: pam_unix(polkit-1:auth): authentication failure; logname= uid=1000 euid=0 tty= ruser=techo2 rhost=  user=techo2
+Jul 10 10:42:42 techo2-PC polkitd(authority=local): Operator of unix-session:c2 successfully authenticated as unix-user:techo2 to gain ONE-SHOT authorization for action org.freedesktop.policykit.exec for unix-process:6813:343856 [/home/techo2/Downloads/pycharm-2019.1.3/jre64/bin/java -classpath /home/techo2/Downloads/pycharm-2019.1.3/lib/bootstrap.jar:/home/techo2/Downloads/pycharm-2019.1.3/lib/extensions.jar:/home/techo2/Downloads/pycharm-2019.1.3/lib/util.jar:/home/techo2/Downloads/pycharm-2019.1.3/lib/jdom.jar:/home/techo2/Downloads/pycharm-2019.1.3/lib/log4j.jar:/home/techo2/Downloads/pycharm-2019.1.3/lib/trove4j.jar:/home/techo2/Downloads/pycharm-2019.1.3/lib/jna.jar -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes= -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/techo2/java_error_in_PYCHARM_.log -XX:HeapDumpPath=/home/techo2/java_error_in_PYCHARM.hprof -Didea.paths.selector=PyCharm2019.1 -Djb.vmOptionsFile=/home/techo2/Downloads/pycharm-2019.1.3/bin/pycharm64.vmoptions -Didea.platform.prefix=Python com.intellij.idea.Main] (owned by unix-user:techo2)
+Jul 10 10:42:43 techo2-PC pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 10 10:42:43 techo2-PC pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Jul 10 10:42:43 techo2-PC pkexec[8693]: techo2: Executing command [USER=root] [TTY=unknown] [CWD=/usr/bin] [COMMAND=/usr/bin/python2.7 /home/techo2/Downloads/pycharm-2019.1.3/helpers/packaging_tool.py install --build-dir /tmp/pycharm-packaging ReviewBoard]
+Jul 10 11:01:30 techo2-PC dbus[742]: [system] Failed to activate service 'org.bluez': timed out
+Jul 10 11:09:01 techo2-PC CRON[12994]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 10 11:09:01 techo2-PC CRON[12994]: pam_unix(cron:session): session closed for user root
+Jul 10 11:17:01 techo2-PC CRON[13144]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 10 11:17:01 techo2-PC CRON[13144]: pam_unix(cron:session): session closed for user root
+Jul 10 11:23:33 techo2-PC sudo:   techo2 : TTY=pts/17 ; PWD=/home/techo2 ; USER=root ; COMMAND=/usr/sbin/apache2 service restart
+Jul 10 11:23:33 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 10 11:23:33 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul 10 11:23:50 techo2-PC sudo:   techo2 : TTY=pts/17 ; PWD=/home/techo2 ; USER=root ; COMMAND=/usr/sbin/service apache2 restart
+Jul 10 11:23:50 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 10 11:23:52 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul 10 11:39:01 techo2-PC CRON[14175]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 10 11:39:01 techo2-PC CRON[14175]: pam_unix(cron:session): session closed for user root
+Jul 10 12:09:01 techo2-PC CRON[14775]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 10 12:09:01 techo2-PC CRON[14775]: pam_unix(cron:session): session closed for user root
+Jul 10 12:09:02 techo2-PC compiz: gkr-pam: unlocked login keyring
+Jul 10 12:17:01 techo2-PC CRON[15044]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 10 12:17:01 techo2-PC CRON[15044]: pam_unix(cron:session): session closed for user root
+Jul 10 12:39:01 techo2-PC CRON[15863]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 10 12:39:01 techo2-PC CRON[15863]: pam_unix(cron:session): session closed for user root
+Jul 10 13:09:01 techo2-PC CRON[16882]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 10 13:09:01 techo2-PC CRON[16882]: pam_unix(cron:session): session closed for user root
+Jul 10 13:17:01 techo2-PC CRON[17054]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 10 13:17:01 techo2-PC CRON[17054]: pam_unix(cron:session): session closed for user root
+Jul 10 13:27:07 techo2-PC compiz: gkr-pam: unlocked login keyring
+Jul 10 13:33:11 techo2-PC compiz: gkr-pam: unlocked login keyring
+Jul 10 13:39:01 techo2-PC CRON[17427]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 10 13:39:02 techo2-PC CRON[17427]: pam_unix(cron:session): session closed for user root
+Jul 10 14:09:01 techo2-PC CRON[17868]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 10 14:09:01 techo2-PC CRON[17868]: pam_unix(cron:session): session closed for user root
+Jul 10 14:17:01 techo2-PC CRON[17974]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 10 14:17:01 techo2-PC CRON[17974]: pam_unix(cron:session): session closed for user root
+Jul 10 14:29:36 techo2-PC compiz: gkr-pam: unlocked login keyring
+Jul 10 14:39:01 techo2-PC CRON[18343]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 10 14:39:01 techo2-PC CRON[18343]: pam_unix(cron:session): session closed for user root
+Jul 10 15:09:01 techo2-PC CRON[19912]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 10 15:09:01 techo2-PC CRON[19912]: pam_unix(cron:session): session closed for user root
+Jul 10 15:17:01 techo2-PC CRON[20378]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 10 15:17:01 techo2-PC CRON[20378]: pam_unix(cron:session): session closed for user root
+Jul 10 15:39:01 techo2-PC CRON[21193]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 10 15:39:01 techo2-PC CRON[21193]: pam_unix(cron:session): session closed for user root
+Jul 10 16:09:01 techo2-PC CRON[21847]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 10 16:09:01 techo2-PC CRON[21847]: pam_unix(cron:session): session closed for user root
+Jul 10 16:17:01 techo2-PC CRON[22194]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 10 16:17:01 techo2-PC CRON[22194]: pam_unix(cron:session): session closed for user root
+Jul 10 16:39:01 techo2-PC CRON[22673]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 10 16:39:01 techo2-PC CRON[22673]: pam_unix(cron:session): session closed for user root
+Jul 10 16:40:04 techo2-PC compiz: gkr-pam: unlocked login keyring
+Jul 10 16:45:38 techo2-PC sudo:   techo2 : TTY=pts/18 ; PWD=/ ; USER=root ; COMMAND=/bin/mkdir project
+Jul 10 16:45:38 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 10 16:45:38 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul 10 16:46:13 techo2-PC sudo:   techo2 : TTY=pts/18 ; PWD=/ ; USER=root ; COMMAND=/bin/cp /var/ /project/
+Jul 10 16:46:13 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 10 16:46:13 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul 10 16:48:55 techo2-PC sudo:   techo2 : TTY=pts/18 ; PWD=/ ; USER=root ; COMMAND=/bin/mkdir pro
+Jul 10 16:48:55 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 10 16:48:55 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul 10 16:49:11 techo2-PC sudo:   techo2 : TTY=pts/18 ; PWD=/ ; USER=root ; COMMAND=/bin/cp pro project
+Jul 10 16:49:11 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 10 16:49:11 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul 10 16:51:06 techo2-PC sudo:   techo2 : TTY=pts/18 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git init
+Jul 10 16:51:06 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 10 16:51:06 techo2-PC sudo: pam_unix(sudo:session): session closed for user root
+Jul 10 16:51:34 techo2-PC sudo:   techo2 : TTY=pts/18 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git add var
+Jul 10 16:51:34 techo2-PC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)

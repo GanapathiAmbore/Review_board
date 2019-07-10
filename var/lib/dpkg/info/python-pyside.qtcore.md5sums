@@ -1,0 +1,4 @@
+b840c48455c90bcb3a31ea816e26d6a2  usr/lib/python2.7/dist-packages/PySide/QtCore.so
+936e64d5ec465e5784b21272868c583a  usr/lib/python2.7/dist-packages/PySide/__init__.py
+88b743352103074226f505d0fd3bf834  usr/lib/python2.7/dist-packages/PySide/_utils.py
+f2b18f636e974772cadf1dc7b3ffd130  usr/share/lintian/overrides/python-pyside.qtcore

@@ -1,0 +1,6 @@
+679047962d3fb7fec0042918719236d1  lib/udev/rules.d/70-android-tools-adb.rules
+5dced155d6395ac252c59f2ef39a6f87  usr/bin/adb
+1dbbd0b18710ade13cff90b36bdb80c4  usr/share/bash-completion/completions/adb
+db1781e7d5579808ef8d41ed548028f6  usr/share/doc/android-tools-adb/changelog.Debian.gz
+141efd1050596168ca05ced04e4f498b  usr/share/doc/android-tools-adb/copyright
+7b437f969f8ea031c17be5db264a8744  usr/share/man/man1/adb.1.gz

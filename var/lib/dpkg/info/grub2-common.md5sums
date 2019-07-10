@@ -1,0 +1,14 @@
+953348e9a0a342e891695656d54d9f38  usr/sbin/grub-install
+f195e9301db3abd32795fcc773885560  usr/sbin/grub-reboot
+87216bf20d8262cfe391b9e994a9870f  usr/sbin/grub-set-default
+c3ed4e339f7416d43dce67dc095379f2  usr/sbin/update-grub
+8078b6f24767ff216eb390a997926d48  usr/share/bug/grub2-common/presubj
+0d5ead2e5fdc1dad9283d5a770980056  usr/share/bug/grub2-common/script
+038c1c68801ef42ad81fa4d00f67fbc1  usr/share/grub/default/grub
+cfdcfd2635719a174ca6123112c09b52  usr/share/grub/default/grub.md5sum
+dde2be5fb575da3bebbfce8570c7bb70  usr/share/info/grub-dev.info.gz
+0a9394a81c8d522307f1c0ec83c69e8b  usr/share/info/grub.info.gz
+feac17b515bd1088db975ae37d600208  usr/share/man/man8/grub-install.8.gz
+52abe568bcf413238f083c2f58c7c9a9  usr/share/man/man8/grub-reboot.8.gz
+02c3f5857e935409b7ae02ba678caba5  usr/share/man/man8/grub-set-default.8.gz
+9f79cfa5970ec9c3563699faf7cef755  usr/share/man/man8/update-grub.8.gz

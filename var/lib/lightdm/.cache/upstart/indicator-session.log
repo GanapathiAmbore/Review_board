@@ -1,0 +1,148 @@
+
+** (process:1055): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname
+
+** (process:1196): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:199 on_screensaver_proxy_ready: Could not connect: Connection refused
+
+** (process:1026): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname
+
+** (process:1434): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:199 on_screensaver_proxy_ready: Could not connect: Connection refused
+
+** (process:1434): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:215 on_unity_proxy_ready: Could not connect: Connection refused
+
+** (process:1434): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:316 on_session_manager_proxy_ready: Could not connect: Connection refused
+
+** (process:1434): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:338 on_webcredentials_proxy_ready: Could not connect: Connection refused
+
+** (process:1434): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:360 on_end_session_dialog_proxy_ready: Could not connect: Connection refused
+
+** (process:1434): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname
+
+** (process:1468): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:199 on_screensaver_proxy_ready: Could not connect: Connection refused
+
+** (process:1468): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:215 on_unity_proxy_ready: Could not connect: Connection refused
+
+** (process:1468): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:316 on_session_manager_proxy_ready: Could not connect: Connection refused
+
+** (process:1468): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:338 on_webcredentials_proxy_ready: Could not connect: Connection refused
+
+** (process:1468): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:360 on_end_session_dialog_proxy_ready: Could not connect: Connection refused
+
+** (process:1468): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname
+
+** (process:916): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname
+
+** (process:914): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname
+
+** (process:1031): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname
+
+** (process:1026): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname
+
+** (process:1024): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname
+
+** (process:1255): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:199 on_screensaver_proxy_ready: Could not connect: Connection refused
+
+** (process:1255): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:215 on_unity_proxy_ready: Could not connect: Connection refused
+
+** (process:1255): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:316 on_session_manager_proxy_ready: Could not connect: Connection refused
+
+** (process:1255): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:338 on_webcredentials_proxy_ready: Could not connect: Connection refused
+
+** (process:1255): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:360 on_end_session_dialog_proxy_ready: Could not connect: Connection refused
+
+** (process:1255): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname
+
+** (process:1294): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:199 on_screensaver_proxy_ready: Could not connect: Connection refused
+
+** (process:1294): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:215 on_unity_proxy_ready: Could not connect: Connection refused
+
+** (process:1294): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:316 on_session_manager_proxy_ready: Could not connect: Connection refused
+
+** (process:1294): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:338 on_webcredentials_proxy_ready: Could not connect: Connection refused
+
+** (process:1294): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:360 on_end_session_dialog_proxy_ready: Could not connect: Connection refused
+
+** (process:1294): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname
+
+** (process:1064): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname
+
+** (process:1174): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:199 on_screensaver_proxy_ready: Could not connect: Connection refused
+
+** (process:1174): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:215 on_unity_proxy_ready: Could not connect: Connection refused
+
+** (process:1174): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:316 on_session_manager_proxy_ready: Could not connect: Connection refused
+
+** (process:1174): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:338 on_webcredentials_proxy_ready: Could not connect: Connection refused
+
+** (process:1174): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:360 on_end_session_dialog_proxy_ready: Could not connect: Connection refused
+
+** (process:1174): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname
+
+** (process:1203): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:199 on_screensaver_proxy_ready: Could not connect: Connection refused
+
+** (process:1203): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:215 on_unity_proxy_ready: Could not connect: Connection refused
+
+** (process:1203): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:316 on_session_manager_proxy_ready: Could not connect: Connection refused
+
+** (process:1203): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:338 on_webcredentials_proxy_ready: Could not connect: Connection refused
+
+** (process:1203): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:360 on_end_session_dialog_proxy_ready: Could not connect: Connection refused
+
+** (process:1203): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname
+
+** (process:1032): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname
+
+** (process:1038): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname
+
+** (process:1025): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname
+
+** (process:1033): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname
+
+** (process:1026): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname
+
+** (process:1510): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname
+
+** (process:1278): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname
+
+** (process:1753): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname
+
+** (process:1247): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname
+
+** (process:1798): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:199 on_screensaver_proxy_ready: Could not connect: Connection refused
+
+** (process:1798): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:215 on_unity_proxy_ready: Could not connect: Connection refused
+
+** (process:1798): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:316 on_session_manager_proxy_ready: Could not connect: Connection refused
+
+** (process:1798): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:338 on_webcredentials_proxy_ready: Could not connect: Connection refused
+
+** (process:1798): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:360 on_end_session_dialog_proxy_ready: Could not connect: Connection refused
+
+** (process:1798): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname
+
+** (process:1267): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname
+
+** (process:1626): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname
+
+** (process:1840): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:199 on_screensaver_proxy_ready: Could not connect: Connection refused
+
+** (process:1840): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname
+
+** (process:1840): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:215 on_unity_proxy_ready: Could not connect: Connection refused
+
+** (process:1840): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:316 on_session_manager_proxy_ready: Could not connect: Connection refused
+
+** (process:1840): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:338 on_webcredentials_proxy_ready: Could not connect: Connection refused
+
+** (process:1840): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:360 on_end_session_dialog_proxy_ready: Could not connect: Connection refused
+
+** (process:1868): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:199 on_screensaver_proxy_ready: Could not connect: Connection refused
+
+** (process:1868): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:215 on_unity_proxy_ready: Could not connect: Connection refused
+
+** (process:1868): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:316 on_session_manager_proxy_ready: Could not connect: Connection refused
+
+** (process:1868): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:338 on_webcredentials_proxy_ready: Could not connect: Connection refused
+
+** (process:1868): WARNING **: /build/indicator-session-u5LUS9/indicator-session-12.10.5+16.04.20160412/src/backend-dbus/actions.c:360 on_end_session_dialog_proxy_ready: Could not connect: Connection refused
+
+** (process:1868): WARNING **: exiting: service couldn't acquire, or lost ownership of, busname

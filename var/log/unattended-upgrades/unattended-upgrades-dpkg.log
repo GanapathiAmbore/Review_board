@@ -1,0 +1,48 @@
+Log started: 2019-07-01  10:07:12
+Extracting templates from packages: 9%Extracting templates from packages: 19%Extracting templates from packages: 29%Extracting templates from packages: 39%Extracting templates from packages: 49%Extracting templates from packages: 58%Extracting templates from packages: 68%Extracting templates from packages: 78%Extracting templates from packages: 88%Extracting templates from packages: 98%Extracting templates from packages: 100%
+Preconfiguring packages ...
+setting xserver-xorg-legacy/xwrapper/allowed_users from configuration file
+dpkg: error: dpkg status database is locked by another process
+Log ended: 2019-07-01  10:07:15
+
+Log started: 2019-07-02  10:10:30
+Extracting templates from packages: 10%Extracting templates from packages: 20%Extracting templates from packages: 30%Extracting templates from packages: 40%Extracting templates from packages: 51%Extracting templates from packages: 61%Extracting templates from packages: 71%Extracting templates from packages: 81%Extracting templates from packages: 92%Extracting templates from packages: 100%
+Preconfiguring packages ...
+setting xserver-xorg-legacy/xwrapper/allowed_users from configuration file
+dpkg: error: dpkg status database is locked by another process
+Log ended: 2019-07-02  10:10:32
+
+Log started: 2019-07-03  09:47:22
+Extracting templates from packages: 10%Extracting templates from packages: 20%Extracting templates from packages: 30%Extracting templates from packages: 40%Extracting templates from packages: 51%Extracting templates from packages: 61%Extracting templates from packages: 71%Extracting templates from packages: 81%Extracting templates from packages: 92%Extracting templates from packages: 100%
+Preconfiguring packages ...
+setting xserver-xorg-legacy/xwrapper/allowed_users from configuration file
+Log ended: 2019-07-03  09:47:28
+
+Log started: 2019-07-04  09:57:42
+Extracting templates from packages: 10%Extracting templates from packages: 20%Extracting templates from packages: 30%Extracting templates from packages: 40%Extracting templates from packages: 51%Extracting templates from packages: 61%Extracting templates from packages: 71%Extracting templates from packages: 81%Extracting templates from packages: 92%Extracting templates from packages: 100%
+Preconfiguring packages ...
+setting xserver-xorg-legacy/xwrapper/allowed_users from configuration file
+dpkg: error: dpkg status database is locked by another process
+Log ended: 2019-07-04  09:57:47
+
+Log started: 2019-07-08  10:08:45
+Extracting templates from packages: 10%Extracting templates from packages: 20%Extracting templates from packages: 31%Extracting templates from packages: 41%Extracting templates from packages: 52%Extracting templates from packages: 62%Extracting templates from packages: 72%Extracting templates from packages: 83%Extracting templates from packages: 93%Extracting templates from packages: 100%
+Preconfiguring packages ...
+setting xserver-xorg-legacy/xwrapper/allowed_users from configuration file
+dpkg: error: dpkg status database is locked by another process
+Log ended: 2019-07-08  10:09:21
+
+Log started: 2019-07-09  10:15:35
+Extracting templates from packages: 10%Extracting templates from packages: 20%Extracting templates from packages: 30%Extracting templates from packages: 41%Extracting templates from packages: 51%Extracting templates from packages: 61%Extracting templates from packages: 72%Extracting templates from packages: 82%Extracting templates from packages: 92%Extracting templates from packages: 100%
+Preconfiguring packages ...
+setting xserver-xorg-legacy/xwrapper/allowed_users from configuration file
+dpkg: error: dpkg status database is locked by another process
+Log ended: 2019-07-09  10:15:39
+
+Log started: 2019-07-10  09:57:01
+Extracting templates from packages: 10%Extracting templates from packages: 20%Extracting templates from packages: 30%Extracting templates from packages: 40%Extracting templates from packages: 50%Extracting templates from packages: 60%Extracting templates from packages: 70%Extracting templates from packages: 80%Extracting templates from packages: 90%Extracting templates from packages: 100%
+Preconfiguring packages ...
+setting xserver-xorg-legacy/xwrapper/allowed_users from configuration file
+dpkg: error: dpkg status database is locked by another process
+Log ended: 2019-07-10  09:57:05
+

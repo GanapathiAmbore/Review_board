@@ -1,0 +1,80 @@
+
+(process:1058): indicator-application-service-WARNING **: Name Lost
+
+(process:1027): indicator-application-service-WARNING **: Name Lost
+
+(process:1450): indicator-application-service-WARNING **: Name Lost
+
+(process:1450): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:1450): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:917): indicator-application-service-WARNING **: Name Lost
+
+(process:915): indicator-application-service-WARNING **: Name Lost
+
+(process:1032): indicator-application-service-WARNING **: Name Lost
+
+(process:1027): indicator-application-service-WARNING **: Name Lost
+
+(process:1025): indicator-application-service-WARNING **: Name Lost
+
+(process:1258): indicator-application-service-WARNING **: Name Lost
+
+(process:1258): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:1258): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:1273): indicator-application-service-WARNING **: Name Lost
+
+(process:1273): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:1273): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:1065): indicator-application-service-WARNING **: Name Lost
+
+(process:1196): indicator-application-service-WARNING **: Name Lost
+
+(process:1196): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:1196): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:1224): indicator-application-service-WARNING **: Name Lost
+
+(process:1224): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:1224): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:1039): indicator-application-service-WARNING **: Name Lost
+
+(process:1026): indicator-application-service-WARNING **: Name Lost
+
+(process:1034): indicator-application-service-WARNING **: Name Lost
+
+(process:1027): indicator-application-service-WARNING **: Name Lost
+
+(process:1525): indicator-application-service-CRITICAL **: Unable to send ApplicationRemoved signal: The connection is closed
+
+(process:1525): indicator-application-service-WARNING **: Name Lost
+
+(process:1285): indicator-application-service-WARNING **: Name Lost
+
+(process:1758): indicator-application-service-WARNING **: Name Lost
+
+(process:1249): indicator-application-service-WARNING **: Name Lost
+
+(process:1268): indicator-application-service-WARNING **: Name Lost
+
+(process:1627): indicator-application-service-WARNING **: Name Lost
+
+(process:1858): indicator-application-service-WARNING **: Name Lost
+
+(process:1858): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:1858): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:1920): indicator-application-service-WARNING **: Name Lost
+
+(process:1920): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:1920): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed

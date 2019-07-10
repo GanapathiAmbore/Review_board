@@ -1,0 +1,7 @@
+localhost - - [10/Jul/2019:09:38:26 +0530] "POST / HTTP/1.1" 200 349 Create-Printer-Subscriptions successful-ok
+localhost - - [10/Jul/2019:09:38:26 +0530] "POST / HTTP/1.1" 200 176 Create-Printer-Subscriptions successful-ok
+localhost - - [10/Jul/2019:09:38:27 +0530] "POST /admin/ HTTP/1.1" 401 384 CUPS-Add-Modify-Printer successful-ok
+localhost - root [10/Jul/2019:09:38:27 +0530] "POST /admin/ HTTP/1.1" 200 384 CUPS-Add-Modify-Printer successful-ok
+localhost - root [10/Jul/2019:09:38:27 +0530] "POST /admin/ HTTP/1.1" 200 181 CUPS-Add-Modify-Printer client-error-bad-request
+localhost - - [10/Jul/2019:09:38:27 +0530] "POST /admin/ HTTP/1.1" 401 893 CUPS-Add-Modify-Printer successful-ok
+localhost - root [10/Jul/2019:09:38:27 +0530] "POST /admin/ HTTP/1.1" 200 893 CUPS-Add-Modify-Printer client-error-bad-request

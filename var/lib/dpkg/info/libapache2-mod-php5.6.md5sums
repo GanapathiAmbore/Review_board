@@ -1,0 +1,5 @@
+f621d6494cc3cb3d0bbde71310641908  usr/lib/apache2/modules/libphp5.6.so
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/php/5.6/sapi/apache2
+bddfdad3106fc6b4d7ec7003dc08ea7b  usr/share/bug/libapache2-mod-php5.6/control
+bea153212c1ba3bab547c06eee74532f  usr/share/bug/libapache2-mod-php5.6/script
+496952b1c78e393d34f785d99c7a04de  usr/share/lintian/overrides/libapache2-mod-php5.6

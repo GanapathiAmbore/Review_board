@@ -1,0 +1,5 @@
+206c00fe8eacf2cde633eb80690ee063  usr/lib/pulse-8.0/modules/module-x11-bell.so
+933c2218bac2c77e726f8490b5cebf5d  usr/lib/pulse-8.0/modules/module-x11-cork-request.so
+44139a382a867d475ee161a0b6c41323  usr/lib/pulse-8.0/modules/module-x11-publish.so
+5bb736faa7b7e2dc6679abffb21762cb  usr/lib/pulse-8.0/modules/module-x11-xsmp.so
+1a70969fd317243739e917dee33e532a  usr/share/doc/pulseaudio-module-x11/copyright

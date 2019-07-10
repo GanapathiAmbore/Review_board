@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libpyside-python2.7.so.1.2.2
+/usr/share
+/usr/share/doc
+/usr/share/doc/libpyside1.2
+/usr/share/doc/libpyside1.2/copyright
+/usr/share/doc/libpyside1.2/changelog.Debian.gz
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libpyside1.2
+/usr/lib/x86_64-linux-gnu/libpyside-python2.7.so.1.2

@@ -1,0 +1,9 @@
+1b515d1e26a9a6f98c5bcacf75488695  usr/bin/phar.phar5.6
+64c88348de0b6feba3560dbea1579116  usr/bin/php5.6
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/php/5.6/sapi/cli
+bddfdad3106fc6b4d7ec7003dc08ea7b  usr/share/bug/php5.6-cli/control
+773c79fd59894170b6cad1c15c0df51a  usr/share/bug/php5.6-cli/script
+0060b23dcb8bfe113be78df4448e30e4  usr/share/lintian/overrides/php5.6-cli
+5cb52b99ebed3e1055572300de9c9c48  usr/share/man/man1/phar.phar5.6.1.gz
+40d165867f6f70ed5c523a80d221d74d  usr/share/man/man1/phar5.6.1.gz
+ab31b6aaf77260563e0c1fd645f7f3ae  usr/share/man/man1/php5.6.1.gz

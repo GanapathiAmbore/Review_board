@@ -1,0 +1,186 @@
+
+(process:1054): indicator-sound-WARNING **: volume-control-pulse.vala:735: unable to get pulse unix socket: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.PulseAudio1 was not provided by any .service files
+
+(process:1054): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1195): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1025): indicator-sound-WARNING **: volume-control-pulse.vala:735: unable to get pulse unix socket: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.PulseAudio1 was not provided by any .service files
+
+(process:1025): indicator-sound-WARNING **: media-player-list-greeter.vala:51: Unable to get active entry: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name com.canonical.UnityGreeter was not provided by any .service files
+
+(process:1025): indicator-sound-WARNING **: accounts-service-access.vala:125: unable to find Accounts path for user null: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name com.canonical.UnityGreeter was not provided by any .service files
+
+(process:1025): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1025): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(process:1025): GLib-GIO-CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+(process:1025): GLib-GIO-CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+(process:1025): GLib-GIO-CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+(process:1025): GLib-GIO-CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+(process:1435): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1469): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1483): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1495): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:915): indicator-sound-WARNING **: volume-control-pulse.vala:735: unable to get pulse unix socket: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.PulseAudio1 was not provided by any .service files
+
+(process:915): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:913): indicator-sound-WARNING **: volume-control-pulse.vala:744: Unable to connect to dbus server at 'unix:path=/run/user/108/pulse/dbus-socket': Could not connect: No such file or directory
+
+(process:913): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1030): indicator-sound-WARNING **: volume-control-pulse.vala:735: unable to get pulse unix socket: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.PulseAudio1 was not provided by any .service files
+
+(process:1030): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1025): indicator-sound-WARNING **: volume-control-pulse.vala:735: unable to get pulse unix socket: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.PulseAudio1 was not provided by any .service files
+
+(process:1025): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1023): indicator-sound-WARNING **: volume-control-pulse.vala:735: unable to get pulse unix socket: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.PulseAudio1 was not provided by any .service files
+
+(process:1023): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1254): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1270): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1285): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1288): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1291): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1309): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1312): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1317): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1321): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1325): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1333): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1343): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1351): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1359): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1063): indicator-sound-WARNING **: volume-control-pulse.vala:735: unable to get pulse unix socket: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.PulseAudio1 was not provided by any .service files
+
+(process:1063): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1169): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1179): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1197): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1200): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1204): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1219): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1225): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1229): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1232): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1240): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1246): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1249): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1252): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1256): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1261): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1267): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1285): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1031): indicator-sound-WARNING **: volume-control-pulse.vala:735: unable to get pulse unix socket: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.PulseAudio1 was not provided by any .service files
+
+(process:1031): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1037): indicator-sound-WARNING **: volume-control-pulse.vala:735: unable to get pulse unix socket: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.PulseAudio1 was not provided by any .service files
+
+(process:1037): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1024): indicator-sound-WARNING **: volume-control-pulse.vala:735: unable to get pulse unix socket: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.PulseAudio1 was not provided by any .service files
+
+(process:1024): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1032): indicator-sound-WARNING **: volume-control-pulse.vala:735: unable to get pulse unix socket: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.PulseAudio1 was not provided by any .service files
+
+(process:1032): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1025): indicator-sound-WARNING **: volume-control-pulse.vala:735: unable to get pulse unix socket: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.PulseAudio1 was not provided by any .service files
+
+(process:1025): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1509): indicator-sound-WARNING **: volume-control-pulse.vala:735: unable to get pulse unix socket: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.PulseAudio1 was not provided by any .service files
+
+(process:1509): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1277): indicator-sound-WARNING **: volume-control-pulse.vala:735: unable to get pulse unix socket: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.PulseAudio1 was not provided by any .service files
+
+(process:1277): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1752): indicator-sound-WARNING **: volume-control-pulse.vala:735: unable to get pulse unix socket: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.PulseAudio1 was not provided by any .service files
+
+(process:1752): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1246): indicator-sound-WARNING **: volume-control-pulse.vala:735: unable to get pulse unix socket: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.PulseAudio1 was not provided by any .service files
+
+(process:1246): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1266): indicator-sound-WARNING **: volume-control-pulse.vala:744: Unable to connect to dbus server at 'unix:path=/run/user/108/pulse/dbus-socket': Could not connect: No such file or directory
+
+(process:1625): indicator-sound-WARNING **: volume-control-pulse.vala:735: unable to get pulse unix socket: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.PulseAudio1 was not provided by any .service files
+
+(process:1625): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1835): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1844): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1862): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1869): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1884): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1889): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1892): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1898): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1907): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1921): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1927): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1931): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
+
+(process:1934): indicator-sound-WARNING **: Name lost or unable to acquire bus: com.canonical.indicator.sound
